@@ -1,0 +1,65 @@
+Unnamed: 0,Species,Location,Latitude,Longitude,Observation Date,Count
+0,Cackling Goose,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,162.0
+1,Canada Goose,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,13.0
+2,Anna's Hummingbird,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,2.0
+3,Red-breasted Sapsucker,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,1.0
+4,Northern Flicker,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,5.0
+5,American Crow,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,9.0
+6,Black-capped Chickadee,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,2.0
+7,Ruby-crowned Kinglet,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,4.0
+8,Golden-crowned Kinglet,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,4.0
+9,Red-breasted Nuthatch,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,1.0
+10,European Starling,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,7.0
+11,American Robin,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,14.0
+12,Cedar Waxwing,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,27.0
+13,Pine Siskin,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,23.0
+14,Dark-eyed Junco,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,3.0
+15,Song Sparrow,Marymoor Park,47.662576,-122.12052,2024-10-27 09:02:00,3.0
+16,Greater White-fronted Goose,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,4.0
+17,Wood Duck,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,
+18,Gadwall,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,
+19,American Wigeon,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,2.0
+20,Mallard,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,3.0
+21,Pied-billed Grebe,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,1.0
+22,Bald Eagle,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,1.0
+23,Red-tailed Hawk,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,1.0
+24,Belted Kingfisher,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,
+25,Downy Woodpecker,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,
+26,House Finch,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,
+27,Golden-crowned Sparrow,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,
+28,Spotted Towhee,Marymoor Park,47.662576,-122.12052,2024-10-26 13:49:00,1.0
+29,Double-crested Cormorant,Marymoor Park,47.662576,-122.12052,2024-10-25 16:37:00,
+30,Great Blue Heron,Marymoor Park,47.662576,-122.12052,2024-10-25 16:37:00,
+31,Hooded Merganser,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+32,Common Merganser,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+33,Rock Pigeon,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,12.0
+34,Killdeer,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,2.0
+35,Short-billed Gull,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+36,Ring-billed Gull,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+37,Glaucous-winged Gull,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,22.0
+38,Steller's Jay,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+39,Chestnut-backed Chickadee,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+40,Bushtit,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,19.0
+41,Pacific Wren,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+42,Marsh Wren,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,2.0
+43,Bewick's Wren,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,2.0
+44,Purple Finch,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+45,American Goldfinch,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,2.0
+46,Fox Sparrow,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,8.0
+47,White-crowned Sparrow,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,12.0
+48,White-throated Sparrow,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+49,Western Meadowlark,Marymoor Park,47.662576,-122.12052,2024-10-25 07:23:00,1.0
+50,Virginia Rail,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,2.0
+51,Wilson's Snipe,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,1.0
+52,California Gull,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,1.0
+53,Cooper's Hawk,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,1.0
+54,Hairy Woodpecker,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,1.0
+55,Pileated Woodpecker,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,1.0
+56,Merlin,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,1.0
+57,Brown Creeper,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,1.0
+58,Red-winged Blackbird,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,13.0
+59,Yellow-rumped Warbler,Marymoor Park,47.662576,-122.12052,2024-10-24 07:28:00,5.0
+60,Ring-necked Duck,Marymoor Park,47.662576,-122.12052,2024-10-24 05:10:00,10.0
+61,Lesser Scaup,Marymoor Park,47.662576,-122.12052,2024-10-24 05:10:00,2.0
+62,Western x Glaucous-winged Gull (hybrid),Marymoor Park,47.662576,-122.12052,2024-10-24 05:10:00,10.0
+63,Western Grebe,Marymoor Park,47.662576,-122.12052,2024-10-24 05:10:00,20.0
