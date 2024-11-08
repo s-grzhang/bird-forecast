@@ -40,6 +40,7 @@ body {
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
+    font-family: "Quicksand"
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -94,7 +95,7 @@ body {
     font-size: 30px;
     cursor: pointer;
     font-family: "Poppins";
-    background-color: #1c69a2;
+    background-color: #20568d;
     transition: background-color 0.3s; /* Smooth transition */
   }
 
@@ -158,6 +159,7 @@ body {
       .card {
           width: 30%;
           padding: 20px;
+          font-family: "Quicksand"
       }
       
       /* Image icon styling */
@@ -171,6 +173,7 @@ body {
           color: #43c1de; /* Blue color */
           font-size: 20px;
           margin-bottom: 10px;
+          font-family: "Montserrat";
       }
 
       /* Description text styling */
@@ -199,6 +202,7 @@ body {
     .text-section h2 {
         font-size: 32px;
         margin-bottom: 20px;
+        font-family: "Montserrat";
     }
     
     /* Paragraph styling */
@@ -206,17 +210,19 @@ body {
         font-size: 18px;
         line-height: 1.6;
         margin-bottom: 20px;
+        font-family: "Quicksand";
     }
 
     /* Button styling */
     .learn-more-button {
         display: inline-block;
         padding: 10px 20px;
-        background-color: #1c69a2; /* Slightly lighter blue */
+        background-color: #20568d; /* Slightly lighter blue */
         color: white;
         text-decoration: none;
         font-size: 16px;
         transition: background-color 0.3s;
+        font-family: "Poppins";
     }
 
     .learn-more-button:hover {
@@ -238,7 +244,7 @@ body {
     .common-birds {
       display: flex;
       width: 100%;
-      max-width: 1800px;
+      max-width: 1810px;
       margin-top: 20px;
       margin-left: 20px;
       flex-wrap: wrap;
@@ -263,7 +269,7 @@ body {
     
     .bird p {
       margin-top: 10px;
-      font-weight: bold;
+      font-family: "Poppins";
     }
     
     .text-section-birds {
@@ -272,6 +278,8 @@ body {
       flex-direction: column;
       justify-content: center;
       text-align: right;
+      font-family: "Quicksand";
+      padding-left: 10px;
     }
 
     .maps {
@@ -291,9 +299,10 @@ body {
   }
   
   /* Heading styling */
-  .text-sectio-maps h2 {
+  .text-section-maps h2 {
       font-size: 32px;
       margin-bottom: 20px;
+      font-family: "Montserrat";
   }
   
   /* Paragraph styling */
@@ -301,17 +310,19 @@ body {
       font-size: 18px;
       line-height: 1.6;
       margin-bottom: 20px;
+      font-family: "Poppins";
   }
 
   /* Button styling */
   .learn-more-button-maps {
       display: inline-block;
       padding: 10px 20px;
-      background-color: #1c69a2; /* Slightly lighter blue */
+      background-color: #20568d; /* Slightly lighter blue */
       color: white;
       text-decoration: none;
       font-size: 16px;
       transition: background-color 0.3s;
+      font-family: "Poppins";
   }
 
   .learn-more-button-maps:hover {
@@ -329,25 +340,38 @@ body {
       max-width: 100%;
       height: 100%;
   }
-  .birding {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
+
+/* Center the header text */
+.text-section-birding {
+  text-align: center;
+  margin-bottom: 20px; /* Adds space between the header and cards */
+  font-family: Quicksand;
 }
-        /* Style each card */
-        .card-blog {
-          background-color: #f9f9f9;
-          width: 300px;
-          border-radius: 8px;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-          text-align: center;
-          overflow: hidden;
-      }
+
+/* Style the cards container to display cards in a row */
+.cards-blog-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Card styling remains the same */
+.card-blog {
+  background-color: #f9f9f9;
+  width: 600px;
+  /*border-radius: 8px;*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  overflow: hidden;
+}
+
 
       /* Style the image on top */
       .card-blog img {
           width: 100%;
-          height: 200px;
+          height: 300px;
           object-fit: cover;
       }
 
@@ -356,6 +380,7 @@ body {
           font-size: 1.5em;
           margin: 15px 0 10px;
           color: #333;
+          font-family: "Montserrat";
       }
 
       /* Style for the blurb */
@@ -363,6 +388,7 @@ body {
           padding: 0 15px;
           color: #666;
           font-size: 1em;
+          font-family: "Poppins";
       }
 
       /* Style for the Read More link */
@@ -370,26 +396,23 @@ body {
           display: inline-block;
           margin: 15px 0;
           padding: 10px 15px;
-          color: #007BFF;
+          color: #20568d;
           text-decoration: none;
-          border: 1px solid #007BFF;
-          border-radius: 4px;
+          border: 1px solid #20568d;
           transition: background-color 0.3s, color 0.3s;
+          font-family: "Poppins";
       }
 
       /* Hover effect for Read More link */
       .card-blog a:hover {
-          background-color: #007BFF;
+          background-color: #20568d;
           color: white;
       }
-
-  .birding h1 {
-    text-align: center;
-  }
 
   footer {
     margin-top: 10px;
     padding: 10px;
     background-color: #43c1de;
     color: white;
+    font-family: "Quicksand";
   }
