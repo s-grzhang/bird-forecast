@@ -45,7 +45,7 @@ html, body {
   .quicksand-header {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
   }
   
@@ -524,3 +524,127 @@ html, body {
     font-family: "Quicksand";
     text-align: center;
   }
+
+  #calendar {
+    background-image: url("waxwing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Calendar Section Styling */
+.calendar-container {
+  max-width: 800px;
+  margin: 153.7px auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Calendar Header */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.calendar-month {
+  font-size: 24px;
+  color: #20568d;
+}
+
+/* Calendar Buttons */
+.calendar-button {
+  background-color: #20568d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Poppins", sans-serif;
+}
+
+.calendar-button:hover {
+  background-color: #0a2a47;
+}
+
+/* Weekday Labels */
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Calendar Dates */
+.calendar-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendar-day {
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.calendar-day:hover {
+  background-color: #20568d;
+  color: white;
+}
+
+.today {
+  background-color: #43c1de;
+  color: white;
+  font-weight: bold;
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 600px) {
+  .calendar-container {
+      padding: 10px;
+  }
+  .calendar-month {
+      font-size: 20px;
+  }
+  .calendar-button {
+      padding: 5px 10px;
+      font-size: 16px;
+  }
+  .calendar-weekdays, .calendar-dates {
+      font-size: 14px;
+  }
+}
+
+.success-message {
+  background-color: #d4edda; /* Green background for success */
+  color: #155724; /* Dark green text */
+  border: 1px solid #c3e6cb; /* Border for the message */
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  text-align: center;
+  display: none; /* Initially hidden */
+  animation: fadeIn 2s ease-in-out; /* Optional animation for fade-in effect */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
