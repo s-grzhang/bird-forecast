@@ -648,3 +648,33 @@ html, body {
 .success-message p {
   font-size: 1.2em;
 }
+
+/* Style for the "Add Another Bird Species" button */
+#addFieldButton {
+  font-size: 14px; /* Smaller font size */
+  padding: 8px 12px;
+  background-color: #20568d;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+#addFieldButton:hover {
+  background-color: #0a2a47;
+}
+
+/* Style for the "Submit" button */
+button[type="submit"] {
+  font-size: 16px; /* Larger font size */
+  padding: 10px 16px;
+  background-color: #43c1de;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+button[type="submit"]:hover {
+  background-color: #f0802c;
+}
