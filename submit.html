@@ -27,13 +27,14 @@
 
   <div class="submit">
     <h2>Submit a Bird Sighting</h2>
-  
-    <!-- Success message container (initially hidden) -->
+    
+    <!-- Success message container -->
     <div id="successMessage" class="success-message" style="display: none;">
-      <?php echo $successMessage; ?>
+      <h3>Submit a Bird Sighting</h3>
+      <p>Form submitted successfully!</p>
     </div>
   
-    <!-- Form to submit data to the PHP script -->
+    <!-- Form -->
     <form id="sightingForm" action="submitForm.php" method="POST">
       <label for="location">Location:</label>
       <input type="text" id="location" name="location" required><br><br>
@@ -42,7 +43,6 @@
       <input type="datetime-local" id="time" name="time" required><br><br>
   
       <div id="birdFields">
-        <!-- Initial bird species and count fieldset -->
         <div class="additional-field">
           <label for="species">Bird Species:</label>
           <input type="text" name="species[]" required><br><br>
@@ -53,10 +53,10 @@
       </div>
   
       <button type="button" id="addFieldButton">Add Another Bird Species</button><br><br>
-  
       <button type="submit">Submit</button>
     </form>
-  </div>  
+  </div>
+   
 
   <script src="submit.js"></script>
 </body>
