@@ -3,9 +3,6 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Initialize success flag
-$successMessage = '';
-
 // Get form inputs
 $location = isset($_POST['location']) ? $_POST['location'] : '';
 $raw_time = isset($_POST['time']) ? $_POST['time'] : '';
@@ -52,10 +49,6 @@ foreach ($species as $index => $bird_species) {
         $all_inserted = false;
         break;
     }
-}
-
-if ($all_inserted) {
-    $successMessage = "Data submitted successfully!";
 }
 
 // Close the statement and connection

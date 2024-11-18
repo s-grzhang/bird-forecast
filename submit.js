@@ -29,12 +29,17 @@ document.getElementById("addFieldButton").addEventListener("click", addField);
 
 // Function to display the success message
 function showSuccessMessage() {
-  const successMessage = document.getElementById('successMessage');
-  successMessage.style.display = 'block'; // Show the message
+  const successMessage = document.querySelector('.success-message');
+  successMessage.style.display = 'block'; // Show the success message
+  setTimeout(() => {
+      successMessage.style.display = 'none'; // Hide it after 3 seconds
+  }, 3000);
 }
+
 
 // Example of triggering the success message (e.g., after form submission)
 document.querySelector('form').addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent the default form submission for demonstration
   showSuccessMessage(); // Show the success message
+  this.reset();
 });
