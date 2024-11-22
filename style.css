@@ -678,3 +678,21 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #f0802c;
 }
+
+.sightings-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sighting {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sighting:last-child {
+  border-bottom: none;
+}
