@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+'''from flask import Flask, request, jsonify
 from flask_cors import CORS
 import mysql.connector
 
@@ -7,7 +7,7 @@ CORS(app)
 
 # Connect to MySQL server hosted by XAMPP
 db = mysql.connector.connect(
-    host="127.0.0.1",           # XAMPP MySQL host
+    host="192.168.122.1",           # XAMPP MySQL host
     user="root",                # Default MySQL username for XAMPP
     password="Li$aRockstar1",                # Default MySQL password (leave blank for XAMPP)
     database="kc_sightings_db"  # Your database name
@@ -29,4 +29,4 @@ def get_sightings():
     return jsonify(results)
 
 if __name__ == "__main__":
-    app.run(debug=True, host="localhost", port=5000)  # Flask will run on port 5000
+    app.run(debug=True, host="localhost", port=5000)  # Flask will run on port 5000'''

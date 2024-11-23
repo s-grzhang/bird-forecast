@@ -1,0 +1,1769 @@
+Species,Location,Latitude,Longitude,Observation Date,Count
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
+Green-winged Teal,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,3
+Horned Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 13:50:00,1
+Steller's Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,2
+American Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:55:00,3
+Red-breasted Nuthatch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+American Tree Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 12:37:00,1
+Swamp Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:57:00,1
+California Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,1
+Chestnut-backed Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 11:40:00,2
+Eurasian Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Virginia Rail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,1
+Bushtit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 10:28:00,12
+Cackling Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,2
+Northern Pintail,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+Lesser Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 09:30:00,1
+California Scrub-Jay,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 08:46:00,1
+Orange-crowned Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-21 07:36:00,1
+Common Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:54:00,1
+Common Raven,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 13:10:00,2
+Greater Scaup,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 11:41:00,2
+American Bittern,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 09:13:00,1
+Hermit Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Purple Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,2
+Townsend's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-20 07:55:00,1
+Sharp-shinned Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-19 13:44:00,1
+Varied Thrush,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 13:27:00,1
+Wilson's Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-18 08:06:00,1
+Barred Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 15:00:00,1
+Redhead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 12:32:00,1
+Dunlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Merlin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 11:42:00,1
+Red-breasted Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 10:17:00,1
+Hutton's Vireo,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-17 08:32:00,2
+Western Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 14:37:00,2
+Western Meadowlark,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 11:15:00,2
+Savannah Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-15 09:57:00,1
+Bonaparte's Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Red-necked Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-14 08:01:00,1
+Iceland Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-13 08:08:00,1
+Ruddy Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-12 13:21:00,1
+White-throated Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 13:14:00,1
+House Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 10:02:00,2
+Pileated Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-10 08:45:00,1
+Common Yellowthroat,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-08 13:01:00,1
+Brown-headed Cowbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 14:25:00,1
+American Pipit,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-07 06:32:00,1
+Northern Harrier,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-06 13:15:00,1
+Barrow's Goldeneye,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-05 06:27:00,1
+American Barn Owl,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:32:00,2
+Eared Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-04 16:04:00,1
+Common Loon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:41:00,2
+Surf Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-02 07:30:00,1
+Band-tailed Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 09:15:00,2
+Least Sandpiper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-01 07:23:00,1
+Northern Shrike,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 12:43:00,1
+Brewer's Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 11:30:00,1
+White-winged Scoter,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-29 07:23:00,1
+Peregrine Falcon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 08:50:00,1
+Evening Grosbeak,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-28 07:58:00,1
+Great Egret,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-26 11:17:00,1
+Snow Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-25 11:24:00,8
+Red-breasted Sapsucker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-10-24 08:14:00,1
+Greater White-fronted Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Canada Goose,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,20
+Trumpeter Swan,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Gadwall,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,50
+American Wigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,60
+Mallard,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,25
+Ring-necked Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Bufflehead,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,10
+American Coot,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,100
+Western x Glaucous-winged Gull (hybrid),Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,7
+Double-crested Cormorant,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,2
+Bald Eagle,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,3
+American Crow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 15:27:00,300
+Northern Shoveler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,8
+Pied-billed Grebe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,4
+Great Blue Heron,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Belted Kingfisher,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Northern Flicker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Black-capped Chickadee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,3
+Ruby-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+House Finch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Song Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Spotted Towhee,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,2
+Yellow-rumped Warbler,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:48:00,1
+Short-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Glaucous-winged Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cooper's Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,1
+Downy Woodpecker,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Golden-crowned Kinglet,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+European Starling,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+American Robin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Cedar Waxwing,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Dark-eyed Junco,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:18:00,N/A
+Canvasback,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,7
+Hooded Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Common Merganser,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,6
+Rock Pigeon,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Anna's Hummingbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Ring-billed Gull,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,3
+Red-tailed Hawk,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Pacific Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Marsh Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Bewick's Wren,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,4
+Pine Siskin,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,15
+Fox Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+White-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Golden-crowned Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,1
+Lincoln's Sparrow,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 12:04:00,2
+Brown Creeper,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:50:00,1
+Wood Duck,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,2
+Red-winged Blackbird,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:45:00,1
+Lesser Goldfinch,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 11:27:00,1
+Killdeer,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,11
+Wilson's Snipe,Union Bay Natural Area/Montlake Fill,47.65424,-122.29137,2024-11-22 09:15:00,23
