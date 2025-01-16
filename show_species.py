@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load CSV into a pandas DataFrame
-file = 'updated_species_file.csv'  # Replace with your CSV file path
+file = 'filtered_L232479_bird_data.csv'  # Replace with your CSV file path
 df = pd.read_csv(file)
 
 # Check if 'Species' column exists
