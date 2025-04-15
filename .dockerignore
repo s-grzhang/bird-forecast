@@ -1,0 +1,9 @@
+.git
+.gitignore
+README.md
+*.md
+*.png
+*.jpg
+*.jpeg
+*.gif
+.DS_Store 
