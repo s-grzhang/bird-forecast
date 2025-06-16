@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar Debug</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .debug { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .error { background: #ffebee; color: #c62828; }
+        .success { background: #e8f5e8; color: #2e7d32; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Firebase Calendar Debug</h1>
+    
+    <button id="testConnection">Test Firebase Connection</button>
+    <button id="testTodaysSightings">Test Today's Sightings</button>
+    <button id="listAllSightings">List All Sightings</button>
+    
+    <div id="debug-output"></div>
+
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js';
+        import { getFirestore, collection, query, where, orderBy, limit, getDocs, Timestamp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js';
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyA0yxFTwKgT2EzczVSM0Cti9PtUfs0auSM",
+            authDomain: "king-co-forecase.firebaseapp.com",
+            projectId: "king-co-forecase",
+            storageBucket: "king-co-forecase.firebasestorage.app",
+            messagingSenderId: "657363005946",
+            appId: "1:657363005946:web:b4284f3280818e22527443",
+            measurementId: "G-QGQ5J7EEJS"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+        const output = document.getElementById('debug-output');
+
+        const log = (message, type = 'debug') => {
+            const div = document.createElement('div');
+            div.className = `debug ${type}`;
+            div.innerHTML = `<strong>${new Date().toLocaleTimeString()}:</strong> ${message}`;
+            output.appendChild(div);
+            console.log(message);
+        };
+
+        document.getElementById('testConnection').addEventListener('click', async () => {
+            try {
+                log('Testing Firebase connection...');
+                const testQuery = query(collection(db, 'sightings'), limit(1));
+                const snapshot = await getDocs(testQuery);
+                log('✅ Firebase connection successful!', 'success');
+                log(`Database exists and is accessible`, 'success');
+            } catch (error) {
+                log(`❌ Connection failed: ${error.message}`, 'error');
+            }
+        });
+
+        document.getElementById('listAllSightings').addEventListener('click', async () => {
+            try {
+                log('Fetching all sightings...');
+                const q = query(collection(db, 'sightings'), orderBy('timestamp', 'desc'), limit(10));
+                const querySnapshot = await getDocs(q);
+                
+                if (querySnapshot.empty) {
+                    log('❌ No sightings found in database!', 'error');
+                    log('Go submit some sightings first at submit.html', 'error');
+                } else {
+                    log(`✅ Found ${querySnapshot.size} sightings:`, 'success');
+                    querySnapshot.forEach((doc) => {
+                        const data = doc.data();
+                        log(`📍 ${data.location} - ${data.birds?.length || 0} birds - ${data.time ? data.time.toDate().toLocaleDateString() : 'No date'}`, 'success');
+                    });
+                }
+            } catch (error) {
+                log(`❌ Error fetching sightings: ${error.message}`, 'error');
+            }
+        });
+
+        document.getElementById('testTodaysSightings').addEventListener('click', async () => {
+            try {
+                const today = new Date();
+                const startOfDay = new Date(today);
+                startOfDay.setHours(0, 0, 0, 0);
+                
+                const endOfDay = new Date(today);
+                endOfDay.setHours(23, 59, 59, 999);
+
+                log(`Testing sightings for today: ${today.toDateString()}`);
+                log(`Start: ${startOfDay.toISOString()}`);
+                log(`End: ${endOfDay.toISOString()}`);
+
+                const q = query(
+                    collection(db, 'sightings'),
+                    where('time', '>=', Timestamp.fromDate(startOfDay)),
+                    where('time', '<=', Timestamp.fromDate(endOfDay)),
+                    orderBy('time', 'desc'),
+                    limit(10)
+                );
+
+                const querySnapshot = await getDocs(q);
+                
+                if (querySnapshot.empty) {
+                    log(`❌ No sightings found for today (${today.toDateString()})`, 'error');
+                    log('Try submitting a sighting for today first', 'error');
+                } else {
+                    log(`✅ Found ${querySnapshot.size} sightings for today:`, 'success');
+                    querySnapshot.forEach((doc) => {
+                        const data = doc.data();
+                        log(`📍 ${data.location} - Time: ${data.time?.toDate().toLocaleString()}`, 'success');
+                        log(`🐦 Birds: ${data.birds?.map(b => `${b.species} (${b.count})`).join(', ')}`, 'success');
+                    });
+                }
+            } catch (error) {
+                log(`❌ Error testing today's sightings: ${error.message}`, 'error');
+                log(`Full error: ${JSON.stringify(error, null, 2)}`, 'error');
+            }
+        });
+    </script>
+</body>
+</html> 
