@@ -1,3 +1,7 @@
+// Import Firebase v9+ modular SDK
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js';
+import { getFirestore, collection, addDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js';
+
 const firebaseConfig = {
   apiKey: "AIzaSyA0yxFTwKgT2EzczVSM0Cti9PtUfs0auSM",
   authDomain: "king-co-forecase.firebaseapp.com",
@@ -9,11 +13,11 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-const db = firebase.firestore();
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
 // Function to add new bird species and count fields
-function addField() {
+const addField = () => {
   const birdFields = document.getElementById("birdFields");
 
   // Create a new fieldset for species and count
@@ -36,22 +40,19 @@ function addField() {
   newField.querySelector(".removeFieldButton").addEventListener("click", () => {
     birdFields.removeChild(newField);
   });
-}
-
-// Attach the event listener to the button
-document.getElementById("addFieldButton").addEventListener("click", addField);
+};
 
 // Function to display the success message
-function showSuccessMessage() {
+const showSuccessMessage = () => {
   const successMessage = document.getElementById('successMessage');
   successMessage.style.display = 'block';
   setTimeout(() => {
     successMessage.style.display = 'none';
   }, 3000);
-}
+};
 
 // Function to display error message
-function showErrorMessage(message) {
+const showErrorMessage = (message) => {
   const errorMessage = document.createElement('div');
   errorMessage.className = 'error-message';
   errorMessage.textContent = message;
@@ -59,10 +60,10 @@ function showErrorMessage(message) {
   setTimeout(() => {
     errorMessage.remove();
   }, 3000);
-}
+};
 
 // Handle form submission
-document.getElementById('sightingForm').addEventListener('submit', async function(event) {
+const handleFormSubmit = async (event) => {
   event.preventDefault();
   
   // Get form data
@@ -79,18 +80,27 @@ document.getElementById('sightingForm').addEventListener('submit', async functio
 
   try {
     // Add data to Firestore
-    await db.collection('sightings').add({
+    const docRef = await addDoc(collection(db, 'sightings'), {
       location: location,
       time: new Date(time),
       birds: birds,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp()
+      timestamp: serverTimestamp()
     });
 
+    console.log('Document written with ID: ', docRef.id);
+    
     // Show success message and reset form
     showSuccessMessage();
-    this.reset();
+    document.getElementById('sightingForm').reset();
   } catch (error) {
     console.error('Error submitting form:', error);
     showErrorMessage('Error submitting form. Please try again.');
   }
+};
+
+// Wait for DOM to be loaded
+document.addEventListener('DOMContentLoaded', () => {
+  // Attach event listeners
+  document.getElementById("addFieldButton").addEventListener("click", addField);
+  document.getElementById('sightingForm').addEventListener('submit', handleFormSubmit);
 });

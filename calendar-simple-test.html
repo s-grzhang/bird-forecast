@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calendar Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="calendar">
+    <h1>Simple Calendar Click Test</h1>
+    
+    <div class="calendar-container">
+        <div class="calendar">
+            <div class="calendar-body">
+                <div class="calendar-dates">
+                    <span class="calendar-day" data-day="6">6</span>
+                    <span class="calendar-day" data-day="16">16</span>
+                    <span class="calendar-day" data-day="20">20</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="output" style="background: white; padding: 20px; margin: 20px; border: 2px solid black;">
+        <h3>Click Output:</h3>
+        <div id="messages"></div>
+    </div>
+
+    <script type="module">
+        console.log('Script loading...');
+        
+        const output = document.getElementById('messages');
+        const log = (message) => {
+            console.log(message);
+            const div = document.createElement('div');
+            div.textContent = `${new Date().toLocaleTimeString()}: ${message}`;
+            output.appendChild(div);
+        };
+
+        document.addEventListener('DOMContentLoaded', () => {
+            log('DOM loaded, setting up click listeners...');
+            
+            const calendarDays = document.querySelectorAll('.calendar-day');
+            log(`Found ${calendarDays.length} calendar days`);
+            
+            calendarDays.forEach((day, index) => {
+                log(`Setting up listener for day ${day.textContent}`);
+                
+                day.addEventListener('click', () => {
+                    const dayNum = day.dataset.day || day.textContent;
+                    log(`CLICKED DAY ${dayNum}!`);
+                    
+                    if (dayNum === '6') {
+                        log('You clicked June 6th - this should show your 3 sightings!');
+                    }
+                });
+            });
+            
+            log('All click listeners set up!');
+        });
+        
+        log('Script finished loading');
+    </script>
+</body>
+</html> 
