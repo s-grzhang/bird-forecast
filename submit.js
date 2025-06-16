@@ -1,3 +1,17 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyA0yxFTwKgT2EzczVSM0Cti9PtUfs0auSM",
+  authDomain: "king-co-forecase.firebaseapp.com",
+  projectId: "king-co-forecase",
+  storageBucket: "king-co-forecase.firebasestorage.app",
+  messagingSenderId: "657363005946",
+  appId: "1:657363005946:web:b4284f3280818e22527443",
+  measurementId: "G-QGQ5J7EEJS"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+
 // Function to add new bird species and count fields
 function addField() {
   const birdFields = document.getElementById("birdFields");
@@ -29,17 +43,54 @@ document.getElementById("addFieldButton").addEventListener("click", addField);
 
 // Function to display the success message
 function showSuccessMessage() {
-  const successMessage = document.querySelector('.success-message');
-  successMessage.style.display = 'block'; // Show the success message
+  const successMessage = document.getElementById('successMessage');
+  successMessage.style.display = 'block';
   setTimeout(() => {
-      successMessage.style.display = 'none'; // Hide it after 3 seconds
+    successMessage.style.display = 'none';
   }, 3000);
 }
 
+// Function to display error message
+function showErrorMessage(message) {
+  const errorMessage = document.createElement('div');
+  errorMessage.className = 'error-message';
+  errorMessage.textContent = message;
+  document.querySelector('.submit').insertBefore(errorMessage, document.querySelector('form'));
+  setTimeout(() => {
+    errorMessage.remove();
+  }, 3000);
+}
 
-// Example of triggering the success message (e.g., after form submission)
-document.querySelector('form').addEventListener('submit', function(event) {
-  event.preventDefault(); // Prevent the default form submission for demonstration
-  showSuccessMessage(); // Show the success message
-  this.reset();
+// Handle form submission
+document.getElementById('sightingForm').addEventListener('submit', async function(event) {
+  event.preventDefault();
+  
+  // Get form data
+  const location = document.getElementById('location').value;
+  const time = document.getElementById('time').value;
+  const species = Array.from(document.getElementsByName('species[]')).map(input => input.value);
+  const counts = Array.from(document.getElementsByName('count[]')).map(input => parseInt(input.value));
+  
+  // Combine species and counts into an array of objects
+  const birds = species.map((species, index) => ({
+    species: species,
+    count: counts[index]
+  }));
+
+  try {
+    // Add data to Firestore
+    await db.collection('sightings').add({
+      location: location,
+      time: new Date(time),
+      birds: birds,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp()
+    });
+
+    // Show success message and reset form
+    showSuccessMessage();
+    this.reset();
+  } catch (error) {
+    console.error('Error submitting form:', error);
+    showErrorMessage('Error submitting form. Please try again.');
+  }
 });

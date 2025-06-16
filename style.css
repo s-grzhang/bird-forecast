@@ -27,7 +27,7 @@ html, body {
 
 /* Style for the second page with an image background */
 #image-background {
-  background: url('Bluebird.png') no-repeat center center fixed;
+  background: url('/images/Bluebird.png') no-repeat center center fixed;
   background-size: cover;
   background-position: top;
 }
@@ -105,7 +105,7 @@ html, body {
   .banner {
     text-align: center;
     color: white;
-    background-image: url('Steller\'s\ Jay.png');
+    background-image: url('/images/Steller\'s\ Jay.png');
     padding: 120px;
     font-size: 30px;
     background-position: center; /* Center the image */
@@ -440,7 +440,7 @@ html, body {
       }
 
   .bg {
-    background-image: url("Bluebird.png");
+    background-image: url("/images/Bluebird.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -492,6 +492,31 @@ html, body {
   box-shadow: 0 0 5px rgba(67, 193, 222, 0.5);
 }
 
+/* Styling for form select dropdown */
+#sightingForm select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: white;
+  cursor: pointer;
+}
+
+#sightingForm select:focus {
+  border-color: #43c1de;
+  outline: none;
+  box-shadow: 0 0 5px rgba(67, 193, 222, 0.5);
+}
+
+#sightingForm select option {
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
 /* Styling for the submit button */
 .submit-button {
   display: inline-block;
@@ -526,7 +551,7 @@ html, body {
   }
 
   #calendar {
-    background-image: url("waxwing.jpg");
+    background-image: url("/images/waxwing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -677,4 +702,15 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #f0802c;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
 }
