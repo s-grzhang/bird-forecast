@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sidebar Test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { margin: 0; padding: 20px; font-family: Arial, sans-serif; }
+        .test-button { 
+            padding: 10px 20px; 
+            margin: 10px; 
+            background: #20568d; 
+            color: white; 
+            border: none; 
+            cursor: pointer; 
+            border-radius: 5px;
+        }
+        .test-button:hover { background: #0a2a47; }
+        .debug-info { 
+            background: #f0f0f0; 
+            padding: 15px; 
+            margin: 10px 0; 
+            border-radius: 5px; 
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sidebar Functionality Test</h1>
+    
+    <div class="debug-info">
+        <strong>Test Results:</strong>
+        <div id="testResults">Running tests...</div>
+    </div>
+    
+    <button class="test-button" onclick="testSidebarOpen()">Test: Open Sidebar</button>
+    <button class="test-button" onclick="testSidebarClose()">Test: Close Sidebar</button>
+    <button class="test-button" onclick="testElementSelection()">Test: Check Elements</button>
+    <button class="test-button" onclick="testSidebarToggle()">Test: Toggle Sidebar</button>
+    
+    <!-- Sidebar HTML (same as calendar) -->
+    <div class="sidebar" id="sightingsSidebar">
+        <div class="sidebar-header">
+            <h3 class="sidebar-title">Bird Sightings</h3>
+            <button class="sidebar-close" id="closeSidebar">×</button>
+        </div>
+        <div class="sidebar-content">
+            <div class="selected-date" id="selectedDate">Test Date: June 17, 2025</div>
+            <div class="sightings-list" id="sightingsList">
+                <h4 style="margin-bottom: 15px; color: #20568d; font-family: 'Quicksand', sans-serif;">Test Sightings</h4>
+                <div class="sighting-item">
+                    <div class="sighting-location">Marymoor Park</div>
+                    <div class="sighting-time">Jun 17, 2:30 PM</div>
+                    <div class="sighting-birds">
+                        <span class="bird-tag">American Robin (3)</span>
+                        <span class="bird-tag">Steller's Jay (1)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay for sidebar -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <script>
+        const log = (message) => {
+            console.log(message);
+            const results = document.getElementById('testResults');
+            results.innerHTML += '<br>' + message;
+        };
+
+        const testElementSelection = () => {
+            log('🔍 Testing element selection...');
+            
+            const sidebar = document.getElementById("sightingsSidebar");
+            const sidebarOverlay = document.getElementById("sidebarOverlay");
+            const closeSidebarBtn = document.getElementById("closeSidebar");
+            
+            log('Sidebar element: ' + (sidebar ? '✅ Found' : '❌ Not found'));
+            log('Overlay element: ' + (sidebarOverlay ? '✅ Found' : '❌ Not found'));
+            log('Close button: ' + (closeSidebarBtn ? '✅ Found' : '❌ Not found'));
+            
+            if (sidebar) {
+                log('Sidebar classes: ' + sidebar.className);
+                log('Sidebar style: ' + sidebar.getAttribute('style'));
+            }
+            
+            if (sidebarOverlay) {
+                log('Overlay classes: ' + sidebarOverlay.className);
+                log('Overlay style: ' + sidebarOverlay.getAttribute('style'));
+            }
+        };
+
+        const testSidebarOpen = () => {
+            log('🚪 Testing sidebar open...');
+            
+            const sidebar = document.getElementById("sightingsSidebar");
+            const sidebarOverlay = document.getElementById("sidebarOverlay");
+            
+            if (sidebar && sidebarOverlay) {
+                sidebar.classList.add('active');
+                sidebarOverlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+                log('✅ Sidebar should now be open');
+                
+                // Check if classes were actually added
+                log('Sidebar has active class: ' + sidebar.classList.contains('active'));
+                log('Overlay has active class: ' + sidebarOverlay.classList.contains('active'));
+            } else {
+                log('❌ Cannot open sidebar - elements not found');
+            }
+        };
+
+        const testSidebarClose = () => {
+            log('🚪 Testing sidebar close...');
+            
+            const sidebar = document.getElementById("sightingsSidebar");
+            const sidebarOverlay = document.getElementById("sidebarOverlay");
+            
+            if (sidebar && sidebarOverlay) {
+                sidebar.classList.remove('active');
+                sidebarOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+                log('✅ Sidebar should now be closed');
+            } else {
+                log('❌ Cannot close sidebar - elements not found');
+            }
+        };
+
+        const testSidebarToggle = () => {
+            log('🔄 Testing sidebar toggle...');
+            
+            const sidebar = document.getElementById("sightingsSidebar");
+            
+            if (sidebar) {
+                if (sidebar.classList.contains('active')) {
+                    testSidebarClose();
+                } else {
+                    testSidebarOpen();
+                }
+            }
+        };
+
+        // Set up close button functionality
+        document.addEventListener('DOMContentLoaded', () => {
+            const closeSidebarBtn = document.getElementById("closeSidebar");
+            const sidebarOverlay = document.getElementById("sidebarOverlay");
+            
+            if (closeSidebarBtn) {
+                closeSidebarBtn.addEventListener('click', testSidebarClose);
+                log('✅ Close button listener added');
+            }
+            
+            if (sidebarOverlay) {
+                sidebarOverlay.addEventListener('click', testSidebarClose);
+                log('✅ Overlay listener added');
+            }
+            
+            // ESC key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    testSidebarClose();
+                }
+            });
+            
+            log('🎉 Test page loaded successfully!');
+            
+            // Run initial tests
+            setTimeout(() => {
+                testElementSelection();
+            }, 100);
+        });
+    </script>
+</body>
+</html> 
