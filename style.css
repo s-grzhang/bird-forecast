@@ -35,11 +35,13 @@ html, body {
 /* Style the header with a grey background and some padding */
 .header {
     display: flex;
-    overflow: hidden;
+    overflow: visible;
     background-color: #43c1de;
     padding: 20px 10px;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 100;
   }
 
   .quicksand-header {
@@ -81,6 +83,12 @@ html, body {
   
   /* Change the background color on mouse-over */
   .header a:hover {
+    background-color: #f0802c;
+    color: white;
+  }
+
+  /* Ensure dropdown parent doesn't get hover effect when hovering dropdown items */
+  .dropdown:hover > a:hover {
     background-color: #f0802c;
     color: white;
   }
@@ -148,15 +156,95 @@ html, body {
     .menu ul {
       display: flex;
       list-style-type: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      align-items: center;
     }
     
     .menu ul li {
       margin-left: 20px;
+      position: static;
+    }
+
+    .menu ul li.dropdown {
+      position: relative;
+      display: inline-block;
     }
     
     .menu ul li a {
       color: #fff;
       text-decoration: none;
+    }
+
+    /* Dropdown styles */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown > a {
+      position: relative;
+      display: inline-block;
+      padding: 12px;
+    }
+
+    .dropdown-content {
+      visibility: hidden !important;
+      opacity: 0 !important;
+      position: absolute;
+      background-color: #43c1de;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 9999;
+      top: calc(100% + 16px);
+      left: 0;
+      border-radius: 4px;
+      padding: 8px 0;
+      margin: 0;
+      list-style: none;
+      overflow: visible;
+      width: max-content;
+      transition: opacity 0.2s ease-in-out;
+      pointer-events: none;
+      height: 0;
+    }
+
+    .dropdown-content li {
+      margin: 0;
+      width: 100%;
+    }
+
+    .dropdown-content li a {
+      color: #fff;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      transition: background-color 0.3s;
+      font-size: 16px;
+      white-space: nowrap;
+      line-height: 1.4;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .dropdown-content li:last-child a {
+      border-bottom: none;
+    }
+
+    .dropdown-content li a:hover {
+      background-color: #f0802c !important;
+    }
+
+    .dropdown:hover .dropdown-content {
+      visibility: visible !important;
+      opacity: 1 !important;
+      pointer-events: auto;
+      height: auto;
+    }
+
+    .dropdown:hover > a {
+      background-color: #f0802c;
+      color: white;
     }
 
     .website-name {
