@@ -34,6 +34,7 @@ const isSameDay = (date1, date2) => {
 };
 
 // Firebase initialization (async, doesn't block main functionality)
+
 const initializeFirebase = async () => {
     try {
         console.log('📦 Importing Firebase modules...');
@@ -186,11 +187,13 @@ const fetchSightingsForDate = async (date) => {
 
 console.log('⏳ Waiting for DOM to be ready...');
 
+
 // Main calendar functionality - this runs immediately when DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
     console.log('🎯 DOM is ready! Setting up calendar...');
     
     // Start Firebase initialization in background (non-blocking)
+
     initializeFirebase().then(success => {
         if (success) {
             console.log('🔥 Firebase ready for sightings!');
@@ -281,6 +284,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelectorAll('.calendar-day.selected').forEach(day => {
             day.classList.remove('selected');
         });
+
         if (dayElement) {
             dayElement.classList.add('selected');
         }
@@ -330,12 +334,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const renderCalendar = () => {
         
         if (!datesElement) {
+
             return;
         }
         
         // Get the first and last day of the current month
         const firstDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
         const lastDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
+
+        console.log('📅 Rendering calendar for:', currentDate.toLocaleDateString("en-US", { month: "long", year: "numeric" }));
 
         // Update the month display
         if (monthElement) {
@@ -347,6 +354,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Clear previous dates
         datesElement.innerHTML = "";
+        console.log('🧹 Cleared previous calendar dates');
 
         // Add blank days for the first week offset
         for (let i = 0; i < firstDayOfMonth.getDay(); i++) {
@@ -357,7 +365,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Add all days of the current month
         let clickListenersAdded = 0;
-        
+
         for (let day = 1; day <= lastDayOfMonth.getDate(); day++) {
             const dayDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), day);
             const isToday = isSameDay(dayDate, new Date());
@@ -376,6 +384,8 @@ document.addEventListener("DOMContentLoaded", () => {
             clickListenersAdded++;
             datesElement.appendChild(dayElement);
         }
+
+        console.log(`✅ Added click listeners to ${clickListenersAdded} calendar days`);
 
         // Add blank days for the last week offset
         const lastDayOffset = (7 - ((firstDayOfMonth.getDay() + lastDayOfMonth.getDate()) % 7)) % 7;
