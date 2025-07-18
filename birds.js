@@ -14,7 +14,8 @@ const birdSpecies = [
       "American Crow/Test/American Crow Silhouette.jpg"
     ],
     songFile: "placeholder-crow-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-crow-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-crow-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-crow-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "American Robin",
@@ -31,7 +32,8 @@ const birdSpecies = [
       "American Robin/Test/American Robin Silhouette.jpg"
     ],
     songFile: "placeholder-robin-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-robin-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-robin-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-robin-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Anna's Hummingbird",
@@ -46,7 +48,8 @@ const birdSpecies = [
       "Anna's Hummingbird/Test/anna's hummingbird silhouette.jpg"
     ],
     songFile: "placeholder-hummingbird-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-hummingbird-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-hummingbird-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-hummingbird-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Bewick's Wren",
@@ -60,7 +63,8 @@ const birdSpecies = [
       "Bewick's Wren/Test/Bewick's Wren Silhouette.jpg"
     ],
     songFile: "placeholder-wren-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-wren-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-wren-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-wren-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Black-capped Chickadee",
@@ -76,7 +80,8 @@ const birdSpecies = [
       "Black-capped Chickadee/Test/black capped chickadee x2.jpg"
     ],
     songFile: "placeholder-chickadee-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-chickadee-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-chickadee-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-chickadee-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Dark-eyed Junco",
@@ -92,7 +97,8 @@ const birdSpecies = [
       "Dark-eyed Junco/Test/Dark-eyed Junco Silhouette.jpg"
     ],
     songFile: "placeholder-junco-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-junco-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-junco-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-junco-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "European Starling",
@@ -108,7 +114,8 @@ const birdSpecies = [
       "European Starling/Test/European Starlings in Flight.jpg"
     ],
     songFile: "placeholder-starling-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-starling-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-starling-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-starling-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "House Finch",
@@ -124,7 +131,8 @@ const birdSpecies = [
       "House Finch/Test/House-Finch-flying Josh Brown.jpg"
     ],
     songFile: "placeholder-finch-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-finch-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-finch-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-finch-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Northern Flicker",
@@ -141,7 +149,8 @@ const birdSpecies = [
       "Northern Flicker/Test/Northern Flicker Silhouette.jpg"
     ],
     songFile: "placeholder-flicker-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-flicker-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-flicker-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-flicker-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Song Sparrow",
@@ -158,7 +167,8 @@ const birdSpecies = [
       "Song Sparrow/Test/song sparrow wings.jpg"
     ],
     songFile: "placeholder-sparrow-song.mp3", // Placeholder
-    macaulayEmbed: "https://macaulaylibrary.org/asset/638428041/embed"
+    macaulayEmbed: "https://macaulaylibrary.org/asset/638428041/embed",
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/638587357/embed"
   },
   {
     name: "Spotted Towhee",
@@ -173,7 +183,8 @@ const birdSpecies = [
       "Spotted Towhee/Test/spotted towhee flight.jpeg"
     ],
     songFile: "placeholder-towhee-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-towhee-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-towhee-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-towhee-call-embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Steller's Jay",
@@ -188,7 +199,8 @@ const birdSpecies = [
       "Steller's Jay/Test/Steller's Jay Silhouette.jpg"
     ],
     songFile: "placeholder-jay-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-jay-embed" // Add actual Macaulay Library URL
+    macaulayEmbed: "placeholder-jay-embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "placeholder-jay-call-embed" // Add actual Macaulay Library call URL
   }
 ];
 
@@ -319,33 +331,77 @@ const createSpeciesCard = (species, index) => {
   return card;
 };
 
-// Create a song card with embedded audio
+// Create a song card with embedded audio (songs and calls)
 const createSongCard = (species, index) => {
   const card = document.createElement('div');
   card.className = 'song-card';
   
   let embedContent = '';
   
-  if (species.macaulayEmbed && !species.macaulayEmbed.includes('placeholder')) {
-    // Real Macaulay Library embed
-    embedContent = `
-      <div class="song-embed-container">
-        <iframe src="${species.macaulayEmbed}" 
-                height="92" 
-                width="640" 
-                frameborder="0" 
-                allowfullscreen>
-        </iframe>
-      </div>
-    `;
+  // Check if we have actual song embed
+  const hasSong = species.macaulayEmbed && !species.macaulayEmbed.includes('placeholder');
+  const hasCall = species.macaulayCallEmbed && !species.macaulayCallEmbed.includes('placeholder');
+  
+  if (hasSong || hasCall) {
+    embedContent = '<div class="song-embed-container">';
+    
+    // Add song section
+    if (hasSong) {
+      embedContent += `
+        <div class="audio-section">
+          <h4 class="audio-label">🎵 Song</h4>
+          <iframe src="${species.macaulayEmbed}" 
+                  height="92" 
+                  width="640" 
+                  frameborder="0" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+      `;
+    } else {
+      embedContent += `
+        <div class="audio-section">
+          <h4 class="audio-label">🎵 Song</h4>
+          <div class="audio-placeholder">
+            <p>Song embed coming soon!</p>
+          </div>
+        </div>
+      `;
+    }
+    
+    // Add call section
+    if (hasCall) {
+      embedContent += `
+        <div class="audio-section">
+          <h4 class="audio-label">📢 Call</h4>
+          <iframe src="${species.macaulayCallEmbed}" 
+                  height="92" 
+                  width="640" 
+                  frameborder="0" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+      `;
+    } else {
+      embedContent += `
+        <div class="audio-section">
+          <h4 class="audio-label">📢 Call</h4>
+          <div class="audio-placeholder">
+            <p>Call embed coming soon!</p>
+          </div>
+        </div>
+      `;
+    }
+    
+    embedContent += '</div>';
   } else {
-    // Placeholder for missing audio
+    // Placeholder for completely missing audio
     embedContent = `
       <div class="song-embed-container">
         <div class="song-placeholder">
           <div class="icon">🎵</div>
-          <p><strong>Song coming soon!</strong></p>
-          <p>Add the Macaulay Library embed URL for ${species.name} to enable audio playback.</p>
+          <p><strong>Audio coming soon!</strong></p>
+          <p>Add Macaulay Library embed URLs for ${species.name} songs and calls.</p>
         </div>
       </div>
     `;
@@ -448,10 +504,14 @@ const generateQuizQuestions = (count) => {
     const allAnswers = [correctSpecies.name, ...wrongAnswers];
     shuffleArray(allAnswers);
     
+    // For song quizzes, randomly choose between song and call
+    const audioType = Math.random() < 0.5 ? 'song' : 'call';
+    
     questions.push({
       correctAnswer: correctSpecies.name,
       image: questionImage,
       songFile: correctSpecies.songFile,
+      audioType: audioType,
       options: allAnswers
     });
   }
@@ -481,11 +541,26 @@ const loadQuestion = () => {
       quizImage.src = '/images/placeholder-bird.jpg'; // Fallback image
     };
   } else if (currentQuizType === 'song') {
-    // Load Macaulay Library embed
+    // Load Macaulay Library embed (randomly choose song or call)
     const species = birdSpecies.find(s => s.name === question.correctAnswer);
-    if (species && species.macaulayEmbed && !species.macaulayEmbed.includes('placeholder')) {
+    const audioType = question.audioType; // This will be set during question generation
+    let embedUrl = null;
+    let audioLabel = '';
+    
+    if (audioType === 'song') {
+      embedUrl = species.macaulayEmbed;
+      audioLabel = '🎵 Song';
+    } else {
+      embedUrl = species.macaulayCallEmbed;
+      audioLabel = '📢 Call';
+    }
+    
+    if (species && embedUrl && !embedUrl.includes('placeholder')) {
       quizAudioContainer.innerHTML = `
-        <iframe src="${species.macaulayEmbed}" 
+        <div class="quiz-audio-header">
+          <p><strong>${audioLabel}</strong></p>
+        </div>
+        <iframe src="${embedUrl}" 
                 height="92" 
                 width="640" 
                 frameborder="0" 
@@ -495,7 +570,7 @@ const loadQuestion = () => {
     } else {
       quizAudioContainer.innerHTML = `
         <div class="quiz-audio-placeholder">
-          🎵 Audio coming soon! Add the Macaulay Library embed URL for ${question.correctAnswer}.
+          ${audioLabel} coming soon! Add the Macaulay Library embed URL for ${question.correctAnswer}.
         </div>
       `;
     }
