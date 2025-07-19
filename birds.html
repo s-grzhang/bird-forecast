@@ -120,7 +120,7 @@
 
     .image-carousel {
       position: relative;
-      height: 200px;
+      height: 300px;
       overflow: hidden;
     }
 
@@ -397,6 +397,8 @@
       cursor: pointer;
       transition: all 0.3s ease;
       font-size: 16px;
+      color: #333;
+      font-weight: 500;
     }
 
     .answer-button:hover {
@@ -549,7 +551,7 @@
     <div class="quiz-section" id="quizSection">
       <div class="quiz-types">
         <button class="quiz-type-button" id="imageQuizBtn">Image Identification Quiz</button>
-        <button class="quiz-type-button" id="songQuizBtn">Song Identification Quiz</button>
+        <button class="quiz-type-button" id="soundQuizBtn">Sound Identification Quiz</button>
       </div>
 
       <!-- Quiz Container -->
@@ -569,6 +571,25 @@
             <h3>Which bird makes this sound?</h3>
             <div class="quiz-audio-container" id="quizAudioContainer">
               <!-- Macaulay Library embed will be inserted here -->
+            </div>
+          </div>
+
+          <div id="soundQuestion" class="hidden">
+            <h3>Which bird makes this sound?</h3>
+            <div class="quiz-audio-container" id="quizSoundContainer">
+              <div class="audio-player">
+                <div class="audio-controls">
+                  <button class="play-button" id="playSoundButton">▶</button>
+                  <span id="soundFileName">Loading sound file...</span>
+                </div>
+                <audio id="quizAudio" preload="auto">
+                  <source src="" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+                <div class="audio-info">
+                  Click the play button to hear the bird sound
+                </div>
+              </div>
             </div>
           </div>
         </div>
