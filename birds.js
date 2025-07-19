@@ -15,7 +15,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-crow-song.mp3", // Placeholder
     macaulayEmbed:"https://macaulaylibrary.org/asset/637067223/embed",
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/32684421/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/32684421/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "American Crow Sounds/XC156526 - American Crow - Corvus brachyrhynchos.mp3",
+      "American Crow Sounds/XC159919 - American Crow - Corvus brachyrhynchos.mp3",
+      "American Crow Sounds/XC159112 - American Crow - Corvus brachyrhynchos.mp3",
+      "American Crow Sounds/XC543339 - American Crow - Corvus brachyrhynchos.mp3"
+    ]
   },
   {
     name: "American Robin",
@@ -33,7 +39,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-robin-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/236798101/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/213807211/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/213807211/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "American Robin Sounds/XC686190 - American Robin - Turdus migratorius.mp3",
+      "American Robin Sounds/XC666135 - American Robin - Turdus migratorius.mp3",
+      "American Robin Sounds/XC722625 - American Robin - Turdus migratorius.mp3",
+      "American Robin Sounds/XC418153 - American Robin - Turdus migratorius.mp3"
+    ]
   },
   {
     name: "Anna's Hummingbird",
@@ -49,7 +61,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-hummingbird-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/197952/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/119442/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/119442/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "Anna's Hummingbird Sounds/XC958843 - Anna's Hummingbird - Calypte anna.wav",
+      "Anna's Hummingbird Sounds/XC958832 - Anna's Hummingbird - Calypte anna.wav",
+      "Anna's Hummingbird Sounds/XC473411 - Anna's Hummingbird - Calypte anna.mp3",
+      "Anna's Hummingbird Sounds/XC549602 - Anna's Hummingbird - Calypte anna.mp3"
+    ]
   },
   {
     name: "Bewick's Wren",
@@ -64,7 +82,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-wren-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/165287021/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/181459151/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/181459151/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "Bewick's Wren Sounds/XC269166 - Bewick's Wren - Thryomanes bewickii calophonus.mp3",
+      "Bewick's Wren Sounds/XC784043 - Bewick's Wren - Thryomanes bewickii.wav",
+      "Bewick's Wren Sounds/XC963169 - Bewick's Wren - Thryomanes bewickii.wav",
+      "Bewick's Wren Sounds/XC527509 - Bewick's Wren - Thryomanes bewickii.mp3"
+    ]
   },
   {
     name: "Black-capped Chickadee",
@@ -81,7 +105,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-chickadee-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/87371481/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/638292737/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/638292737/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "Black-capped Chickadee Sounds/XC545025 - Black-capped Chickadee - Poecile atricapillus.mp3",
+      "Black-capped Chickadee Sounds/XC659639 - Black-capped Chickadee - Poecile atricapillus.mp3",
+      "Black-capped Chickadee Sounds/XC582380 - Black-capped Chickadee - Poecile atricapillus.mp3",
+      "Black-capped Chickadee Sounds/XC544967 - Black-capped Chickadee - Poecile atricapillus.mp3"
+    ]
   },
   {
     name: "Dark-eyed Junco",
@@ -98,7 +128,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-junco-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/236790421/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/169731/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/169731/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "Dark-eyed Junco Sounds/XC766386 - Dark-eyed Junco - Junco hyemalis.wav",
+      "Dark-eyed Junco Sounds/XC878339 - Dark-eyed Junco - Junco hyemalis.wav",
+      "Dark-eyed Junco Sounds/XC469746 - Dark-eyed Junco - Junco hyemalis.mp3",
+      "Dark-eyed Junco Sounds/XC473419 - Dark-eyed Junco - Junco hyemalis.mp3"
+    ]
   },
   {
     name: "European Starling",
@@ -115,7 +151,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-starling-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/619814616/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/404865791/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/404865791/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "European Starling Sounds/XC977796 - Common Starling - Sturnus vulgaris.mp3",
+      "European Starling Sounds/XC1012688 - Common Starling - Sturnus vulgaris.wav",
+      "European Starling Sounds/XC1003433 - Common Starling - Sturnus vulgaris.mp3",
+      "European Starling Sounds/XC995266 - Common Starling - Sturnus vulgaris vulgaris.wav"
+    ]
   },
   {
     name: "House Finch",
@@ -132,7 +174,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-finch-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/635377528/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/637601152/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/637601152/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "House Finch Sounds/XC440009 - House Finch - Haemorhous mexicanus.mp3",
+      "House Finch Sounds/XC468779 - House Finch - Haemorhous mexicanus.mp3",
+      "House Finch Sounds/XC658900 - House Finch - Haemorhous mexicanus.mp3",
+      "House Finch Sounds/XC822626 - House Finch - Haemorhous mexicanus.wav"
+    ]
   },
   {
     name: "Northern Flicker",
@@ -150,7 +198,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-flicker-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/633158877/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/111016/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/111016/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "Northern Flicker Sounds/XC753469 - Northern Flicker - Colaptes auratus cafer.mp3",
+      "Northern Flicker Sounds/XC822641 - Northern Flicker - Colaptes auratus.wav",
+      "Northern Flicker Sounds/XC964340 - Northern Flicker - Colaptes auratus.wav",
+      "Northern Flicker Sounds/XC1007124 - Northern Flicker - Colaptes auratus.mp3"
+    ]
   },
   {
     name: "Song Sparrow",
@@ -168,7 +222,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-sparrow-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/638428041/embed",
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/638587357/embed"
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/638587357/embed",
+    soundFiles: [
+      "Song Sparrow Sounds/XC972394 - Song Sparrow - Melospiza melodia.wav",
+      "Song Sparrow Sounds/XC420592 - Song Sparrow - Melospiza melodia.mp3",
+      "Song Sparrow Sounds/XC540240 - Song Sparrow - Melospiza melodia.mp3",
+      "Song Sparrow Sounds/XC545910 - Song Sparrow - Melospiza melodia.mp3"
+    ]
   },
   {
     name: "Spotted Towhee",
@@ -184,7 +244,13 @@ const birdSpecies = [
     ],
     songFile: "placeholder-towhee-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/22914/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/99340/embed" // Add actual Macaulay Library call URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/99340/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "Spotted Towhee Sounds/XC972205 - Spotted Towhee - Pipilo maculatus.wav",
+      "Spotted Towhee Sounds/XC972216 - Spotted Towhee - Pipilo maculatus.wav",
+      "Spotted Towhee Sounds/XC1015396 - Spotted Towhee - Pipilo maculatus oregonus.mp3",
+      "Spotted Towhee Sounds/XC545912 - Spotted Towhee - Pipilo maculatus.mp3"
+    ]
   },
   {
     name: "Steller's Jay",
@@ -199,8 +265,14 @@ const birdSpecies = [
       "Steller's Jay/Test/Steller's Jay Silhouette.jpg"
     ],
     songFile: "placeholder-jay-song.mp3", // Placeholder
-    macaulayEmbed: "https://macaulaylibrary.org/asset/518160681/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/624243123/embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/623547073/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/638565842/embed", // Add actual Macaulay Library call URL
+    soundFiles: [
+      "Steller's Jay Sounds/XC441356 - Steller's Jay - Cyanocitta stelleri.mp3",
+      "Steller's Jay Sounds/XC540290 - Steller's Jay - Cyanocitta stelleri.mp3",
+      "Steller's Jay Sounds/XC940917 - Steller's Jay - Cyanocitta stelleri.wav",
+      "Steller's Jay Sounds/XC829229 - Steller's Jay - Cyanocitta stelleri.mp3"
+    ]
   }
 ];
 
@@ -223,7 +295,6 @@ const imageLearnContent = document.getElementById('imageLearnContent');
 const songLearnContent = document.getElementById('songLearnContent');
 const songGrid = document.getElementById('songGrid');
 const imageQuizBtn = document.getElementById('imageQuizBtn');
-const songQuizBtn = document.getElementById('songQuizBtn');
 const quizContainer = document.getElementById('quizContainer');
 const quizResults = document.getElementById('quizResults');
 const currentScore = document.getElementById('currentScore');
@@ -241,9 +312,33 @@ const finalScore = document.getElementById('finalScore');
 const performanceMessage = document.getElementById('performanceMessage');
 const restartButton = document.getElementById('restartButton');
 const backToStudyButton = document.getElementById('backToStudyButton');
+const soundQuizBtn = document.getElementById('soundQuizBtn');
+const soundQuestion = document.getElementById('soundQuestion');
+const quizSoundContainer = document.getElementById('quizSoundContainer');
+const playSoundButton = document.getElementById('playSoundButton');
+const soundFileName = document.getElementById('soundFileName');
+const quizAudio = document.getElementById('quizAudio');
 
 // Initialize the app
 document.addEventListener('DOMContentLoaded', () => {
+  // Debug: Check if all required elements exist
+  const requiredElements = [
+    'learnModeBtn', 'quizModeBtn', 'learningSection', 'quizSection',
+    'speciesGrid', 'imageLearnTab', 'songLearnTab', 'imageLearnContent',
+    'songLearnContent', 'songGrid', 'imageQuizBtn',
+    'quizContainer', 'quizResults', 'currentScore', 'currentQuestion',
+    'totalQuestions', 'totalQuestionsDisplay', 'imageQuestion', 'songQuestion',
+    'quizImage', 'quizAudioContainer', 'answerOptions', 'feedback',
+    'nextButton', 'finalScore', 'performanceMessage', 'restartButton',
+    'backToStudyButton', 'soundQuizBtn', 'soundQuestion', 'quizSoundContainer',
+    'playSoundButton', 'soundFileName', 'quizAudio'
+  ];
+  
+  const missingElements = requiredElements.filter(id => !document.getElementById(id));
+  if (missingElements.length > 0) {
+    console.error('Missing elements:', missingElements);
+  }
+  
   initializeLearningMode();
   initializeSongLearning();
   setupEventListeners();
@@ -251,20 +346,73 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Event Listeners
 const setupEventListeners = () => {
-  learnModeBtn.addEventListener('click', () => switchMode('learn'));
-  quizModeBtn.addEventListener('click', () => switchMode('quiz'));
-  imageLearnTab.addEventListener('click', () => switchLearningTab('image'));
-  songLearnTab.addEventListener('click', () => switchLearningTab('song'));
-  imageQuizBtn.addEventListener('click', () => startQuiz('image'));
-  songQuizBtn.addEventListener('click', () => startQuiz('song'));
-  nextButton.addEventListener('click', nextQuestion);
-  restartButton.addEventListener('click', () => switchMode('quiz'));
-  backToStudyButton.addEventListener('click', () => switchMode('learn'));
+  console.log('Setting up event listeners...');
+  
+  if (learnModeBtn) {
+    learnModeBtn.addEventListener('click', () => {
+      console.log('Learn mode button clicked');
+      switchMode('learn');
+    });
+  }
+  
+  if (quizModeBtn) {
+    quizModeBtn.addEventListener('click', () => {
+      console.log('Quiz mode button clicked');
+      switchMode('quiz');
+    });
+  }
+  
+  if (imageLearnTab) {
+    imageLearnTab.addEventListener('click', () => {
+      console.log('Image learn tab clicked');
+      switchLearningTab('image');
+    });
+  }
+  
+  if (songLearnTab) {
+    songLearnTab.addEventListener('click', () => {
+      console.log('Song learn tab clicked');
+      switchLearningTab('song');
+    });
+  }
+  
+  if (imageQuizBtn) {
+    imageQuizBtn.addEventListener('click', () => {
+      console.log('Image quiz button clicked');
+      startQuiz('image');
+    });
+  }
+  
+
+  
+  if (soundQuizBtn) {
+    soundQuizBtn.addEventListener('click', () => {
+      console.log('Sound quiz button clicked');
+      startQuiz('sound');
+    });
+  }
+  
+  if (nextButton) {
+    nextButton.addEventListener('click', nextQuestion);
+  }
+  
+  if (restartButton) {
+    restartButton.addEventListener('click', () => switchMode('quiz'));
+  }
+  
+  if (backToStudyButton) {
+    backToStudyButton.addEventListener('click', () => switchMode('learn'));
+  }
+  
+  console.log('Event listeners setup complete');
 };
 
 // Mode switching
 const switchMode = (mode) => {
+  console.log('Switching to mode:', mode);
+  
   if (mode === 'learn') {
+    console.log('Switching to learn mode');
     learnModeBtn.classList.add('active');
     quizModeBtn.classList.remove('active');
     learningSection.classList.add('active');
@@ -272,6 +420,7 @@ const switchMode = (mode) => {
     quizContainer.classList.remove('active');
     quizResults.classList.remove('active');
   } else {
+    console.log('Switching to quiz mode');
     learnModeBtn.classList.remove('active');
     quizModeBtn.classList.add('active');
     learningSection.classList.remove('active');
@@ -303,12 +452,16 @@ const initializeSongLearning = () => {
 
 // Switch between learning tabs
 const switchLearningTab = (tabType) => {
+  console.log('Switching learning tab to:', tabType);
+  
   if (tabType === 'image') {
+    console.log('Switching to image tab');
     imageLearnTab.classList.add('active');
     songLearnTab.classList.remove('active');
     imageLearnContent.classList.add('active');
     songLearnContent.classList.remove('active');
   } else {
+    console.log('Switching to song tab');
     imageLearnTab.classList.remove('active');
     songLearnTab.classList.add('active');
     imageLearnContent.classList.remove('active');
@@ -345,6 +498,7 @@ const createSongCard = (species, index) => {
   // Special handling for Northern Flicker - use Call and Drum instead of Song and Call
   const isNorthernFlicker = species.name === "Northern Flicker";
   // Special handling for Steller's Jay - use Call for both sections instead of Song and Call
+  const isStellersJay = species.name === "Steller's Jay";
   const isStellersJayAmericanCrow = species.name === "Steller's Jay" || species.name === "American Crow";
   const firstLabel = isNorthernFlicker ? "📢 Call" : (isStellersJayAmericanCrow ? "📢 Call" : "🎵 Song");
   const secondLabel = isNorthernFlicker ? "🥁 Drum" : (isStellersJayAmericanCrow ? "📢 Call" : "📢 Call");
@@ -358,7 +512,7 @@ const createSongCard = (species, index) => {
         <div class="audio-section">
           <h4 class="audio-label">${firstLabel}</h4>
           <iframe src="${species.macaulayEmbed}" 
-                  height="92" 
+                  height="120" 
                   width="640" 
                   frameborder="0" 
                   allowfullscreen>
@@ -370,7 +524,7 @@ const createSongCard = (species, index) => {
         <div class="audio-section">
           <h4 class="audio-label">${firstLabel}</h4>
           <div class="audio-placeholder">
-            <p>${isNorthernFlicker ? 'Call' : (isStellersJay ? 'Call' : 'Song')} embed coming soon!</p>
+            <p>${isNorthernFlicker ? 'Call' : (isStellersJayAmericanCrow ? 'Call' : 'Song')} embed coming soon!</p>
           </div>
         </div>
       `;
@@ -382,7 +536,7 @@ const createSongCard = (species, index) => {
         <div class="audio-section">
           <h4 class="audio-label">${secondLabel}</h4>
           <iframe src="${species.macaulayCallEmbed}" 
-                  height="92" 
+                  height="120" 
                   width="640" 
                   frameborder="0" 
                   allowfullscreen>
@@ -394,7 +548,7 @@ const createSongCard = (species, index) => {
         <div class="audio-section">
           <h4 class="audio-label">${secondLabel}</h4>
           <div class="audio-placeholder">
-            <p>${isNorthernFlicker ? 'Drum' : (isStellersJay ? 'Call' : 'Call')} embed coming soon!</p>
+            <p>${isNorthernFlicker ? 'Drum' : (isStellersJayAmericanCrow ? 'Call' : 'Call')} embed coming soon!</p>
           </div>
         </div>
       `;
@@ -403,7 +557,7 @@ const createSongCard = (species, index) => {
     embedContent += '</div>';
   } else {
     // Placeholder for completely missing audio
-    const audioTypes = isNorthernFlicker ? "calls and drums" : (isStellersJay ? "calls" : "songs and calls");
+    const audioTypes = isNorthernFlicker ? "calls and drums" : (isStellersJayAmericanCrow ? "calls" : "songs and calls");
     embedContent = `
       <div class="song-embed-container">
         <div class="song-placeholder">
@@ -458,35 +612,6 @@ const showCarouselImage = (speciesIndex, imageIndex) => {
   });
 };
 
-// Start quiz
-const startQuiz = (quizType) => {
-  currentQuizType = quizType;
-  currentQuestionIndex = 0;
-  score = 0;
-  selectedAnswer = null;
-  
-  // Generate 10 random questions
-  quizQuestions = generateQuizQuestions(10);
-  
-  // Update UI
-  quizContainer.classList.add('active');
-  quizResults.classList.remove('active');
-  currentScore.textContent = '0';
-  totalQuestions.textContent = '10';
-  totalQuestionsDisplay.textContent = '10';
-  
-  // Show appropriate question type
-  if (quizType === 'image') {
-    imageQuestion.classList.remove('hidden');
-    songQuestion.classList.add('hidden');
-  } else {
-    imageQuestion.classList.add('hidden');
-    songQuestion.classList.remove('hidden');
-  }
-  
-  loadQuestion();
-};
-
 // Generate random quiz questions
 const generateQuizQuestions = (count) => {
   const questions = [];
@@ -527,12 +652,80 @@ const generateQuizQuestions = (count) => {
   return questions;
 };
 
+// Generate random sound quiz questions
+const generateSoundQuizQuestions = (count) => {
+  const questions = [];
+  for (let i = 0; i < count; i++) {
+    // Pick a random species with at least one sound file
+    let validSpecies = birdSpecies.filter(s => s.soundFiles && s.soundFiles.length > 0);
+    const correctSpecies = validSpecies[Math.floor(Math.random() * validSpecies.length)];
+    // Pick a random sound file for this species
+    const soundFile = correctSpecies.soundFiles[Math.floor(Math.random() * correctSpecies.soundFiles.length)];
+    // Generate 3 wrong answers
+    const wrongAnswers = [];
+    while (wrongAnswers.length < 3) {
+      const randomSpecies = validSpecies[Math.floor(Math.random() * validSpecies.length)];
+      if (randomSpecies.name !== correctSpecies.name && !wrongAnswers.includes(randomSpecies.name)) {
+        wrongAnswers.push(randomSpecies.name);
+      }
+    }
+    // Shuffle answers
+    const allAnswers = [correctSpecies.name, ...wrongAnswers];
+    shuffleArray(allAnswers);
+    questions.push({
+      correctAnswer: correctSpecies.name,
+      soundFile: soundFile,
+      options: allAnswers
+    });
+  }
+  return questions;
+};
+
 // Shuffle array utility
 const shuffleArray = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
+};
+
+// Start quiz
+const startQuiz = (quizType) => {
+  currentQuizType = quizType;
+  currentQuestionIndex = 0;
+  score = 0;
+  selectedAnswer = null;
+  
+  // Generate 10 random questions
+  if (quizType === 'sound') {
+    quizQuestions = generateSoundQuizQuestions(10);
+  } else {
+    quizQuestions = generateQuizQuestions(10);
+  }
+  
+  // Update UI
+  quizContainer.classList.add('active');
+  quizResults.classList.remove('active');
+  currentScore.textContent = '0';
+  totalQuestions.textContent = '10';
+  totalQuestionsDisplay.textContent = '10';
+  
+  // Show appropriate question type
+  if (quizType === 'image') {
+    imageQuestion.classList.remove('hidden');
+    songQuestion.classList.add('hidden');
+    soundQuestion.classList.add('hidden');
+  } else if (quizType === 'song') {
+    imageQuestion.classList.add('hidden');
+    songQuestion.classList.remove('hidden');
+    soundQuestion.classList.add('hidden');
+  } else if (quizType === 'sound') {
+    imageQuestion.classList.add('hidden');
+    songQuestion.classList.add('hidden');
+    soundQuestion.classList.remove('hidden');
+  }
+  
+  loadQuestion();
 };
 
 // Load current question
@@ -582,6 +775,29 @@ const loadQuestion = () => {
         </div>
       `;
     }
+  } else if (currentQuizType === 'sound') {
+    // Set up audio player for sound quiz
+    quizAudio.src = question.soundFile;
+    quizAudio.load();
+    soundFileName.textContent = 'Bird Sound'; // Generic name to avoid giving away the answer
+    quizAudio.currentTime = 0;
+    playSoundButton.textContent = '▶';
+    playSoundButton.disabled = false;
+    
+    // Set up play button functionality
+    playSoundButton.onclick = () => {
+      if (quizAudio.paused) {
+        quizAudio.play();
+        playSoundButton.textContent = '⏸';
+      } else {
+        quizAudio.pause();
+        playSoundButton.textContent = '▶';
+      }
+    };
+    
+    quizAudio.onended = () => {
+      playSoundButton.textContent = '▶';
+    };
   }
   
   // Create answer options
