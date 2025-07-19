@@ -63,8 +63,8 @@ const birdSpecies = [
       "Bewick's Wren/Test/Bewick's Wren Silhouette.jpg"
     ],
     songFile: "placeholder-wren-song.mp3", // Placeholder
-    macaulayEmbed: "https://macaulaylibrary.org/asset/638926010/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/630446816/embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/165287021/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/181459151/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Black-capped Chickadee",
@@ -97,8 +97,8 @@ const birdSpecies = [
       "Dark-eyed Junco/Test/Dark-eyed Junco Silhouette.jpg"
     ],
     songFile: "placeholder-junco-song.mp3", // Placeholder
-    macaulayEmbed: "https://macaulaylibrary.org/asset/631036129/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/632753616/embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/236790421/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/169731/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "European Starling",
@@ -149,8 +149,8 @@ const birdSpecies = [
       "Northern Flicker/Test/Northern Flicker Silhouette.jpg"
     ],
     songFile: "placeholder-flicker-song.mp3", // Placeholder
-    macaulayEmbed: "https://macaulaylibrary.org/asset/111016/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/633158877/embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/633158877/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/111016/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Song Sparrow",
@@ -183,8 +183,8 @@ const birdSpecies = [
       "Spotted Towhee/Test/spotted towhee flight.jpeg"
     ],
     songFile: "placeholder-towhee-song.mp3", // Placeholder
-    macaulayEmbed: "https://macaulaylibrary.org/asset/620934201/embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "https://macaulaylibrary.org/asset/631080048/embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/22914/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/99340/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Steller's Jay",
