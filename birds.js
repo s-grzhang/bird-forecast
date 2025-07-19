@@ -14,8 +14,8 @@ const birdSpecies = [
       "American Crow/Test/American Crow Silhouette.jpg"
     ],
     songFile: "placeholder-crow-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-crow-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-crow-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed:"https://macaulaylibrary.org/asset/637067223/embed",
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/32684421/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "American Robin",
@@ -32,8 +32,8 @@ const birdSpecies = [
       "American Robin/Test/American Robin Silhouette.jpg"
     ],
     songFile: "placeholder-robin-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-robin-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-robin-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/236798101/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/213807211/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Anna's Hummingbird",
@@ -48,8 +48,8 @@ const birdSpecies = [
       "Anna's Hummingbird/Test/anna's hummingbird silhouette.jpg"
     ],
     songFile: "placeholder-hummingbird-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-hummingbird-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-hummingbird-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/197952/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/119442/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Bewick's Wren",
@@ -63,8 +63,8 @@ const birdSpecies = [
       "Bewick's Wren/Test/Bewick's Wren Silhouette.jpg"
     ],
     songFile: "placeholder-wren-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-wren-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-wren-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/638926010/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/630446816/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Black-capped Chickadee",
@@ -80,8 +80,8 @@ const birdSpecies = [
       "Black-capped Chickadee/Test/black capped chickadee x2.jpg"
     ],
     songFile: "placeholder-chickadee-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-chickadee-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-chickadee-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/87371481/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/638292737/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Dark-eyed Junco",
@@ -97,8 +97,8 @@ const birdSpecies = [
       "Dark-eyed Junco/Test/Dark-eyed Junco Silhouette.jpg"
     ],
     songFile: "placeholder-junco-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-junco-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-junco-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/631036129/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/632753616/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "European Starling",
@@ -114,8 +114,8 @@ const birdSpecies = [
       "European Starling/Test/European Starlings in Flight.jpg"
     ],
     songFile: "placeholder-starling-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-starling-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-starling-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/619814616/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/404865791/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "House Finch",
@@ -131,8 +131,8 @@ const birdSpecies = [
       "House Finch/Test/House-Finch-flying Josh Brown.jpg"
     ],
     songFile: "placeholder-finch-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-finch-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-finch-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/635377528/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/637601152/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Northern Flicker",
@@ -149,8 +149,8 @@ const birdSpecies = [
       "Northern Flicker/Test/Northern Flicker Silhouette.jpg"
     ],
     songFile: "placeholder-flicker-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-flicker-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-flicker-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/111016/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/633158877/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Song Sparrow",
@@ -183,8 +183,8 @@ const birdSpecies = [
       "Spotted Towhee/Test/spotted towhee flight.jpeg"
     ],
     songFile: "placeholder-towhee-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-towhee-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-towhee-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/620934201/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/631080048/embed" // Add actual Macaulay Library call URL
   },
   {
     name: "Steller's Jay",
@@ -199,8 +199,8 @@ const birdSpecies = [
       "Steller's Jay/Test/Steller's Jay Silhouette.jpg"
     ],
     songFile: "placeholder-jay-song.mp3", // Placeholder
-    macaulayEmbed: "placeholder-jay-embed", // Add actual Macaulay Library URL
-    macaulayCallEmbed: "placeholder-jay-call-embed" // Add actual Macaulay Library call URL
+    macaulayEmbed: "https://macaulaylibrary.org/asset/518160681/embed", // Add actual Macaulay Library URL
+    macaulayCallEmbed: "https://macaulaylibrary.org/asset/624243123/embed" // Add actual Macaulay Library call URL
   }
 ];
 
@@ -342,14 +342,21 @@ const createSongCard = (species, index) => {
   const hasSong = species.macaulayEmbed && !species.macaulayEmbed.includes('placeholder');
   const hasCall = species.macaulayCallEmbed && !species.macaulayCallEmbed.includes('placeholder');
   
+  // Special handling for Northern Flicker - use Call and Drum instead of Song and Call
+  const isNorthernFlicker = species.name === "Northern Flicker";
+  // Special handling for Steller's Jay - use Call for both sections instead of Song and Call
+  const isStellersJayAmericanCrow = species.name === "Steller's Jay" || species.name === "American Crow";
+  const firstLabel = isNorthernFlicker ? "📢 Call" : (isStellersJayAmericanCrow ? "📢 Call" : "🎵 Song");
+  const secondLabel = isNorthernFlicker ? "🥁 Drum" : (isStellersJayAmericanCrow ? "📢 Call" : "📢 Call");
+  
   if (hasSong || hasCall) {
     embedContent = '<div class="song-embed-container">';
     
-    // Add song section
+    // Add first audio section (Song for most birds, Call for Northern Flicker)
     if (hasSong) {
       embedContent += `
         <div class="audio-section">
-          <h4 class="audio-label">🎵 Song</h4>
+          <h4 class="audio-label">${firstLabel}</h4>
           <iframe src="${species.macaulayEmbed}" 
                   height="92" 
                   width="640" 
@@ -361,19 +368,19 @@ const createSongCard = (species, index) => {
     } else {
       embedContent += `
         <div class="audio-section">
-          <h4 class="audio-label">🎵 Song</h4>
+          <h4 class="audio-label">${firstLabel}</h4>
           <div class="audio-placeholder">
-            <p>Song embed coming soon!</p>
+            <p>${isNorthernFlicker ? 'Call' : (isStellersJay ? 'Call' : 'Song')} embed coming soon!</p>
           </div>
         </div>
       `;
     }
     
-    // Add call section
+    // Add second audio section (Call for most birds, Drum for Northern Flicker)
     if (hasCall) {
       embedContent += `
         <div class="audio-section">
-          <h4 class="audio-label">📢 Call</h4>
+          <h4 class="audio-label">${secondLabel}</h4>
           <iframe src="${species.macaulayCallEmbed}" 
                   height="92" 
                   width="640" 
@@ -385,9 +392,9 @@ const createSongCard = (species, index) => {
     } else {
       embedContent += `
         <div class="audio-section">
-          <h4 class="audio-label">📢 Call</h4>
+          <h4 class="audio-label">${secondLabel}</h4>
           <div class="audio-placeholder">
-            <p>Call embed coming soon!</p>
+            <p>${isNorthernFlicker ? 'Drum' : (isStellersJay ? 'Call' : 'Call')} embed coming soon!</p>
           </div>
         </div>
       `;
@@ -396,12 +403,13 @@ const createSongCard = (species, index) => {
     embedContent += '</div>';
   } else {
     // Placeholder for completely missing audio
+    const audioTypes = isNorthernFlicker ? "calls and drums" : (isStellersJay ? "calls" : "songs and calls");
     embedContent = `
       <div class="song-embed-container">
         <div class="song-placeholder">
           <div class="icon">🎵</div>
           <p><strong>Audio coming soon!</strong></p>
-          <p>Add Macaulay Library embed URLs for ${species.name} songs and calls.</p>
+          <p>Add Macaulay Library embed URLs for ${species.name} ${audioTypes}.</p>
         </div>
       </div>
     `;
