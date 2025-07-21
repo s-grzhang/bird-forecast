@@ -78,26 +78,31 @@ const getTimeRange = (timeOfDay) => {
 };
 
 // API functions
-const fetchEBirdData = async (regionCode, date) => {
+const fetchEBirdData = async (regionName, date) => {
     try {
-        // Make API call to our Flask backend
         const response = await fetch('/api/bird-forecast', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                region_code: regionCode,
+                region_code: regionName,
                 date: date
             })
         });
-        
-        if (!response.ok) {
-            const errorData = await response.json();
-            throw new Error(errorData.error || `API error: ${response.status} ${response.statusText}`);
+
+        let data;
+        try {
+            data = await response.json();
+        } catch (jsonError) {
+            // If response is not JSON (e.g., HTML error page), show a user-friendly error
+            throw new Error('Failed to get bird forecast: The server did not return valid data. Please try again later.');
         }
 
-        const data = await response.json();
+        if (!response.ok) {
+            throw new Error(data.error || `API error: ${response.status} ${response.statusText}`);
+        }
+
         return data;
     } catch (error) {
         console.error('Error fetching bird data:', error);
