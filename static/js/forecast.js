@@ -33,6 +33,18 @@ const birdImages = {
     'European Starling': '/images/European Starling.png'
 };
 
+const hotspotCodeToName = {
+    'L162766': 'Union Bay Natural Area',
+    'L128530': 'Discovery Park',
+    'L269461': 'Magnuson Park',
+    'L351484': 'Marymoor Park',
+    'L232479': 'Juanita Bay Park',
+    'L298030': 'Carkeek Park',
+    'L321969': 'Lake Sammamish State Park',
+    'L257959': 'Kent Ponds',
+    'L207315': 'Alki Beach'
+};
+
 // Utility functions
 const showLoading = () => {
     loading.classList.add('show');
@@ -142,6 +154,7 @@ const createBirdCard = (species, count, details) => {
 
 const displayResults = (data, formData) => {
     const { birds, counts, details } = data;
+    const locationDisplay = hotspotCodeToName[formData.location] || formData.location;
     
     if (birds.length === 0) {
         birdResults.innerHTML = `
@@ -158,7 +171,7 @@ const displayResults = (data, formData) => {
         birdResults.innerHTML = `
             <div style="margin-bottom: 20px;">
                 <p><strong>Forecast for ${formatDate(formData.date)} at ${formData.time}</strong></p>
-                <p>Based on recent sightings in ${formData.location}</p>
+                <p>Based on recent sightings in ${locationDisplay}</p>
             </div>
             ${resultsHTML}
         `;
