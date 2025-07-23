@@ -3,15 +3,15 @@ const birdSpecies = [
   {
     name: "American Crow",
     learnImages: [
-      "/images/American Crow/Learn/American Crow.jpg",
-      "/images/American Crow/Learn/American Crow Juvenile.jpg",
-      "/images/American Crow/Learn/American Crow Flight.jpg"
+      "/images/American-Crow/Learn/American Crow.jpg",
+      "/images/American-Crow/Learn/American Crow Juvenile.jpg",
+      "/images/American-Crow/Learn/American Crow Flight.jpg"
     ],
     testImages: [
-      "/images/American Crow/Test/American Crow.jpg",
-      "/images/American Crow/Test/American Crow at Marymoor Park.jpg",
-      "/images/American Crow/Test/In Flight.jpg",
-      "/images/American Crow/Test/American Crow Silhouette.jpg"
+      "/images/American-Crow/Test/American Crow.jpg",
+      "/images/American-Crow/Test/American Crow at Marymoor Park.jpg",
+      "/images/American-Crow/Test/In Flight.jpg",
+      "/images/American-Crow/Test/American Crow Silhouette.jpg"
     ],
     songFile: "placeholder-crow-song.mp3", // Placeholder
     macaulayEmbed:"https://macaulaylibrary.org/asset/637067223/embed",
@@ -26,16 +26,16 @@ const birdSpecies = [
   {
     name: "American Robin",
     learnImages: [
-      "/images/American Robin/Learn/American Robin.jpg",
-      "/images/American Robin/Learn/American Robin Back.jpg",
-      "/images/American Robin/Learn/American Robin Flight T.jpg",
-      "/images/American Robin/Learn/American Robin Immature.jpg"
+      "/images/American-Robin/Learn/American Robin.jpg",
+      "/images/American-Robin/Learn/American Robin Back.jpg",
+      "/images/American-Robin/Learn/American Robin Flight T.jpg",
+      "/images/American-Robin/Learn/American Robin Immature.jpg"
     ],
     testImages: [
-      "/images/American Robin/Test/american robin.jpeg",
-      "/images/American Robin/Test/American Robin Flight.jpg",
-      "/images/American Robin/Test/Robin Test.jpg",
-      "/images/American Robin/Test/American Robin Silhouette.jpg"
+      "/images/American-Robin/Test/american robin.jpeg",
+      "/images/American-Robin/Test/American Robin Flight.jpg",
+      "/images/American-Robin/Test/Robin Test.jpg",
+      "/images/American-Robin/Test/American Robin Silhouette.jpg"
     ],
     songFile: "placeholder-robin-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/236798101/embed", // Add actual Macaulay Library URL
@@ -50,14 +50,14 @@ const birdSpecies = [
   {
     name: "Anna's Hummingbird",
     learnImages: [
-      "/images/Anna's Hummingbird/Learn/F Anna's Hummingbird.jpg",
-      "/images/Anna's Hummingbird/Learn/Anna's Hummingbird Flight.jpg"
+      "/images/Anna-Hummingbird/Learn/F Anna's Hummingbird.jpg",
+      "/images/Anna-Hummingbird/Learn/Anna's Hummingbird Flight.jpg"
     ],
     testImages: [
-      "/images/Anna's Hummingbird/Test/anna's hummingbird.jpg",
-      "/images/Anna's Hummingbird/Test/Anna's Hummingbird F.jpg",
-      "/images/Anna's Hummingbird/Test/Anna's hummingbird backlit.jpg",
-      "/images/Anna's Hummingbird/Test/anna's hummingbird silhouette.jpg"
+      "/images/Anna-Hummingbird/Test/anna's hummingbird.jpg",
+      "/images/Anna-Hummingbird/Test/Anna's Hummingbird F.jpg",
+      "/images/Anna-Hummingbird/Test/Anna's hummingbird backlit.jpg",
+      "/images/Anna-Hummingbird/Test/anna's hummingbird silhouette.jpg"
     ],
     songFile: "placeholder-hummingbird-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/197952/embed", // Add actual Macaulay Library URL
@@ -72,13 +72,13 @@ const birdSpecies = [
   {
     name: "Bewick's Wren",
     learnImages: [
-      "/images/Bewick's Wren/Learn/Bewick's Wren.jpg",
-      "/images/Bewick's Wren/Learn/Bewick's Wren Front.jpg"
+      "/images/Bewick-Wren/Learn/Bewick's Wren.jpg",
+      "/images/Bewick-Wren/Learn/Bewick's Wren Front.jpg"
     ],
     testImages: [
-      "/images/Bewick's Wren/Test/Bewick's Wren - singing.JPG",
-      "/images/Bewick's Wren/Test/Bewick's Wren feeder.jpg",
-      "/images/Bewick's Wren/Test/Bewick's Wren Silhouette.jpg"
+      "/images/Bewick-Wren/Test/Bewick's Wren - singing.JPG",
+      "/images/Bewick-Wren/Test/Bewick's Wren feeder.jpg",
+      "/images/Bewick-Wren/Test/Bewick's Wren Silhouette.jpg"
     ],
     songFile: "placeholder-wren-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/165287021/embed", // Add actual Macaulay Library URL
@@ -209,16 +209,16 @@ const birdSpecies = [
   {
     name: "Song Sparrow",
     learnImages: [
-      "/images/Song Sparrow/Learn/Song Sparrow PNW.jpg",
-      "/images/Song Sparrow/Learn/Song Sparrow PNW 2.jpg",
-      "/images/Song Sparrow/Learn/song sparrow flight.jpg",
-      "/images/Song Sparrow/Learn/Song Sparrow Juvenile.jpg"
+      "/images/Song-Sparrow/Learn/Song Sparrow PNW.jpg",
+      "/images/Song-Sparrow/Learn/Song Sparrow PNW 2.jpg",
+      "/images/Song-Sparrow/Learn/song sparrow flight.jpg",
+      "/images/Song-Sparrow/Learn/Song Sparrow Juvenile.jpg"
     ],
     testImages: [
-      "/images/Song Sparrow/Test/Song Sparrow Flight.jpg",
-      "/images/Song Sparrow/Test/Song Sparrow Preening.jpg",
-      "/images/Song Sparrow/Test/Song Sparrow Silhouette.jpg",
-      "/images/Song Sparrow/Test/song sparrow wings.jpg"
+      "/images/Song-Sparrow/Test/Song Sparrow Flight.jpg",
+      "/images/Song-Sparrow/Test/Song Sparrow Preening.jpg",
+      "/images/Song-Sparrow/Test/Song Sparrow Silhouette.jpg",
+      "/images/Song-Sparrow/Test/song sparrow wings.jpg"
     ],
     songFile: "placeholder-sparrow-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/638428041/embed",
