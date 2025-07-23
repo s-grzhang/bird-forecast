@@ -3,15 +3,15 @@ const birdSpecies = [
   {
     name: "American Crow",
     learnImages: [
-      "American Crow/Learn/American Crow.jpg",
-      "American Crow/Learn/American Crow Juvenile.jpg",
-      "American Crow/Learn/American Crow Flight.jpg"
+      "/images/American Crow/Learn/American Crow.jpg",
+      "/images/American Crow/Learn/American Crow Juvenile.jpg",
+      "/images/American Crow/Learn/American Crow Flight.jpg"
     ],
     testImages: [
-      "American Crow/Test/American Crow.jpg",
-      "American Crow/Test/American Crow at Marymoor Park.jpg",
-      "American Crow/Test/In Flight.jpg",
-      "American Crow/Test/American Crow Silhouette.jpg"
+      "/images/American Crow/Test/American Crow.jpg",
+      "/images/American Crow/Test/American Crow at Marymoor Park.jpg",
+      "/images/American Crow/Test/In Flight.jpg",
+      "/images/American Crow/Test/American Crow Silhouette.jpg"
     ],
     songFile: "placeholder-crow-song.mp3", // Placeholder
     macaulayEmbed:"https://macaulaylibrary.org/asset/637067223/embed",
@@ -26,16 +26,16 @@ const birdSpecies = [
   {
     name: "American Robin",
     learnImages: [
-      "American Robin/Learn/American Robin.jpg",
-      "American Robin/Learn/American Robin Back.jpg",
-      "American Robin/Learn/American Robin Flight T.jpg",
-      "American Robin/Learn/American Robin Immature.jpg"
+      "/images/American Robin/Learn/American Robin.jpg",
+      "/images/American Robin/Learn/American Robin Back.jpg",
+      "/images/American Robin/Learn/American Robin Flight T.jpg",
+      "/images/American Robin/Learn/American Robin Immature.jpg"
     ],
     testImages: [
-      "American Robin/Test/american robin.jpeg",
-      "American Robin/Test/American Robin Flight.jpg",
-      "American Robin/Test/Robin Test.jpg",
-      "American Robin/Test/American Robin Silhouette.jpg"
+      "/images/American Robin/Test/american robin.jpeg",
+      "/images/American Robin/Test/American Robin Flight.jpg",
+      "/images/American Robin/Test/Robin Test.jpg",
+      "/images/American Robin/Test/American Robin Silhouette.jpg"
     ],
     songFile: "placeholder-robin-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/236798101/embed", // Add actual Macaulay Library URL
@@ -50,14 +50,14 @@ const birdSpecies = [
   {
     name: "Anna's Hummingbird",
     learnImages: [
-      "Anna's Hummingbird/Learn/F Anna's Hummingbird.jpg",
-      "Anna's Hummingbird/Learn/Anna's Hummingbird Flight.jpg"
+      "/images/Anna's Hummingbird/Learn/F Anna's Hummingbird.jpg",
+      "/images/Anna's Hummingbird/Learn/Anna's Hummingbird Flight.jpg"
     ],
     testImages: [
-      "Anna's Hummingbird/Test/anna's hummingbird.jpg",
-      "Anna's Hummingbird/Test/Anna's Hummingbird F.jpg",
-      "Anna's Hummingbird/Test/Anna's hummingbird backlit.jpg",
-      "Anna's Hummingbird/Test/anna's hummingbird silhouette.jpg"
+      "/images/Anna's Hummingbird/Test/anna's hummingbird.jpg",
+      "/images/Anna's Hummingbird/Test/Anna's Hummingbird F.jpg",
+      "/images/Anna's Hummingbird/Test/Anna's hummingbird backlit.jpg",
+      "/images/Anna's Hummingbird/Test/anna's hummingbird silhouette.jpg"
     ],
     songFile: "placeholder-hummingbird-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/197952/embed", // Add actual Macaulay Library URL
@@ -72,13 +72,13 @@ const birdSpecies = [
   {
     name: "Bewick's Wren",
     learnImages: [
-      "Bewick's Wren/Learn/Bewick's Wren.jpg",
-      "Bewick's Wren/Learn/Bewick's Wren Front.jpg"
+      "/images/Bewick's Wren/Learn/Bewick's Wren.jpg",
+      "/images/Bewick's Wren/Learn/Bewick's Wren Front.jpg"
     ],
     testImages: [
-      "Bewick's Wren/Test/Bewick's Wren - singing.JPG",
-      "Bewick's Wren/Test/Bewick's Wren feeder.jpg",
-      "Bewick's Wren/Test/Bewick's Wren Silhouette.jpg"
+      "/images/Bewick's Wren/Test/Bewick's Wren - singing.JPG",
+      "/images/Bewick's Wren/Test/Bewick's Wren feeder.jpg",
+      "/images/Bewick's Wren/Test/Bewick's Wren Silhouette.jpg"
     ],
     songFile: "placeholder-wren-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/165287021/embed", // Add actual Macaulay Library URL
@@ -93,15 +93,15 @@ const birdSpecies = [
   {
     name: "Black-capped Chickadee",
     learnImages: [
-      "Black-capped Chickadee/Learn/Black-capped Chickadee.jpg",
-      "Black-capped Chickadee/Learn/Black-capped Chickadee Front.jpg",
-      "Black-capped Chickadee/Learn/Black-capped Chickadee Flight.jpg"
+      "/images/Black-capped Chickadee/Learn/Black-capped Chickadee.jpg",
+      "/images/Black-capped Chickadee/Learn/Black-capped Chickadee Front.jpg",
+      "/images/Black-capped Chickadee/Learn/Black-capped Chickadee Flight.jpg"
     ],
     testImages: [
-      "Black-capped Chickadee/Test/black-capped-chickadee.jpg",
-      "Black-capped Chickadee/Test/Black-capped Chickadee in Flight.jpg",
-      "Black-capped Chickadee/Test/black capped chickadee silhouette.jpg",
-      "Black-capped Chickadee/Test/black capped chickadee x2.jpg"
+      "/images/Black-capped Chickadee/Test/black-capped-chickadee.jpg",
+      "/images/Black-capped Chickadee/Test/Black-capped Chickadee in Flight.jpg",
+      "/images/Black-capped Chickadee/Test/black capped chickadee silhouette.jpg",
+      "/images/Black-capped Chickadee/Test/black capped chickadee x2.jpg"
     ],
     songFile: "placeholder-chickadee-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/87371481/embed", // Add actual Macaulay Library URL
@@ -116,15 +116,15 @@ const birdSpecies = [
   {
     name: "Dark-eyed Junco",
     learnImages: [
-      "Dark-eyed Junco/Learn/52901081636_1b2b4426dd_b.jpg",
-      "Dark-eyed Junco/Learn/dark-eyed junco flight.jpg",
-      "Dark-eyed Junco/Learn/Dark-eyed Junco Immature.jpg"
+      "/images/Dark-eyed Junco/Learn/52901081636_1b2b4426dd_b.jpg",
+      "/images/Dark-eyed Junco/Learn/dark-eyed junco flight.jpg",
+      "/images/Dark-eyed Junco/Learn/Dark-eyed Junco Immature.jpg"
     ],
     testImages: [
-      "Dark-eyed Junco/Test/Dark-eyed Junco Back.jpg",
-      "Dark-eyed Junco/Test/dark-eyed junco flight T.jpg",
-      "Dark-eyed Junco/Test/Dark-eyed Junco Juvenile.jpg",
-      "Dark-eyed Junco/Test/Dark-eyed Junco Silhouette.jpg"
+      "/images/Dark-eyed Junco/Test/Dark-eyed Junco Back.jpg",
+      "/images/Dark-eyed Junco/Test/dark-eyed junco flight T.jpg",
+      "/images/Dark-eyed Junco/Test/Dark-eyed Junco Juvenile.jpg",
+      "/images/Dark-eyed Junco/Test/Dark-eyed Junco Silhouette.jpg"
     ],
     songFile: "placeholder-junco-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/236790421/embed", // Add actual Macaulay Library URL
@@ -139,15 +139,15 @@ const birdSpecies = [
   {
     name: "European Starling",
     learnImages: [
-      "European Starling/Learn/Breeding Adult European Starling.jpg",
-      "European Starling/Learn/Nonbreeding Adult European Starling.jpg",
-      "European Starling/Learn/Juvenile European Starling.jpg",
-      "European Starling/Learn/European Starling Flight.jpg"
+      "/images/European Starling/Learn/Breeding Adult European Starling.jpg",
+      "/images/European Starling/Learn/Nonbreeding Adult European Starling.jpg",
+      "/images/European Starling/Learn/Juvenile European Starling.jpg",
+      "/images/European Starling/Learn/European Starling Flight.jpg"
     ],
     testImages: [
-      "European Starling/Test/European Starling on Branch.jpg",
-      "European Starling/Test/European Starling in Flight.jpg",
-      "European Starling/Test/European Starlings in Flight.jpg"
+      "/images/European Starling/Test/European Starling on Branch.jpg",
+      "/images/European Starling/Test/European Starling in Flight.jpg",
+      "/images/European Starling/Test/European Starlings in Flight.jpg"
     ],
     songFile: "placeholder-starling-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/619814616/embed", // Add actual Macaulay Library URL
@@ -162,15 +162,15 @@ const birdSpecies = [
   {
     name: "House Finch",
     learnImages: [
-      "House Finch/Learn/House Finch.jpg",
-      "House Finch/Learn/house finch flying.jpg",
-      "House Finch/Learn/House Finch Steve Creek.jpeg"
+      "/images/House Finch/Learn/House Finch.jpg",
+      "/images/House Finch/Learn/house finch flying.jpg",
+      "/images/House Finch/Learn/House Finch Steve Creek.jpeg"
     ],
     testImages: [
-      "House Finch/Test/house finch back.jpg",
-      "House Finch/Test/House Finch Flight.jpg",
-      "House Finch/Test/house finch pair.jpg",
-      "House Finch/Test/House-Finch-flying Josh Brown.jpg"
+      "/images/House Finch/Test/house finch back.jpg",
+      "/images/House Finch/Test/House Finch Flight.jpg",
+      "/images/House Finch/Test/house finch pair.jpg",
+      "/images/House Finch/Test/House-Finch-flying Josh Brown.jpg"
     ],
     songFile: "placeholder-finch-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/635377528/embed", // Add actual Macaulay Library URL
@@ -185,16 +185,16 @@ const birdSpecies = [
   {
     name: "Northern Flicker",
     learnImages: [
-      "Northern Flicker/Learn/Northern Flicker.jpg",
-      "Northern Flicker/Learn/Female Northern Flicker.jpg",
-      "Northern Flicker/Learn/Juvenile Northern Flicker.jpg",
-      "Northern Flicker/Learn/northern Flicker Flight.jpg"
+      "/images/Northern Flicker/Learn/Northern Flicker.jpg",
+      "/images/Northern Flicker/Learn/Female Northern Flicker.jpg",
+      "/images/Northern Flicker/Learn/Juvenile Northern Flicker.jpg",
+      "/images/Northern Flicker/Learn/northern Flicker Flight.jpg"
     ],
     testImages: [
-      "Northern Flicker/Test/Northern Flicker Male.jpg",
-      "Northern Flicker/Test/Northern Flicker flying.jpg",
-      "Northern Flicker/Test/Northern Flicker on ground.jpg",
-      "Northern Flicker/Test/Northern Flicker Silhouette.jpg"
+      "/images/Northern Flicker/Test/Northern Flicker Male.jpg",
+      "/images/Northern Flicker/Test/Northern Flicker flying.jpg",
+      "/images/Northern Flicker/Test/Northern Flicker on ground.jpg",
+      "/images/Northern Flicker/Test/Northern Flicker Silhouette.jpg"
     ],
     songFile: "placeholder-flicker-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/633158877/embed", // Add actual Macaulay Library URL
@@ -209,16 +209,16 @@ const birdSpecies = [
   {
     name: "Song Sparrow",
     learnImages: [
-      "Song Sparrow/Learn/Song Sparrow PNW.jpg",
-      "Song Sparrow/Learn/Song Sparrow PNW 2.jpg",
-      "Song Sparrow/Learn/song sparrow flight.jpg",
-      "Song Sparrow/Learn/Song Sparrow Juvenile.jpg"
+      "/images/Song Sparrow/Learn/Song Sparrow PNW.jpg",
+      "/images/Song Sparrow/Learn/Song Sparrow PNW 2.jpg",
+      "/images/Song Sparrow/Learn/song sparrow flight.jpg",
+      "/images/Song Sparrow/Learn/Song Sparrow Juvenile.jpg"
     ],
     testImages: [
-      "Song Sparrow/Test/Song Sparrow Flight.jpg",
-      "Song Sparrow/Test/Song Sparrow Preening.jpg",
-      "Song Sparrow/Test/Song Sparrow Silhouette.jpg",
-      "Song Sparrow/Test/song sparrow wings.jpg"
+      "/images/Song Sparrow/Test/Song Sparrow Flight.jpg",
+      "/images/Song Sparrow/Test/Song Sparrow Preening.jpg",
+      "/images/Song Sparrow/Test/Song Sparrow Silhouette.jpg",
+      "/images/Song Sparrow/Test/song sparrow wings.jpg"
     ],
     songFile: "placeholder-sparrow-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/638428041/embed",
@@ -233,14 +233,14 @@ const birdSpecies = [
   {
     name: "Spotted Towhee",
     learnImages: [
-      "Spotted Towhee/Learn/spotted towhee.jpg",
-      "Spotted Towhee/Learn/spotted towhee immature T.jpg",
-      "Spotted Towhee/Learn/3237559479_58d6100a8e_o.jpg"
+      "/images/Spotted Towhee/Learn/spotted towhee.jpg",
+      "/images/Spotted Towhee/Learn/spotted towhee immature T.jpg",
+      "/images/Spotted Towhee/Learn/3237559479_58d6100a8e_o.jpg"
     ],
     testImages: [
-      "Spotted Towhee/Test/spotted towhee T.jpg",
-      "Spotted Towhee/Test/spotted towhee immature.jpg",
-      "Spotted Towhee/Test/spotted towhee flight.jpeg"
+      "/images/Spotted Towhee/Test/spotted towhee T.jpg",
+      "/images/Spotted Towhee/Test/spotted towhee immature.jpg",
+      "/images/Spotted Towhee/Test/spotted towhee flight.jpeg"
     ],
     songFile: "placeholder-towhee-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/22914/embed", // Add actual Macaulay Library URL
@@ -255,14 +255,14 @@ const birdSpecies = [
   {
     name: "Steller's Jay",
     learnImages: [
-      "Steller's Jay/Learn/Stellers-Jay.jpg",
-      "Steller's Jay/Learn/Steller's Jay Flight.jpg"
+      "/images/Steller's Jay/Learn/Stellers-Jay.jpg",
+      "/images/Steller's Jay/Learn/Steller's Jay Flight.jpg"
     ],
     testImages: [
-      "Steller's Jay/Test/Steller's Jay Test.jpg",
-      "Steller's Jay/Test/Steller's Jay from below.jpg",
-      "Steller's Jay/Test/Steller's Jay Takes off.jpg",
-      "Steller's Jay/Test/Steller's Jay Silhouette.jpg"
+      "/images/Steller's Jay/Test/Steller's Jay Test.jpg",
+      "/images/Steller's Jay/Test/Steller's Jay from below.jpg",
+      "/images/Steller's Jay/Test/Steller's Jay Takes off.jpg",
+      "/images/Steller's Jay/Test/Steller's Jay Silhouette.jpg"
     ],
     songFile: "placeholder-jay-song.mp3", // Placeholder
     macaulayEmbed: "https://macaulaylibrary.org/asset/623547073/embed", // Add actual Macaulay Library URL

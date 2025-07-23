@@ -31,6 +31,10 @@ def submit():
 def calendar():
     return render_template('calendar.html')
 
+@app.route('/hotspots')
+def hotspots():
+    return render_template('hotspots.html')
+
 @app.route('/api/bird-forecast', methods=['POST'])
 def bird_forecast():
     try:
