@@ -38,29 +38,74 @@ const hotspots = [
   }
 ];
 
-const map = L.map('hotspotMap', {
-  center: [47.6, -122.25],
-  zoom: 10,
-  scrollWheelZoom: false,
-  keyboard: true,
-  attributionControl: true
-});
-
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 18,
-  attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-hotspots.forEach(({ name, code, lat, lng, blurb }) => {
-  const popupContent = `
-    <div class="p-2">
-      <h2 class="text-lg font-bold mb-1">${name}</h2>
-      <p class="text-sm text-gray-700 mb-1">${blurb}</p>
-      <p class="text-xs text-gray-500">eBird Hotspot Code: <span class="font-mono">${code}</span></p>
-      <a href="https://ebird.org/hotspot/${code}" target="_blank" rel="noopener" class="text-blue-700 underline text-xs">View on eBird</a>
-    </div>
-  `;
-  L.marker([lat, lng], { keyboard: true, title: name })
-    .addTo(map)
-    .bindPopup(popupContent, { autoPan: true });
+// Wait for DOM to be ready
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('DOM loaded, initializing map...');
+  
+  // Check if map container exists
+  const mapContainer = document.getElementById('hotspotMap');
+  if (!mapContainer) {
+    console.error('Map container #hotspotMap not found!');
+    return;
+  }
+  console.log('Map container found:', mapContainer);
+  
+  // Check if Leaflet is available
+  if (typeof L === 'undefined') {
+    console.error('Leaflet not loaded!');
+    return;
+  }
+  console.log('Leaflet loaded successfully');
+  
+  try {
+    // Initialize the map
+    const map = L.map('hotspotMap', {
+      center: [47.6, -122.25],
+      zoom: 10,
+      scrollWheelZoom: true,
+      keyboard: true,
+      attributionControl: true
+    });
+    
+    console.log('Map initialized:', map);
+    
+    // Add tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    
+    console.log('Tile layer added');
+    
+    // Add markers for each hotspot
+    hotspots.forEach(({ name, code, lat, lng, blurb }, index) => {
+      console.log(`Adding marker ${index + 1}: ${name} at [${lat}, ${lng}]`);
+      
+      const popupContent = `
+        <div style="padding: 8px; min-width: 200px;">
+          <h3 style="margin: 0 0 8px 0; font-weight: bold; color: #333;">${name}</h3>
+          <p style="margin: 0 0 8px 0; color: #666; font-size: 14px;">${blurb}</p>
+          <p style="margin: 0 0 8px 0; color: #999; font-size: 12px;">eBird Hotspot Code: <code>${code}</code></p>
+          <a href="https://ebird.org/hotspot/${code}" target="_blank" rel="noopener" style="color: #007bff; text-decoration: underline; font-size: 12px;">View on eBird</a>
+        </div>
+      `;
+      
+      const marker = L.marker([lat, lng], { 
+        keyboard: true, 
+        title: name 
+      }).addTo(map);
+      
+      marker.bindPopup(popupContent, { 
+        autoPan: true,
+        maxWidth: 300
+      });
+      
+      console.log(`Marker added for ${name}`);
+    });
+    
+    console.log('All markers added successfully');
+    
+  } catch (error) {
+    console.error('Error initializing map:', error);
+  }
 });

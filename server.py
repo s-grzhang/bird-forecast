@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, send_from_directory
 from flask_cors import CORS
 import requests
 from datetime import datetime, timedelta
@@ -6,6 +6,11 @@ import os
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
 CORS(app)
+
+# Add explicit static file serving for subdirectories
+@app.route('/images/<path:filename>')
+def serve_images(filename):
+    return send_from_directory('static/images', filename)
 
 # eBird API configuration
 EBIRD_API_KEY = 'fnqq0qvc0dc1'
