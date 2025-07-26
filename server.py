@@ -13,6 +13,10 @@ CORS(app)
 def serve_images(filename):
     return send_from_directory('static/images', filename)
 
+@app.route('/sounds/<path:filename>')
+def serve_sounds(filename):
+    return send_from_directory('static/sounds', filename)
+
 # eBird API configuration
 EBIRD_API_KEY = 'fnqq0qvc0dc1'
 EBIRD_BASE_URL = 'https://api.ebird.org/v2'
