@@ -380,6 +380,25 @@ html, body {
       min-width: 0;
     }
     
+    /* Custom scrollbar styling for Common Birds section */
+    .birds::-webkit-scrollbar {
+      height: 8px;
+    }
+    
+    .birds::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 4px;
+    }
+    
+    .birds::-webkit-scrollbar-thumb {
+      background: #eaaa53;
+      border-radius: 4px;
+    }
+    
+    .birds::-webkit-scrollbar-thumb:hover {
+      background: #e9ae60;
+    }
+    
     .bird {
       text-align: center;
       width: 160px;
