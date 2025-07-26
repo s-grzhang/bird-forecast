@@ -76,38 +76,49 @@
   </div>
 </div>
 <div class="common-birds">
-  <div class="birds">
-    <div class="bird">
-      <img src="{{ url_for('static', filename='images/American Crow.png') }}" alt="American Crow">
-      <p>American Crow</p>
-    </div>
-    <div class="bird">
-      <img src="{{ url_for('static', filename='images/Northern Shoveler.png') }}" alt="Northern Shoveler">
-      <p>Northern Shoveler</p>
-    </div>
-    <div class="bird">
-      <img src="{{ url_for('static', filename='images/Pine Siskin.png') }}" alt="Pine Siskin">
-      <p>Pine Siskin</p>
-    </div>
-    <div class="bird">
-      <img src="{{ url_for('static', filename='images/Chestnut-backed Chickadee.png') }}" alt="Chestnut-backed Chickadee">
-      <p>Chestnut-backed Chickadee</p>
-    </div>
-    <div class="bird">
-      <img src="{{ url_for('static', filename='images/American Coot.png') }}" alt="American Coot">
-      <p>American Coot</p>
-    </div>
-    <div class="bird">
-      <img src="{{ url_for('static', filename='images/California Gull.png') }}" alt="California Gull">
-      <p>California Gull</p>
-    </div>
-    <div class="bird">
-      <img src="{{ url_for('static', filename='images/Western Grebe.png') }}" alt="Western Grebe">
-      <p>Western Grebe</p>
-    </div>
+  <div class="birds" id="common-birds-container">
+    {% if common_birds %}
+      {% for bird in common_birds %}
+        <div class="bird">
+          <img src="{{ url_for('static', filename='images/' + bird.image) }}" alt="{{ bird.name }}">
+          <p>{{ bird.name }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <!-- Fallback birds if no data available -->
+      <div class="bird">
+        <img src="{{ url_for('static', filename='images/American Crow.png') }}" alt="American Crow">
+        <p>American Crow</p>
+      </div>
+      <div class="bird">
+        <img src="{{ url_for('static', filename='images/American Robin.png') }}" alt="American Robin">
+        <p>American Robin</p>
+      </div>
+      <div class="bird">
+        <img src="{{ url_for('static', filename='images/Northern Shoveler.png') }}" alt="Northern Shoveler">
+        <p>Northern Shoveler</p>
+      </div>
+      <div class="bird">
+        <img src="{{ url_for('static', filename='images/Pine Siskin.png') }}" alt="Pine Siskin">
+        <p>Pine Siskin</p>
+      </div>
+      <div class="bird">
+        <img src="{{ url_for('static', filename='images/Chestnut-backed Chickadee.png') }}" alt="Chestnut-backed Chickadee">
+        <p>Chestnut-backed Chickadee</p>
+      </div>
+      <div class="bird">
+        <img src="{{ url_for('static', filename='images/American Coot.png') }}" alt="American Coot">
+        <p>American Coot</p>
+      </div>
+      <div class="bird">
+        <img src="{{ url_for('static', filename='images/California Gull.png') }}" alt="California Gull">
+        <p>California Gull</p>
+      </div>
+    {% endif %}
   </div>
   <div class="text-section-birds">
     <h1>Common Birds This Month</h1>
+    <p id="month-display">{{ current_month }}</p>
   </div>
 </div>
 <div class="maps">
@@ -121,7 +132,7 @@
   
   <!-- Image Section on the Right -->
   <div class="image-section-maps">
-      <img src="{{ url_for('static', filename='images/maps.png') }}" alt="Map">
+      <img src="{{ url_for('static', filename='images/Hotspots.png') }}" alt="Hotspots Map">
   </div>
 </div>
   <div class="text-section-birding">
@@ -152,6 +163,7 @@
 </div>
 </div>
 <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+<script src="{{ url_for('static', filename='js/common-birds.js') }}"></script>
 </body>
 <footer>
   <p>&copy; 2024 Grace Zhang</p>
