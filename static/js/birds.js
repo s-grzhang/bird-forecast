@@ -17,10 +17,10 @@ const birdSpecies = [
     macaulayEmbed:"https://macaulaylibrary.org/asset/637067223/embed",
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/32684421/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "American Crow Sounds/XC156526 - American Crow - Corvus brachyrhynchos.mp3",
-      "American Crow Sounds/XC159919 - American Crow - Corvus brachyrhynchos.mp3",
-      "American Crow Sounds/XC159112 - American Crow - Corvus brachyrhynchos.mp3",
-      "American Crow Sounds/XC543339 - American Crow - Corvus brachyrhynchos.mp3"
+      "/sounds/American_Crow_Sounds/XC156526 - American Crow - Corvus brachyrhynchos.mp3",
+      "/sounds/American_Crow_Sounds/XC159919 - American Crow - Corvus brachyrhynchos.mp3",
+      "/sounds/American_Crow_Sounds/XC159112 - American Crow - Corvus brachyrhynchos.mp3",
+      "/sounds/American_Crow_Sounds/XC543339 - American Crow - Corvus brachyrhynchos.mp3"
     ]
   },
   {
@@ -41,10 +41,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/236798101/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/213807211/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "American Robin Sounds/XC686190 - American Robin - Turdus migratorius.mp3",
-      "American Robin Sounds/XC666135 - American Robin - Turdus migratorius.mp3",
-      "American Robin Sounds/XC722625 - American Robin - Turdus migratorius.mp3",
-      "American Robin Sounds/XC418153 - American Robin - Turdus migratorius.mp3"
+      "/sounds/American_Robin_Sounds/XC686190 - American Robin - Turdus migratorius.mp3",
+      "/sounds/American_Robin_Sounds/XC666135 - American Robin - Turdus migratorius.mp3",
+      "/sounds/American_Robin_Sounds/XC722625 - American Robin - Turdus migratorius.mp3",
+      "/sounds/American_Robin_Sounds/XC418153 - American Robin - Turdus migratorius.mp3"
     ]
   },
   {
@@ -63,10 +63,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/197952/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/119442/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "Anna's Hummingbird Sounds/XC958843 - Anna's Hummingbird - Calypte anna.wav",
-      "Anna's Hummingbird Sounds/XC958832 - Anna's Hummingbird - Calypte anna.wav",
-      "Anna's Hummingbird Sounds/XC473411 - Anna's Hummingbird - Calypte anna.mp3",
-      "Anna's Hummingbird Sounds/XC549602 - Anna's Hummingbird - Calypte anna.mp3"
+      "/sounds/Anna_Hummingbird_Sounds/XC958843 - Anna's Hummingbird - Calypte anna.wav",
+      "/sounds/Anna_Hummingbird_Sounds/XC958832 - Anna's Hummingbird - Calypte anna.wav",
+      "/sounds/Anna_Hummingbird_Sounds/XC473411 - Anna's Hummingbird - Calypte anna.mp3",
+      "/sounds/Anna_Hummingbird_Sounds/XC549602 - Anna's Hummingbird - Calypte anna.mp3"
     ]
   },
   {
@@ -84,10 +84,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/165287021/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/181459151/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "Bewick's Wren Sounds/XC269166 - Bewick's Wren - Thryomanes bewickii calophonus.mp3",
-      "Bewick's Wren Sounds/XC784043 - Bewick's Wren - Thryomanes bewickii.wav",
-      "Bewick's Wren Sounds/XC963169 - Bewick's Wren - Thryomanes bewickii.wav",
-      "Bewick's Wren Sounds/XC527509 - Bewick's Wren - Thryomanes bewickii.mp3"
+      "/sounds/Bewick_Wren_Sounds/XC269166 - Bewick's Wren - Thryomanes bewickii calophonus.mp3",
+      "/sounds/Bewick_Wren_Sounds/XC784043 - Bewick's Wren - Thryomanes bewickii.wav",
+      "/sounds/Bewick_Wren_Sounds/XC963169 - Bewick's Wren - Thryomanes bewickii.wav",
+      "/sounds/Bewick_Wren_Sounds/XC527509 - Bewick's Wren - Thryomanes bewickii.mp3"
     ]
   },
   {
@@ -107,10 +107,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/87371481/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/638292737/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "Black-capped Chickadee Sounds/XC545025 - Black-capped Chickadee - Poecile atricapillus.mp3",
-      "Black-capped Chickadee Sounds/XC659639 - Black-capped Chickadee - Poecile atricapillus.mp3",
-      "Black-capped Chickadee Sounds/XC582380 - Black-capped Chickadee - Poecile atricapillus.mp3",
-      "Black-capped Chickadee Sounds/XC544967 - Black-capped Chickadee - Poecile atricapillus.mp3"
+      "/sounds/Black_capped_Chickadee_Sounds/XC545025 - Black-capped Chickadee - Poecile atricapillus.mp3",
+      "/sounds/Black_capped_Chickadee_Sounds/XC659639 - Black-capped Chickadee - Poecile atricapillus.mp3",
+      "/sounds/Black_capped_Chickadee_Sounds/XC582380 - Black-capped Chickadee - Poecile atricapillus.mp3",
+      "/sounds/Black_capped_Chickadee_Sounds/XC544967 - Black-capped Chickadee - Poecile atricapillus.mp3"
     ]
   },
   {
@@ -130,10 +130,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/236790421/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/169731/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "Dark-eyed Junco Sounds/XC766386 - Dark-eyed Junco - Junco hyemalis.wav",
-      "Dark-eyed Junco Sounds/XC878339 - Dark-eyed Junco - Junco hyemalis.wav",
-      "Dark-eyed Junco Sounds/XC469746 - Dark-eyed Junco - Junco hyemalis.mp3",
-      "Dark-eyed Junco Sounds/XC473419 - Dark-eyed Junco - Junco hyemalis.mp3"
+      "/sounds/Dark_eyed_Junco_Sounds/XC766386 - Dark-eyed Junco - Junco hyemalis.wav",
+      "/sounds/Dark_eyed_Junco_Sounds/XC878339 - Dark-eyed Junco - Junco hyemalis.wav",
+      "/sounds/Dark_eyed_Junco_Sounds/XC469746 - Dark-eyed Junco - Junco hyemalis.mp3",
+      "/sounds/Dark_eyed_Junco_Sounds/XC473419 - Dark-eyed Junco - Junco hyemalis.mp3"
     ]
   },
   {
@@ -153,10 +153,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/619814616/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/404865791/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "European Starling Sounds/XC977796 - Common Starling - Sturnus vulgaris.mp3",
-      "European Starling Sounds/XC1012688 - Common Starling - Sturnus vulgaris.wav",
-      "European Starling Sounds/XC1003433 - Common Starling - Sturnus vulgaris.mp3",
-      "European Starling Sounds/XC995266 - Common Starling - Sturnus vulgaris vulgaris.wav"
+      "/sounds/European_Starling_Sounds/XC977796 - Common Starling - Sturnus vulgaris.mp3",
+      "/sounds/European_Starling_Sounds/XC1012688 - Common Starling - Sturnus vulgaris.wav",
+      "/sounds/European_Starling_Sounds/XC1003433 - Common Starling - Sturnus vulgaris.mp3",
+      "/sounds/European_Starling_Sounds/XC995266 - Common Starling - Sturnus vulgaris vulgaris.wav"
     ]
   },
   {
@@ -176,10 +176,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/635377528/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/637601152/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "House Finch Sounds/XC440009 - House Finch - Haemorhous mexicanus.mp3",
-      "House Finch Sounds/XC468779 - House Finch - Haemorhous mexicanus.mp3",
-      "House Finch Sounds/XC658900 - House Finch - Haemorhous mexicanus.mp3",
-      "House Finch Sounds/XC822626 - House Finch - Haemorhous mexicanus.wav"
+      "/sounds/House_Finch_Sounds/XC440009 - House Finch - Haemorhous mexicanus.mp3",
+      "/sounds/House_Finch_Sounds/XC468779 - House Finch - Haemorhous mexicanus.mp3",
+      "/sounds/House_Finch_Sounds/XC658900 - House Finch - Haemorhous mexicanus.mp3",
+      "/sounds/House_Finch_Sounds/XC822626 - House Finch - Haemorhous mexicanus.wav"
     ]
   },
   {
@@ -200,10 +200,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/633158877/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/111016/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "Northern Flicker Sounds/XC753469 - Northern Flicker - Colaptes auratus cafer.mp3",
-      "Northern Flicker Sounds/XC822641 - Northern Flicker - Colaptes auratus.wav",
-      "Northern Flicker Sounds/XC964340 - Northern Flicker - Colaptes auratus.wav",
-      "Northern Flicker Sounds/XC1007124 - Northern Flicker - Colaptes auratus.mp3"
+      "/sounds/Northern_Flicker_Sounds/XC753469 - Northern Flicker - Colaptes auratus cafer.mp3",
+      "/sounds/Northern_Flicker_Sounds/XC822641 - Northern Flicker - Colaptes auratus.wav",
+      "/sounds/Northern_Flicker_Sounds/XC964340 - Northern Flicker - Colaptes auratus.wav",
+      "/sounds/Northern_Flicker_Sounds/XC1007124 - Northern Flicker - Colaptes auratus.mp3"
     ]
   },
   {
@@ -224,10 +224,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/638428041/embed",
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/638587357/embed",
     soundFiles: [
-      "Song Sparrow Sounds/XC972394 - Song Sparrow - Melospiza melodia.wav",
-      "Song Sparrow Sounds/XC420592 - Song Sparrow - Melospiza melodia.mp3",
-      "Song Sparrow Sounds/XC540240 - Song Sparrow - Melospiza melodia.mp3",
-      "Song Sparrow Sounds/XC545910 - Song Sparrow - Melospiza melodia.mp3"
+      "/sounds/Song_Sparrow_Sounds/XC972394 - Song Sparrow - Melospiza melodia.wav",
+      "/sounds/Song_Sparrow_Sounds/XC420592 - Song Sparrow - Melospiza melodia.mp3",
+      "/sounds/Song_Sparrow_Sounds/XC540240 - Song Sparrow - Melospiza melodia.mp3",
+      "/sounds/Song_Sparrow_Sounds/XC545910 - Song Sparrow - Melospiza melodia.mp3"
     ]
   },
   {
@@ -246,10 +246,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/22914/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/99340/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "Spotted Towhee Sounds/XC972205 - Spotted Towhee - Pipilo maculatus.wav",
-      "Spotted Towhee Sounds/XC972216 - Spotted Towhee - Pipilo maculatus.wav",
-      "Spotted Towhee Sounds/XC1015396 - Spotted Towhee - Pipilo maculatus oregonus.mp3",
-      "Spotted Towhee Sounds/XC545912 - Spotted Towhee - Pipilo maculatus.mp3"
+      "/sounds/Spotted_Towhee_Sounds/XC972205 - Spotted Towhee - Pipilo maculatus.wav",
+      "/sounds/Spotted_Towhee_Sounds/XC972216 - Spotted Towhee - Pipilo maculatus.wav",
+      "/sounds/Spotted_Towhee_Sounds/XC1015396 - Spotted Towhee - Pipilo maculatus oregonus.mp3",
+      "/sounds/Spotted_Towhee_Sounds/XC545912 - Spotted Towhee - Pipilo maculatus.mp3"
     ]
   },
   {
@@ -268,10 +268,10 @@ const birdSpecies = [
     macaulayEmbed: "https://macaulaylibrary.org/asset/623547073/embed", // Add actual Macaulay Library URL
     macaulayCallEmbed: "https://macaulaylibrary.org/asset/638565842/embed", // Add actual Macaulay Library call URL
     soundFiles: [
-      "Steller's Jay Sounds/XC441356 - Steller's Jay - Cyanocitta stelleri.mp3",
-      "Steller's Jay Sounds/XC540290 - Steller's Jay - Cyanocitta stelleri.mp3",
-      "Steller's Jay Sounds/XC940917 - Steller's Jay - Cyanocitta stelleri.wav",
-      "Steller's Jay Sounds/XC829229 - Steller's Jay - Cyanocitta stelleri.mp3"
+      "/sounds/Steller_Jay_Sounds/XC441356 - Steller's Jay - Cyanocitta stelleri.mp3",
+      "/sounds/Steller_Jay_Sounds/XC540290 - Steller's Jay - Cyanocitta stelleri.mp3",
+      "/sounds/Steller_Jay_Sounds/XC940917 - Steller's Jay - Cyanocitta stelleri.wav",
+      "/sounds/Steller_Jay_Sounds/XC829229 - Steller's Jay - Cyanocitta stelleri.mp3"
     ]
   }
 ];
