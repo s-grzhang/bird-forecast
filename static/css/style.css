@@ -17,7 +17,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 html, body {
   margin: 0;
   padding: 0;
-  overflow: auto; /* Hide the scrollbar, if needed */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%;
+  max-width: 100%;
 }
 
 /* Style for the first page with a white background */
@@ -364,8 +366,6 @@ html, body {
       width: 100%;
       max-width: 100%;
       margin-top: 20px;
-      margin-left: 20px;
-      margin-right: 20px;
       align-items: center;
       flex-wrap: nowrap;
       overflow: hidden;
