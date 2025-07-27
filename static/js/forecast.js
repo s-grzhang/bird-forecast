@@ -132,7 +132,6 @@ const getFrequencyBadge = (count) => {
 };
 
 const createBirdCard = (species, count, details) => {
-    const frequency = getFrequencyBadge(count);
     const imageSrc = birdImages[species] || '/images/logo.png'; // Fallback to logo if no specific image
     
     return `
@@ -140,14 +139,7 @@ const createBirdCard = (species, count, details) => {
             <img src="${imageSrc}" alt="${species}" class="bird-image" onerror="this.src='/images/logo.png'">
             <div class="bird-info">
                 <div class="bird-name">${species}</div>
-                <div class="bird-details">
-                    Seen ${count} times in ${details.locations.length} location(s)
-                    ${details.avgCount > 1 ? `• Average count: ${details.avgCount}` : ''}
-                </div>
             </div>
-            <span class="frequency-badge" style="background-color: ${frequency.color}">
-                ${frequency.text}
-            </span>
         </div>
     `;
 };

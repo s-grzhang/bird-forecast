@@ -50,6 +50,9 @@ BIRD_IMAGE_MAPPING = {
     'Vaux\'s Swift': 'Vaux\'s Swift.jpg',
     'Western Wood-Pewee': 'western wood pewee.jpg',
     'Pied-billed Grebe': 'Pied-billed Grebe.jpg',
+    'Canada Goose': 'Canada Goose.jpg',
+    'Common Nighthawk': 'Common Nighthawk.jpg',
+    'Barn Owl': 'Barn Owl.jpg',
     
     # Images from subfolders (using Learn folder images)
     'European Starling': 'European Starling/Learn/Breeding Adult European Starling.jpg',
