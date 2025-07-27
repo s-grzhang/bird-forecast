@@ -23,7 +23,7 @@
           <li class="dropdown">
             <a href="#">Birdwatching</a>
             <ul class="dropdown-content">
-          <li><a href="/birds">Birds</a></li>
+          <li><a href="/birds">Learn</a></li>
           <li><a href="/hotspots">Hotspots</a></li>
             </ul>
           </li>
@@ -57,7 +57,7 @@
     <div class="card">
         <img src="{{ url_for('static', filename='images/region-icon.png') }}" alt="Region Specific Information Icon">
         <h3>Region Specific Information</h3>
-        <p>Glean information about birdwatching hotspots, birding tips, & bird species specific to King County.</p>
+        <p>Glean information about birdwatching hotspots & bird species specific to King County.</p>
     </div>
     
 </div>
@@ -66,7 +66,7 @@
   <!-- Text Section on the Left -->
   <div class="text-section">
       <h2>Contribute to Community Science</h2>
-      <p>Your sightings contribute to conservation decisions and peer-reviewed papers, student projects, and help inform bird research in King County.</p>
+      <p>Your sightings contribute to the success of birdwatchers in King County.</p>
       <a href="/submit" class="learn-more-button">Contribute</a>
   </div>
   
@@ -126,7 +126,7 @@
   <!-- Text Section on the Left -->
   <div class="text-section-maps">
       <h2>Explore Hotspots Near You</h2>
-      <p>Find nature trails you never knew existed & bird species you never imagined to find with our interactive map!</p>
+      <p>Find birding locations you never knew existed & bird species you never imagined to find with our interactive map!</p>
       <a href="/hotspots" class="learn-more-button">Explore</a>
   </div>
   
@@ -140,26 +140,18 @@
   </div>
   <div class = "cards-blog-container">
   <div class="card-blog">
-    <img src="{{ url_for('static', filename='images/Field Guide.jpg') }}" alt="Field Guide">
-    <h3>Best Field Guides</h3>
-    <p>This is a short description for card 1. It gives a brief idea of the content.</p>
-    <a href="#">Read More</a>
+    <img src="{{ url_for('static', filename='images/American Robin Singing.jpg') }}" alt="American Robin Singing">
+    <h3>Learn Birdsong</h3>
+    <p>Learn the songs and calls of 12 common birds in King County, then test yourself to see whether you are ready for the field!</p>
+    <a href="/birds">Start Birding</a>
 </div>
 
 <!-- Card 2 -->
 <div class="card-blog">
-    <img src="{{ url_for('static', filename='images/equipment.jpg') }}" alt="Binoculars & a Field Guide">
-    <h3>Equipment for the Beginning Birder</h3>
-    <p>This is a short description for card 2. It gives a brief idea of the content.</p>
-    <a href="#">Read More</a>
-</div>
-
-<!-- Card 3 -->
-<div class="card-blog">
-    <img src="{{ url_for('static', filename='images/chickadee ID.png') }}" alt="Black-capped Chickadee">
-    <h3>How to Identify Birds</h3>
-    <p>This is a short description for card 3. It gives a brief idea of the content.</p>
-    <a href="#">Read More</a>
+    <img src="{{ url_for('static', filename='images/Bird ID.png') }}" alt="Song Sparrow Singing">
+    <h3>Learn Visual Bird Identification</h3>
+    <p>Learn the appearance of 12 common birds in King County, then take a quiz to determine whether you are field-ready.</p>
+    <a href="/birds">Start Birding</a>
 </div>
 </div>
 <script src="{{ url_for('static', filename='js/script.js') }}"></script>
