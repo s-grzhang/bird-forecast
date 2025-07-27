@@ -1,40 +1,40 @@
 // Hotspot data: name, code, lat, lng, and a short blurb
 const hotspots = [
   {
-    name: 'Union Bay Natural Area', code: 'L162766', lat: 47.6536, lng: -122.2956,
-    blurb: 'A premier birding site on Lake Washington, known for waterfowl and raptors.'
+    name: 'Union Bay Natural Area (Montlake Fill)', code: 'L162766', lat: 47.6536, lng: -122.2956,
+    blurb: 'A premier birding hotspot near the University of Washington, featuring diverse microhabitats that attract over 250 species. Best visited during late fall through early spring for waterfowl viewing.'
   },
   {
     name: 'Discovery Park', code: 'L128530', lat: 47.6591, lng: -122.4156,
-    blurb: 'Seattle’s largest park with diverse habitats and excellent year-round birding.'
+    blurb: 'Seattle\'s largest park, encompassing 534 acres of varied habitats including beaches, forests, and meadows. Over 270 bird species have been recorded here, making it ideal for both resident and migratory birdwatching.'
   },
   {
     name: 'Magnuson Park', code: 'L269461', lat: 47.6829, lng: -122.2471,
-    blurb: 'Restored wetlands and shoreline attract a wide variety of birds.'
+    blurb: 'A 227-acre park on Lake Washington\'s west shore, offering a mix of forest, wetland, and shoreline habitats. Supports a variety of bird species, including songbirds and waterfowl.'
   },
   {
     name: 'Marymoor Park', code: 'L351484', lat: 47.6622, lng: -122.1169,
-    blurb: 'A hotspot for songbirds, waterfowl, and raptors in the Sammamish area.'
+    blurb: 'A 640-acre park in Redmond with diverse habitats such as wetlands, grasslands, and woodlands. Over 200 bird species have been observed, including herons, woodpeckers, and warblers.'
   },
   {
     name: 'Juanita Bay Park', code: 'L232479', lat: 47.7002, lng: -122.2056,
-    blurb: 'Boardwalks and marshes make this a favorite for waterbirds and herons.'
+    blurb: 'A 110-acre wildlife refuge in Kirkland, featuring wetlands and forested areas along Lake Washington. Home to over 200 bird species, including Bald Eagles and various waterfowl.'
   },
   {
     name: 'Carkeek Park', code: 'L298030', lat: 47.7125, lng: -122.3767,
-    blurb: 'A mix of forest, stream, and Puget Sound shoreline for diverse birding.'
+    blurb: 'A 220-acre park in northwest Seattle, offering forest, stream, and beach habitats. Supports a wide variety of bird species, including chickadees, sparrows, and seabirds.'
   },
   {
     name: 'Lake Sammamish State Park', code: 'L321969', lat: 47.5457, lng: -122.0651,
-    blurb: 'Lakeshore, wetlands, and woods attract a variety of species.'
+    blurb: 'A 512-acre state park in Issaquah, featuring lakeshore, wetland, and forest habitats. Popular for birdwatching, with sightings of species like Mallards, American Robins, and Wilson\'s Warblers.'
   },
   {
     name: 'Kent Ponds', code: 'L257959', lat: 47.3897, lng: -122.2342,
-    blurb: 'Wetlands and ponds are great for ducks, shorebirds, and raptors.'
+    blurb: 'A 300-acre site in Kent, consisting of grassy meadows, cottonwood forests, and freshwater impoundments. Supports a variety of bird species, including raptors and shorebirds.'
   },
   {
-    name: 'Alki Ponds', code: 'L207315', lat: 47.5702, lng: -122.3626,
-    blurb: 'Urban ponds with surprising bird diversity, especially in migration.'
+    name: 'Alki Beach', code: 'L207315', lat: 47.5702, lng: -122.3626,
+    blurb: 'A popular waterfront area in West Seattle, offering views of Puget Sound and the Olympic Mountains. Attracts seabirds, gulls, and migratory species, making it a great spot for coastal birdwatching.'
   }
 ];
 
