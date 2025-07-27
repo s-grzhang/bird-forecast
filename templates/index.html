@@ -32,7 +32,7 @@
     </header>
   <div class="banner">
     <h1>What birds will you to see today?</h1>
-    <a href="forecast.html">
+    <a href="/forecast">
       <button type="button">Forecast Your Trip</button>
   </a>
   
@@ -67,7 +67,7 @@
   <div class="text-section">
       <h2>Contribute to Community Science</h2>
       <p>Your sightings contribute to conservation decisions and peer-reviewed papers, student projects, and help inform bird research in King County.</p>
-      <a href="submit.html" class="learn-more-button">Contribute</a>
+      <a href="/submit" class="learn-more-button">Contribute</a>
   </div>
   
   <!-- Image Section on the Right -->
@@ -127,7 +127,7 @@
   <div class="text-section-maps">
       <h2>Explore Hotspots Near You</h2>
       <p>Find nature trails you never knew existed & bird species you never imagined to find with our interactive map!</p>
-      <a href="hotspots.html" class="learn-more-button">Explore</a>
+      <a href="/hotspots" class="learn-more-button">Explore</a>
   </div>
   
   <!-- Image Section on the Right -->
@@ -166,5 +166,5 @@
 <script src="{{ url_for('static', filename='js/common-birds.js') }}"></script>
 </body>
 <footer>
-  <p>&copy; 2024 Grace Zhang</p>
+  <p>&copy; <script>document.write(new Date().getFullYear());</script> Grace Zhang</p>
 </footer>
