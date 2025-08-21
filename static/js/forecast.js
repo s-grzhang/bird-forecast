@@ -1,5 +1,5 @@
-// eBird API configuration
-const EBIRD_API_KEY = 'fnqq0qvc0dc1'; // Using the same API key from data_scraper.py
+// eBird API configuration - will be set by server
+let EBIRD_API_KEY = null;
 const EBIRD_BASE_URL = 'https://api.ebird.org/v2';
 
 // DOM elements
@@ -212,6 +212,20 @@ const initializeForm = () => {
     
     console.log('Forecast form initialized');
 };
+
+// Function to initialize API key from server
+const initializeAPIKey = async () => {
+    try {
+        const response = await fetch('/api/config');
+        const config = await response.json();
+        EBIRD_API_KEY = config.ebird_api_key;
+    } catch (error) {
+        console.error('Failed to load API configuration:', error);
+    }
+};
+
+// Initialize API key when page loads
+document.addEventListener('DOMContentLoaded', initializeAPIKey);
 
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', initializeForm); 

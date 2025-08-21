@@ -43,16 +43,15 @@ const initializeFirebase = async () => {
         const { getFirestore, collection, query, where, orderBy, limit, getDocs, Timestamp } = await import('https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js');
         console.log('✅ Firestore imported');
 
-        // Firebase configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyA0yxFTwKgT2EzczVSM0Cti9PtUfs0auSM",
-            authDomain: "king-co-forecase.firebaseapp.com",
-            projectId: "king-co-forecase",
-            storageBucket: "king-co-forecase.firebasestorage.app",
-            messagingSenderId: "657363005946",
-            appId: "1:657363005946:web:b4284f3280818e22527443",
-            measurementId: "G-QGQ5J7EEJS"
-        };
+        // Firebase configuration - will be loaded from server
+        let firebaseConfig = null;
+        try {
+            const response = await fetch('/api/firebase-config');
+            firebaseConfig = await response.json();
+        } catch (error) {
+            console.error('Failed to load Firebase configuration:', error);
+            return false;
+        }
 
         console.log('🚀 Initializing Firebase...');
         const app = initializeApp(firebaseConfig);

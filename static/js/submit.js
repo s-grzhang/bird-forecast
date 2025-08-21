@@ -2,19 +2,29 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js';
 import { getFirestore, collection, addDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyA0yxFTwKgT2EzczVSM0Cti9PtUfs0auSM",
-  authDomain: "king-co-forecase.firebaseapp.com",
-  projectId: "king-co-forecase",
-  storageBucket: "king-co-forecase.firebasestorage.app",
-  messagingSenderId: "657363005946",
-  appId: "1:657363005946:web:b4284f3280818e22527443",
-  measurementId: "G-QGQ5J7EEJS"
+// Firebase configuration - will be loaded from server
+let firebaseConfig = null;
+let app = null;
+let db = null;
+
+// Function to initialize Firebase with configuration from server
+const initializeFirebase = async () => {
+    try {
+        const response = await fetch('/api/firebase-config');
+        const config = await response.json();
+        firebaseConfig = config;
+        
+        // Initialize Firebase
+        app = initializeApp(firebaseConfig);
+        db = getFirestore(app);
+        console.log('Firebase initialized successfully');
+    } catch (error) {
+        console.error('Failed to initialize Firebase:', error);
+    }
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+// Initialize Firebase when page loads
+document.addEventListener('DOMContentLoaded', initializeFirebase);
 
 // Function to add new bird species and count fields
 const addField = () => {

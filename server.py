@@ -18,7 +18,9 @@ def serve_sounds(filename):
     return send_from_directory('static/sounds', filename)
 
 # eBird API configuration
-EBIRD_API_KEY = 'fnqq0qvc0dc1'
+EBIRD_API_KEY = os.getenv('EBIRD_API_KEY')
+if not EBIRD_API_KEY:
+    raise ValueError("EBIRD_API_KEY environment variable is required. Please set it in your .env file.")
 EBIRD_BASE_URL = 'https://api.ebird.org/v2'
 
 # King County region code
@@ -249,4 +251,4 @@ def health():
 
 if __name__ == '__main__':
     print("Starting Bird Forecast Server...")
-    app.run(debug=True) 
+    app.run(debug=False, host='0.0.0.0', port=5000) 

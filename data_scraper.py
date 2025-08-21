@@ -1,9 +1,16 @@
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
+import os
+from dotenv import load_dotenv
 
-# Your eBird API key
-API_KEY = 'fnqq0qvc0dc1'
+# Load environment variables
+load_dotenv()
+
+# Get eBird API key from environment variable
+API_KEY = os.getenv('EBIRD_API_KEY')
+if not API_KEY:
+    raise ValueError("EBIRD_API_KEY environment variable is required. Please set it in your .env file.")
 
 # Function to parse dates in multiple formats
 def parse_date(date_str):
