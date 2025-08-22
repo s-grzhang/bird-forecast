@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify, send_from_directory, render_template
 import requests
 from datetime import datetime, timedelta
 import os
@@ -19,7 +19,9 @@ def create_app(config_name=None):
     if config_name is None:
         config_name = os.getenv('FLASK_ENV', 'default')
     
-    app = Flask(__name__)
+    app = Flask(__name__, 
+                template_folder='templates',
+                static_folder='static')
     app.config.from_object(config[config_name])
     
     # Validate configuration
@@ -113,7 +115,55 @@ def get_ebird_species_info(species_code):
 
 @app.route('/')
 def index():
-    return send_from_directory('.', 'index.html')
+    return render_template('index.html')
+
+@app.route('/forecast')
+def forecast_page():
+    return render_template('forecast.html')
+
+@app.route('/submit')
+def submit_page():
+    return render_template('submit.html')
+
+@app.route('/calendar')
+def calendar_page():
+    return render_template('calendar.html')
+
+@app.route('/hotspots')
+def hotspots_page():
+    return render_template('hotspots.html')
+
+@app.route('/birds')
+def birds_page():
+    return render_template('birds.html')
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory('static', 'images/logo.png')
+
+@app.route('/static/images/<path:filename>')
+def serve_images(filename):
+    """Serve images from static/images directory"""
+    try:
+        # Handle URL-encoded filenames (spaces, special characters)
+        import urllib.parse
+        decoded_filename = urllib.parse.unquote(filename)
+        return send_from_directory('static/images', decoded_filename)
+    except Exception as e:
+        log_security_event("IMAGE_SERVING_ERROR", f"Error serving image {filename}: {str(e)}")
+        return jsonify({'error': 'Image not found'}), 404
+
+@app.route('/sounds/<path:filename>')
+def serve_sounds(filename):
+    """Serve sound files from static/sounds directory"""
+    try:
+        # Handle URL-encoded filenames (spaces, special characters)
+        import urllib.parse
+        decoded_filename = urllib.parse.unquote(filename)
+        return send_from_directory('static/sounds', decoded_filename)
+    except Exception as e:
+        log_security_event("SOUND_SERVING_ERROR", f"Error serving sound {filename}: {str(e)}")
+        return jsonify({'error': 'Sound file not found'}), 404
 
 @app.route('/<path:filename>')
 def serve_static(filename):
@@ -122,13 +172,29 @@ def serve_static(filename):
         log_security_event("PATH_TRAVERSAL_ATTEMPT", f"Attempted path traversal: {filename}")
         return jsonify({'error': 'Invalid filename'}), 400
     
+    # Handle API routes
+    if filename.startswith('api/'):
+        # Let Flask handle API routes normally
+        return jsonify({'error': 'API endpoint not found'}), 404
+    
     # Only serve allowed file types
-    allowed_extensions = {'.html', '.css', '.js', '.png', '.jpg', '.jpeg', '.gif', '.ico'}
+    allowed_extensions = {'.html', '.css', '.js', '.png', '.jpg', '.jpeg', '.gif', '.ico', '.mp3', '.wav', '.ogg', '.m4a'}
     if not any(filename.lower().endswith(ext) for ext in allowed_extensions):
         log_security_event("INVALID_FILE_TYPE", f"Attempted to access: {filename}")
         return jsonify({'error': 'File type not allowed'}), 400
     
-    return send_from_directory('.', filename)
+    # Serve HTML files from templates, other files from static
+    if filename.endswith('.html'):
+        return send_from_directory('templates', filename)
+    else:
+        # Handle URL-encoded filenames (spaces, special characters)
+        try:
+            import urllib.parse
+            decoded_filename = urllib.parse.unquote(filename)
+            return send_from_directory('static', decoded_filename)
+        except Exception as e:
+            log_security_event("FILE_SERVING_ERROR", f"Error serving file {filename}: {str(e)}")
+            return jsonify({'error': 'File not found'}), 404
 
 @app.route('/api/forecast', methods=['POST'])
 @rate_limit
@@ -219,11 +285,27 @@ def get_config():
         'ebird_base_url': EBIRD_BASE_URL
     })
 
+@app.route('/test')
+def test():
+    """Simple test route to verify routing is working"""
+    return jsonify({'message': 'Test route working!', 'timestamp': str(datetime.now())})
+
 @app.route('/api/firebase-config')
 def get_firebase_config():
     """Return Firebase configuration for frontend"""
+    # Debug: Print all environment variables
+    print("=== Firebase Environment Variables Debug ===")
+    print(f"FIREBASE_API_KEY: {os.getenv('FIREBASE_API_KEY')}")
+    print(f"FIREBASE_AUTH_DOMAIN: {os.getenv('FIREBASE_AUTH_DOMAIN')}")
+    print(f"FIREBASE_PROJECT_ID: {os.getenv('FIREBASE_PROJECT_ID')}")
+    print(f"FIREBASE_STORAGE_BUCKET: {os.getenv('FIREBASE_STORAGE_BUCKET')}")
+    print(f"FIREBASE_MESSAGING_SENDER_ID: {os.getenv('FIREBASE_MESSAGING_SENDER_ID')}")
+    print(f"FIREBASE_APP_ID: {os.getenv('FIREBASE_APP_ID')}")
+    print(f"FIREBASE_MEASUREMENT_ID: {os.getenv('FIREBASE_MEASUREMENT_ID')}")
+    print("==========================================")
+    
     firebase_config = {
-        'apiKey': os.getenv('GOOGLE_MAPS_API_KEY'),
+        'apiKey': os.getenv('FIREBASE_API_KEY'),  # Changed from GOOGLE_MAPS_API_KEY
         'authDomain': os.getenv('FIREBASE_AUTH_DOMAIN'),
         'projectId': os.getenv('FIREBASE_PROJECT_ID'),
         'storageBucket': os.getenv('FIREBASE_STORAGE_BUCKET'),
@@ -232,11 +314,54 @@ def get_firebase_config():
         'measurementId': os.getenv('FIREBASE_MEASUREMENT_ID')
     }
     
-    # Check if all required Firebase config is present
-    if not all(firebase_config.values()):
-        return jsonify({'error': 'Firebase configuration incomplete'}), 500
+    # Check if essential Firebase config is present (don't require all fields)
+    essential_fields = ['apiKey', 'projectId', 'authDomain']
+    missing_essential = [field for field in essential_fields if not firebase_config[field]]
     
+    if missing_essential:
+        print(f"Warning: Missing essential Firebase config: {missing_essential}")
+        # Return partial config instead of error
+        partial_config = {k: v for k, v in firebase_config.items() if v}
+        print(f"Returning partial config: {partial_config}")
+        return jsonify(partial_config)
+    
+    print(f"Returning full Firebase config: {firebase_config}")
     return jsonify(firebase_config)
+
+@app.route('/api/common-birds')
+def get_common_birds():
+    """Return common birds for the current month"""
+    try:
+        # Get current month's date range
+        now = datetime.now()
+        start_of_month = now.replace(day=1)
+        if now.month == 12:
+            end_of_month = now.replace(year=now.year + 1, month=1, day=1) - timedelta(days=1)
+        else:
+            end_of_month = now.replace(month=now.month + 1, day=1) - timedelta(days=1)
+        
+        # For now, return a sample list of common birds
+        # In a real implementation, you'd fetch this from eBird API
+        common_birds = [
+            {'name': 'American Robin', 'count': 45, 'image': '/static/images/American%20Robin.png'},
+            {'name': 'American Crow', 'count': 32, 'image': '/static/images/American%20Crow.png'},
+            {'name': 'Northern Shoveler', 'count': 28, 'image': '/static/images/Northern%20Shoveler.png'},
+            {'name': 'Pine Siskin', 'count': 25, 'image': '/static/images/Pine%20Siskin.png'},
+            {'name': 'Chestnut-backed Chickadee', 'count': 22, 'image': '/static/images/Chestnut-backed%20Chickadee.png'},
+            {'name': 'American Coot', 'count': 20, 'image': '/static/images/American%20Coot.png'},
+            {'name': 'Steller\'s Jay', 'count': 18, 'image': '/static/images/Steller\'s%20Jay.png'},
+            {'name': 'California Gull', 'count': 15, 'image': '/static/images/California%20Gull.png'}
+        ]
+        
+        return jsonify({
+            'birds': common_birds,
+            'month': now.strftime('%B %Y'),
+            'total_species': len(common_birds)
+        })
+        
+    except Exception as e:
+        log_security_event("COMMON_BIRDS_ERROR", f"Error getting common birds: {str(e)}")
+        return jsonify({'error': 'Internal server error'}), 500
 
 @app.errorhandler(404)
 def not_found(error):

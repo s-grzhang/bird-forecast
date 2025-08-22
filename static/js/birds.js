@@ -777,12 +777,26 @@ const loadQuestion = () => {
     }
   } else if (currentQuizType === 'sound') {
     // Set up audio player for sound quiz
-    quizAudio.src = question.soundFile;
+    // URL encode the sound file path to handle spaces and special characters
+    const encodedSoundFile = encodeURI(question.soundFile);
+    console.log('Loading sound file:', question.soundFile, '-> encoded:', encodedSoundFile);
+    quizAudio.src = encodedSoundFile;
     quizAudio.load();
     soundFileName.textContent = 'Bird Sound'; // Generic name to avoid giving away the answer
     quizAudio.currentTime = 0;
     playSoundButton.textContent = '▶';
     playSoundButton.disabled = false;
+    
+    // Add error handling for audio loading
+    quizAudio.onerror = (e) => {
+      console.error('Error loading audio file:', encodedSoundFile, e);
+      soundFileName.textContent = 'Audio file could not be loaded';
+      playSoundButton.disabled = true;
+    };
+    
+    quizAudio.oncanplay = () => {
+      console.log('Audio file loaded successfully:', encodedSoundFile);
+    };
     
     // Set up play button functionality
     playSoundButton.onclick = () => {

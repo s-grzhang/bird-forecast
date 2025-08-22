@@ -13,7 +13,7 @@ def add_security_headers(response):
     response.headers['X-Frame-Options'] = 'SAMEORIGIN'
     response.headers['X-XSS-Protection'] = '1; mode=block'
     response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
-    response.headers['Content-Security-Policy'] = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
+    response.headers['Content-Security-Policy'] = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.gstatic.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.openstreetmap.org https://unpkg.com; media-src 'self' https://macaulaylibrary.org; frame-src 'self' https://macaulaylibrary.org; connect-src 'self' https://www.googleapis.com https://firestore.googleapis.com https://*.openstreetmap.org;"
     return response
 
 def sanitize_string(input_string, max_length=100):

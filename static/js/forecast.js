@@ -45,6 +45,19 @@ const hotspotCodeToName = {
     'L207315': 'Alki Beach'
 };
 
+// Region code to location name mapping
+const regionCodeToLocation = {
+    'L162766': 'Union Bay',
+    'L128530': 'Discovery Park', 
+    'L269461': 'Magnuson Park',
+    'L351484': 'Marymoor Park',
+    'L232479': 'Juanita Bay Park',
+    'L298030': 'Carkeek Park',
+    'L321969': 'Lake Sammamish State Park',
+    'L257959': 'Kent Ponds',
+    'L207315': 'Alki Beach'
+};
+
 // Utility functions
 const showLoading = () => {
     loading.classList.add('show');
@@ -90,16 +103,23 @@ const getTimeRange = (timeOfDay) => {
 };
 
 // API functions
-const fetchEBirdData = async (regionName, date) => {
+const fetchEBirdData = async (regionCode, date) => {
     try {
-        const response = await fetch('/api/bird-forecast', {
+        // Convert region code to location name
+        const locationName = regionCodeToLocation[regionCode];
+        if (!locationName) {
+            throw new Error('Invalid location selected');
+        }
+
+        const response = await fetch('/api/forecast', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                region_code: regionName,
-                date: date
+                location: locationName,
+                date: date,
+                time: '12:00' // Default time since the form doesn't collect it
             })
         });
 
@@ -131,24 +151,25 @@ const getFrequencyBadge = (count) => {
     return { text: 'Rare', color: '#f44336' };
 };
 
-const createBirdCard = (species, count, details) => {
-    const imageSrc = birdImages[species] || '/images/logo.png'; // Fallback to logo if no specific image
+const createBirdCard = (species, count, description) => {
+    const imageSrc = birdImages[species] || '/static/images/logo.png'; // Fallback to logo if no specific image
     
     return `
         <div class="bird-card">
-            <img src="${imageSrc}" alt="${species}" class="bird-image" onerror="this.src='/images/logo.png'">
+            <img src="${imageSrc}" alt="${species}" class="bird-image" onerror="this.src='/static/images/logo.png'">
             <div class="bird-info">
                 <div class="bird-name">${species}</div>
+                <div class="bird-count">Count: ${count}</div>
+                <div class="bird-description">${description}</div>
             </div>
         </div>
     `;
 };
 
 const displayResults = (data, formData) => {
-    const { birds, counts, details } = data;
-    const locationDisplay = hotspotCodeToName[formData.location] || formData.location;
+    const { birds, location, date, time, total_species } = data;
     
-    if (birds.length === 0) {
+    if (!birds || birds.length === 0) {
         birdResults.innerHTML = `
             <div class="no-results">
                 <h3>No recent bird sightings found</h3>
@@ -156,14 +177,15 @@ const displayResults = (data, formData) => {
             </div>
         `;
     } else {
-        const resultsHTML = birds.map(species => 
-            createBirdCard(species, counts[species], details[species])
+        const resultsHTML = birds.map(bird => 
+            createBirdCard(bird.common_name, bird.count, bird.description)
         ).join('');
 
         birdResults.innerHTML = `
             <div style="margin-bottom: 20px;">
-                <p><strong>Forecast for ${formatDate(formData.date)} at ${formData.time}</strong></p>
-                <p>Based on recent sightings in ${locationDisplay}</p>
+                <p><strong>Forecast for ${formatDate(date)} at ${time}</strong></p>
+                <p>Based on recent sightings in ${location}</p>
+                <p>Found ${total_species} species in your area</p>
             </div>
             ${resultsHTML}
         `;

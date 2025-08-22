@@ -53,7 +53,7 @@ class CommonBirdsManager {
         birdDiv.className = 'bird';
         
         const img = document.createElement('img');
-        img.src = `/images/${bird.image}`;
+        img.src = bird.image; // Use the full path from the API
         img.alt = bird.name;
         img.loading = 'lazy'; // Lazy loading for better performance
         
