@@ -19,7 +19,7 @@ This application requires a modern web browser with support for:
 
 ## Roadmap
 
-* Implement a pipeline to feed user data into custon AI.
+* Implement a pipeline to feed user data into custom AI.
 * Replace eBird API with custom AI.
 Will be completed after user traffic increases.
 
