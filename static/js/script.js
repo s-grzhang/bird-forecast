@@ -29,8 +29,8 @@ const formatTime = (timestamp) => {
 
 const isSameDay = (date1, date2) => {
     return date1.getDate() === date2.getDate() &&
-           date1.getMonth() === date2.getMonth() &&
-           date1.getFullYear() === date2.getFullYear();
+        date1.getMonth() === date2.getMonth() &&
+        date1.getFullYear() === date2.getFullYear();
 };
 
 // Firebase initialization (async, doesn't block main functionality)
@@ -44,26 +44,19 @@ const initializeFirebase = async () => {
         console.log('✅ Firestore imported');
 
         // Firebase configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyA0yxFTwKgT2EzczVSM0Cti9PtUfs0auSM",
-            authDomain: "king-co-forecase.firebaseapp.com",
-            projectId: "king-co-forecase",
-            storageBucket: "king-co-forecase.firebasestorage.app",
-            messagingSenderId: "657363005946",
-            appId: "1:657363005946:web:b4284f3280818e22527443",
-            measurementId: "G-QGQ5J7EEJS"
-        };
+        // Firebase configuration
+        const firebaseConfig = window.firebaseConfig;
 
         console.log('🚀 Initializing Firebase...');
         const app = initializeApp(firebaseConfig);
         console.log('✅ Firebase app initialized');
         db = getFirestore(app);
         console.log('✅ Firestore initialized');
-        
+
         // Store Firebase functions globally
         window.firebaseUtils = { collection, query, where, orderBy, limit, getDocs, Timestamp };
         firebaseLoaded = true;
-        
+
         console.log('🔥 Firebase is now ready!');
         return true;
     } catch (error) {
@@ -101,13 +94,13 @@ const fetchSightingsForDate = async (date) => {
 
     try {
         console.log('Fetching sightings for date:', date.toDateString());
-        
+
         const { collection, query, where, orderBy, limit, getDocs, Timestamp } = window.firebaseUtils;
-        
+
         // Create start and end of day timestamps
         const startOfDay = new Date(date);
         startOfDay.setHours(0, 0, 0, 0);
-        
+
         const endOfDay = new Date(date);
         endOfDay.setHours(23, 59, 59, 999);
 
@@ -129,7 +122,7 @@ const fetchSightingsForDate = async (date) => {
             console.log('Query with "time" field found:', querySnapshot.size, 'results');
         } catch (timeError) {
             console.log('Query with "time" failed, trying "timestamp":', timeError.message);
-            
+
             // Try with 'timestamp' field
             try {
                 const qTimestamp = query(
@@ -143,16 +136,16 @@ const fetchSightingsForDate = async (date) => {
                 console.log('Query with "timestamp" field found:', querySnapshot.size, 'results');
             } catch (timestampError) {
                 console.log('Both queries failed, fetching all and filtering manually');
-                
+
                 // Fallback: get all sightings and filter manually
                 const allQuery = query(collection(db, 'sightings'), limit(50));
                 const allSnapshot = await getDocs(allQuery);
-                
+
                 allSnapshot.forEach((doc) => {
                     const data = doc.data();
                     const sightingDate = data.time?.toDate() || data.timestamp?.toDate();
-                    
-                    if (sightingDate && 
+
+                    if (sightingDate &&
                         sightingDate.getDate() === date.getDate() &&
                         sightingDate.getMonth() === date.getMonth() &&
                         sightingDate.getFullYear() === date.getFullYear()) {
@@ -162,7 +155,7 @@ const fetchSightingsForDate = async (date) => {
                         });
                     }
                 });
-                
+
                 console.log('Manual filtering found:', sightings.length, 'results');
                 return sightings.slice(0, 10);
             }
@@ -191,7 +184,7 @@ console.log('⏳ Waiting for DOM to be ready...');
 // Main calendar functionality - this runs immediately when DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
     console.log('🎯 DOM is ready! Setting up calendar...');
-    
+
     // Start Firebase initialization in background (non-blocking)
 
     initializeFirebase().then(success => {
@@ -201,11 +194,11 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log('⚠️ Calendar will work with demo data');
         }
     });
-    
+
     // Calendar functionality variables
     let currentDate = new Date();
     let selectedDate = null;
-    
+
     console.log('📅 Current date for calendar:', currentDate.toLocaleDateString("en-US", { month: "long", year: "numeric" }));
 
     // DOM elements - these should exist now
@@ -239,7 +232,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Sidebar functions - these work without Firebase
     const openSidebar = () => {
         console.log('🚪 openSidebar function called');
-        
+
         if (sidebar && sidebarOverlay) {
             sidebar.classList.add('active');
             sidebarOverlay.classList.add('active');
@@ -251,12 +244,12 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const closeSidebar = () => {
-        
+
         if (sidebar && sidebarOverlay) {
             sidebar.classList.remove('active');
             sidebarOverlay.classList.remove('active');
             document.body.style.overflow = '';
-            
+
             // Remove selected styling from calendar days
             document.querySelectorAll('.calendar-day.selected').forEach(day => {
                 day.classList.remove('selected');
@@ -266,20 +259,20 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const displaySightings = async (date, dayElement) => {
-        
+
         // Show selected date
         if (selectedDateElement) {
             selectedDateElement.textContent = formatDate(date);
         }
-        
+
         // Show loading message
         if (sightingsListElement) {
             sightingsListElement.innerHTML = '<div class="loading">Loading sightings...</div>';
         }
-        
+
         // Open sidebar first
         openSidebar();
-        
+
         // Add selected styling to clicked day
         document.querySelectorAll('.calendar-day.selected').forEach(day => {
             day.classList.remove('selected');
@@ -288,15 +281,15 @@ document.addEventListener("DOMContentLoaded", () => {
         if (dayElement) {
             dayElement.classList.add('selected');
         }
-        
+
         // Fetch and display sightings
         try {
             const sightings = await fetchSightingsForDate(date);
-            
+
             if (!sightingsListElement) {
                 return;
             }
-            
+
             if (sightings.length === 0) {
                 sightingsListElement.innerHTML = `
                     <div class="no-sightings">
@@ -306,21 +299,21 @@ document.addEventListener("DOMContentLoaded", () => {
                 `;
             } else {
                 let sightingsHTML = `<h4 style="margin-bottom: 15px; color: #20568d; font-family: 'Quicksand', sans-serif;">Top ${sightings.length} Sightings</h4>`;
-                
+
                 sightings.forEach((sighting, index) => {
                     sightingsHTML += `
                         <div class="sighting-item">
                             <div class="sighting-location">${sighting.location || 'Unknown Location'}</div>
                             <div class="sighting-time">${formatTime(sighting.timestamp || sighting.time)}</div>
                             <div class="sighting-birds">
-                                ${(sighting.birds || []).map(bird => 
-                                    `<span class="bird-tag">${bird.species} (${bird.count})</span>`
-                                ).join('')}
+                                ${(sighting.birds || []).map(bird =>
+                        `<span class="bird-tag">${bird.species} (${bird.count})</span>`
+                    ).join('')}
                             </div>
                         </div>
                     `;
                 });
-                
+
                 sightingsListElement.innerHTML = sightingsHTML;
             }
         } catch (error) {
@@ -332,12 +325,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Calendar rendering function
     const renderCalendar = () => {
-        
+
         if (!datesElement) {
 
             return;
         }
-        
+
         // Get the first and last day of the current month
         const firstDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
         const lastDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
@@ -369,18 +362,18 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let day = 1; day <= lastDayOfMonth.getDate(); day++) {
             const dayDate = new Date(currentDate.getFullYear(), currentDate.getMonth(), day);
             const isToday = isSameDay(dayDate, new Date());
-            
+
             const dayElement = document.createElement('span');
             dayElement.className = `calendar-day ${isToday ? 'today' : ''}`;
             dayElement.textContent = day;
-            
-            
+
+
             // Add click event listener to each day
             dayElement.addEventListener('click', (event) => {
                 selectedDate = dayDate;
                 displaySightings(dayDate, dayElement);
             });
-            
+
             clickListenersAdded++;
             datesElement.appendChild(dayElement);
         }
@@ -417,13 +410,13 @@ document.addEventListener("DOMContentLoaded", () => {
             closeSidebar();
         });
     }
-    
+
     if (sidebarOverlay) {
         sidebarOverlay.addEventListener("click", () => {
             closeSidebar();
         });
     }
-    
+
     // Close sidebar with Escape key
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape' && sidebar && sidebar.classList.contains('active')) {
@@ -432,5 +425,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     // Initial calendar render
     renderCalendar();
-    
+
 });

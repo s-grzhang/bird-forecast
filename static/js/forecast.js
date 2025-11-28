@@ -1,5 +1,6 @@
 // eBird API configuration
-const EBIRD_API_KEY = 'fnqq0qvc0dc1'; // Using the same API key from data_scraper.py
+require('dotenv').config();
+const EBIRD_API_KEY = process.env.EBIRD_API_KEY; // Using the same API key from data_scraper.py
 const EBIRD_BASE_URL = 'https://api.ebird.org/v2';
 
 // DOM elements

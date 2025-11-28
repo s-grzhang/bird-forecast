@@ -1,90 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
+
 <body id="white-background">
-    <header class="header">
-      <div class="logo">
-        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Website Logo" class="logo">
-        <span class = "website-name">king county bird forecast</span>
-      </div>
-      <nav class="menu">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/submit">Submit</a></li>
-          <li><a href="/calendar">Calendar</a></li>
-          <li><a href="/forecast">Forecast</a></li>
-          <li class="dropdown">
-            <a href="#">Birdwatching</a>
-            <ul class="dropdown-content">
-          <li><a href="/birds">Learn</a></li>
-          <li><a href="/hotspots">Hotspots</a></li>
-            </ul>
-          </li>
+  <header class="header">
+    <div class="logo">
+      <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Website Logo" class="logo">
+      <span class="website-name">king county bird forecast</span>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/submit">Submit</a></li>
+        <li><a href="/calendar">Calendar</a></li>
+        <li><a href="/forecast">Forecast</a></li>
+        <li class="dropdown">
+          <a href="#">Birdwatching</a>
+          <ul class="dropdown-content">
+            <li><a href="/birds">Learn</a></li>
+            <li><a href="/hotspots">Hotspots</a></li>
+          </ul>
+        </li>
       </ul>
-      </nav>
-    </header>
+    </nav>
+  </header>
   <div class="banner">
     <h1>What birds will you to see today?</h1>
     <a href="/forecast">
       <button type="button">Forecast Your Trip</button>
-  </a>
-  
+    </a>
+
   </div>
   <div class="features">
-        
+
     <!-- Find More Birds Card -->
     <div class="card">
-        <img src="{{ url_for('static', filename='images/forecast-icon.png') }}" alt="Forecast Your Trip Icon">
-        <h3>Forecast Your Trip</h3>
-        <p>When should I go birding? What birds can I expect? Find out with our forecasting tool.</p>
+      <img src="{{ url_for('static', filename='images/forecast-icon.png') }}" alt="Forecast Your Trip Icon">
+      <h3>Forecast Your Trip</h3>
+      <p>When should I go birding? What birds can I expect? Find out with our forecasting tool.</p>
     </div>
-    
+
     <!-- Share Your Sightings Card -->
     <div class="card">
-        <img src="{{ url_for('static', filename='images/share-icon.png') }}" alt="Share Your Sightings Icon">
-        <h3>Share Your Sightings</h3>
-        <p>Contribute to the accuracy of the forecasting tool by sharing your sightings!</p>
+      <img src="{{ url_for('static', filename='images/share-icon.png') }}" alt="Share Your Sightings Icon">
+      <h3>Share Your Sightings</h3>
+      <p>Contribute to the accuracy of the forecasting tool by sharing your sightings!</p>
     </div>
-    
+
     <!-- Track Your Lists Card -->
     <div class="card">
-        <img src="{{ url_for('static', filename='images/region-icon.png') }}" alt="Region Specific Information Icon">
-        <h3>Region Specific Information</h3>
-        <p>Glean information about birdwatching hotspots & bird species specific to King County.</p>
+      <img src="{{ url_for('static', filename='images/region-icon.png') }}" alt="Region Specific Information Icon">
+      <h3>Region Specific Information</h3>
+      <p>Glean information about birdwatching hotspots & bird species specific to King County.</p>
     </div>
-    
-</div>
-<div class="contribute">
-        
-  <!-- Text Section on the Left -->
-  <div class="text-section">
+
+  </div>
+  <div class="contribute">
+
+    <!-- Text Section on the Left -->
+    <div class="text-section">
       <h2>Contribute to Community Science</h2>
       <p>Your sightings contribute to the success of birdwatchers in King County.</p>
       <a href="/submit" class="learn-more-button">Contribute</a>
-  </div>
-  
-  <!-- Image Section on the Right -->
-  <div class="image-section">
+    </div>
+
+    <!-- Image Section on the Right -->
+    <div class="image-section">
       <img src="{{ url_for('static', filename='images/birdwatching.jpg') }}" alt="Birdwatching">
+    </div>
   </div>
-</div>
-<div class="common-birds">
-  <div class="birds" id="common-birds-container">
-    {% if common_birds %}
+  <div class="common-birds">
+    <div class="birds" id="common-birds-container">
+      {% if common_birds %}
       {% for bird in common_birds %}
-        <div class="bird">
-          <img src="{{ url_for('static', filename='images/' + bird.image) }}" alt="{{ bird.name }}">
-          <p>{{ bird.name }}</p>
-        </div>
+      <div class="bird">
+        <img src="{{ url_for('static', filename='images/' + bird.image) }}" alt="{{ bird.name }}">
+        <p>{{ bird.name }}</p>
+      </div>
       {% endfor %}
-    {% else %}
+      {% else %}
       <!-- Fallback birds if no data available -->
       <div class="bird">
         <img src="{{ url_for('static', filename='images/American Crow.png') }}" alt="American Crow">
@@ -103,7 +107,8 @@
         <p>Pine Siskin</p>
       </div>
       <div class="bird">
-        <img src="{{ url_for('static', filename='images/Chestnut-backed Chickadee.png') }}" alt="Chestnut-backed Chickadee">
+        <img src="{{ url_for('static', filename='images/Chestnut-backed Chickadee.png') }}"
+          alt="Chestnut-backed Chickadee">
         <p>Chestnut-backed Chickadee</p>
       </div>
       <div class="bird">
@@ -114,49 +119,57 @@
         <img src="{{ url_for('static', filename='images/California Gull.png') }}" alt="California Gull">
         <p>California Gull</p>
       </div>
-    {% endif %}
+      {% endif %}
+    </div>
+    <div class="text-section-birds">
+      <h1>Common Birds This Month</h1>
+      <p id="month-display">{{ current_month }}</p>
+    </div>
   </div>
-  <div class="text-section-birds">
-    <h1>Common Birds This Month</h1>
-    <p id="month-display">{{ current_month }}</p>
-  </div>
-</div>
-<div class="maps">
-        
-  <!-- Text Section on the Left -->
-  <div class="text-section-maps">
+  <div class="maps">
+
+    <!-- Text Section on the Left -->
+    <div class="text-section-maps">
       <h2>Explore Hotspots Near You</h2>
-      <p>Find birding locations you never knew existed & bird species you never imagined to find with our interactive map!</p>
+      <p>Find birding locations you never knew existed & bird species you never imagined to find with our interactive
+        map!</p>
       <a href="/hotspots" class="learn-more-button">Explore</a>
-  </div>
-  
-  <!-- Image Section on the Right -->
-  <div class="image-section-maps">
+    </div>
+
+    <!-- Image Section on the Right -->
+    <div class="image-section-maps">
       <img src="{{ url_for('static', filename='images/Hotspots.png') }}" alt="Hotspots Map">
+    </div>
   </div>
-</div>
   <div class="text-section-birding">
     <h1>Start Birding</h1>
   </div>
-  <div class = "cards-blog-container">
-  <div class="card-blog">
-    <img src="{{ url_for('static', filename='images/American Robin Singing.jpg') }}" alt="American Robin Singing">
-    <h3>Learn Birdsong</h3>
-    <p>Learn the songs and calls of 12 common birds in King County, then test yourself to see whether you are ready for the field!</p>
-    <a href="/birds">Start Birding</a>
-</div>
+  <div class="cards-blog-container">
+    <div class="card-blog">
+      <img src="{{ url_for('static', filename='images/American Robin Singing.jpg') }}" alt="American Robin Singing">
+      <h3>Learn Birdsong</h3>
+      <p>Learn the songs and calls of 12 common birds in King County, then test yourself to see whether you are ready
+        for the field!</p>
+      <a href="/birds">Start Birding</a>
+    </div>
 
-<!-- Card 2 -->
-<div class="card-blog">
-    <img src="{{ url_for('static', filename='images/Bird ID.png') }}" alt="Song Sparrow Singing">
-    <h3>Learn Visual Bird Identification</h3>
-    <p>Learn the appearance of 12 common birds in King County, then take a quiz to determine whether you are field-ready.</p>
-    <a href="/birds">Start Birding</a>
-</div>
-</div>
-<script src="{{ url_for('static', filename='js/script.js') }}"></script>
-<script src="{{ url_for('static', filename='js/common-birds.js') }}"></script>
+    <!-- Card 2 -->
+    <div class="card-blog">
+      <img src="{{ url_for('static', filename='images/Bird ID.png') }}" alt="Song Sparrow Singing">
+      <h3>Learn Visual Bird Identification</h3>
+      <p>Learn the appearance of 12 common birds in King County, then take a quiz to determine whether you are
+        field-ready.</p>
+      <a href="/birds">Start Birding</a>
+    </div>
+  </div>
+  <script>
+    window.firebaseConfig = {{ firebase_config | tojson | safe }};
+  </script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/common-birds.js') }}"></script>
 </body>
 <footer>
-  <p>&copy; <script>document.write(new Date().getFullYear());</script> Grace Zhang</p>
+  <p>&copy;
+    <script>document.write(new Date().getFullYear());</script> Grace Zhang
+  </p>
 </footer>

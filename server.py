@@ -4,9 +4,26 @@ import requests
 from datetime import datetime, timedelta
 import os
 import calendar
+from bird_ai import BirdModel
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
 CORS(app)
+
+# Initialize AI Model
+ai_model = BirdModel()
+# Try to load model, if it fails (not trained yet), it will be handled gracefully or we can trigger training?
+# For now, just try to load.
+try:
+    if ai_model.load():
+        print("AI Model loaded successfully.")
+    else:
+        print("AI Model not found. Please run train_model.py.")
+except Exception as e:
+    print(f"Error loading AI model: {e}")
 
 # Add explicit static file serving for subdirectories
 @app.route('/images/<path:filename>')
@@ -18,7 +35,7 @@ def serve_sounds(filename):
     return send_from_directory('static/sounds', filename)
 
 # eBird API configuration
-EBIRD_API_KEY = 'fnqq0qvc0dc1'
+EBIRD_API_KEY = os.getenv('EBIRD_API_KEY')
 EBIRD_BASE_URL = 'https://api.ebird.org/v2'
 
 # King County region code
@@ -146,6 +163,17 @@ def get_fallback_birds():
         {'name': 'Steller\'s Jay', 'count': 0, 'image': 'Steller\'s Jay.png'}
     ]
 
+def get_firebase_config():
+    return {
+        'apiKey': os.getenv('FIREBASE_API_KEY'),
+        'authDomain': os.getenv('FIREBASE_AUTH_DOMAIN'),
+        'projectId': os.getenv('FIREBASE_PROJECT_ID'),
+        'storageBucket': os.getenv('FIREBASE_STORAGE_BUCKET'),
+        'messagingSenderId': os.getenv('FIREBASE_MESSAGING_SENDER_ID'),
+        'appId': os.getenv('FIREBASE_APP_ID'),
+        'measurementId': os.getenv('FIREBASE_MEASUREMENT_ID')
+    }
+
 @app.route('/')
 def index():
     # Get common birds for current month
@@ -176,11 +204,21 @@ def forecast():
 
 @app.route('/submit')
 def submit():
-    return render_template('submit.html')
+    firebase_config = {
+        'apiKey': os.getenv('FIREBASE_API_KEY'),
+        'authDomain': os.getenv('FIREBASE_AUTH_DOMAIN'),
+        'projectId': os.getenv('FIREBASE_PROJECT_ID'),
+        'storageBucket': os.getenv('FIREBASE_STORAGE_BUCKET'),
+        'messagingSenderId': os.getenv('FIREBASE_MESSAGING_SENDER_ID'),
+        'appId': os.getenv('FIREBASE_APP_ID'),
+        'measurementId': os.getenv('FIREBASE_MEASUREMENT_ID')
+    }
+    return render_template('submit.html', firebase_config=firebase_config)
 
 @app.route('/calendar')
 def calendar():
-    return render_template('calendar.html')
+    firebase_config = get_firebase_config()
+    return render_template('calendar.html', firebase_config=firebase_config)
 
 @app.route('/hotspots')
 def hotspots():
@@ -194,23 +232,91 @@ def bird_forecast():
         date = data.get('date')
         if not region_code or not date:
             return jsonify({'error': 'Missing required parameters'}), 400
+            
         selected_date = datetime.strptime(date, '%Y-%m-%d')
-        start_date = selected_date - timedelta(days=7)
-        end_date = selected_date + timedelta(days=7)
-        url = f'{EBIRD_BASE_URL}/data/obs/{region_code}/recent'
+        now = datetime.now()
+        
+        # Check if date is in the future (compare date components only)
+        is_future = selected_date.date() > now.date()
+        
+        # Use AI if available and (future date OR explicitly requested)
+        # For now, let's prioritize AI for future dates if model is loaded
+        use_ai = is_future and ai_model.model is not None
+        
+        if use_ai:
+            print(f"Using AI model for forecast: {date} in {region_code}")
+            try:
+                predictions = ai_model.predict(selected_date, region_code)
+                
+                # Format for frontend
+                bird_counts = {p['name']: int(p['score'] * 100) for p in predictions} # Score as percentage-ish
+                bird_details = {p['name']: {'locations': [region_code], 'total_count': 0, 'avg_count': 0} for p in predictions}
+                sorted_birds = [p['name'] for p in predictions]
+                
+                result = {
+                    'birds': sorted_birds,
+                    'counts': bird_counts,
+                    'details': bird_details
+                }
+                return jsonify(result)
+            except Exception as e:
+                print(f"AI Prediction failed: {e}. Falling back to API.")
+                # Fallback to API logic below
+        
+        # Fallback / Standard API Logic
+        if is_future:
+            # For future dates, use historical data from the previous year
+            # Go back 1 year
+            # past_date = selected_date.replace(year=selected_date.year - 1)
+            
+            # Handle leap years if necessary (e.g. Feb 29 -> Feb 28)
+            # datetime.replace handles this by raising ValueError if invalid, 
+            # but since we are subtracting a year, we might hit a non-leap year.
+            # However, simple replace might fail if today is Feb 29 and last year wasn't leap.
+            # Let's use a safer approach for year subtraction if needed, but for now try/except is good or explicit check.
+            # Actually, simpler:
+            try:
+                past_date = selected_date.replace(year=selected_date.year - 1)
+            except ValueError:
+                # Must be Feb 29 in a leap year going to non-leap
+                past_date = selected_date.replace(year=selected_date.year - 1, day=28)
+
+            # Use historic API
+            # Format: /data/obs/{regionCode}/historic/{y}/{m}/{d}
+            url = f'{EBIRD_BASE_URL}/data/obs/{region_code}/historic/{past_date.year}/{past_date.month}/{past_date.day}'
+            
+            # Historic API returns data for that specific day
+            # We don't need the date filtering loop for the 7-day window 
+            # because historic API is specific to the date.
+            
+        else:
+            # Present or Past: Use recent API with 7-day window
+            start_date = selected_date - timedelta(days=7)
+            end_date = selected_date + timedelta(days=7)
+            url = f'{EBIRD_BASE_URL}/data/obs/{region_code}/recent'
+
         headers = {'X-eBirdApiToken': EBIRD_API_KEY}
         response = requests.get(url, headers=headers)
+        
         if response.status_code != 200:
             return jsonify({'error': f'eBird API error: {response.status_code}'}), response.status_code
+            
         ebird_data = response.json()
         filtered_data = []
-        for obs in ebird_data:
-            try:
-                obs_date = datetime.strptime(obs['obsDt'], '%Y-%m-%d %H:%M')
-                if start_date <= obs_date <= end_date:
-                    filtered_data.append(obs)
-            except ValueError:
-                continue
+        
+        if is_future:
+            # Historic data is already for the specific date (or close to it? Historic API usually returns list of obs)
+            # We can just use all returned data as it is for the requested "historic" date
+            filtered_data = ebird_data
+        else:
+            # Filter recent data for the 7-day window
+            for obs in ebird_data:
+                try:
+                    obs_date = datetime.strptime(obs['obsDt'], '%Y-%m-%d %H:%M')
+                    if start_date <= obs_date <= end_date:
+                        filtered_data.append(obs)
+                except ValueError:
+                    continue
         bird_counts = {}
         bird_details = {}
         for obs in filtered_data:

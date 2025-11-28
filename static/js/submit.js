@@ -1,22 +1,13 @@
 // Import Firebase v9+ modular SDK
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js';
-import { getFirestore, collection, addDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js';
+import { getFirestore, collection, addDoc, serverTimestamp, Timestamp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyA0yxFTwKgT2EzczVSM0Cti9PtUfs0auSM",
-  authDomain: "king-co-forecase.firebaseapp.com",
-  projectId: "king-co-forecase",
-  storageBucket: "king-co-forecase.firebasestorage.app",
-  messagingSenderId: "657363005946",
-  appId: "1:657363005946:web:b4284f3280818e22527443",
-  measurementId: "G-QGQ5J7EEJS"
-};
+const firebaseConfig = window.firebaseConfig;
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-// Function to add new bird species and count fields
 const addField = () => {
   const birdFields = document.getElementById("birdFields");
 
@@ -65,13 +56,13 @@ const showErrorMessage = (message) => {
 // Handle form submission
 const handleFormSubmit = async (event) => {
   event.preventDefault();
-  
+
   // Get form data
   const location = document.getElementById('location').value;
   const time = document.getElementById('time').value;
   const species = Array.from(document.getElementsByName('species[]')).map(input => input.value);
   const counts = Array.from(document.getElementsByName('count[]')).map(input => parseInt(input.value));
-  
+
   // Combine species and counts into an array of objects
   const birds = species.map((species, index) => ({
     species: species,
@@ -82,13 +73,13 @@ const handleFormSubmit = async (event) => {
     // Add data to Firestore
     const docRef = await addDoc(collection(db, 'sightings'), {
       location: location,
-      time: new Date(time),
+      time: Timestamp.fromDate(new Date(time)),
       birds: birds,
       timestamp: serverTimestamp()
     });
 
     console.log('Document written with ID: ', docRef.id);
-    
+
     // Show success message and reset form
     showSuccessMessage();
     document.getElementById('sightingForm').reset();
