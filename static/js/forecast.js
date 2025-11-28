@@ -1,7 +1,6 @@
 // eBird API configuration
-require('dotenv').config();
-const EBIRD_API_KEY = process.env.EBIRD_API_KEY; // Using the same API key from data_scraper.py
-const EBIRD_BASE_URL = 'https://api.ebird.org/v2';
+// Note: API calls are now handled by the backend server at /api/bird-forecast
+// No need for API key in frontend
 
 // DOM elements
 const forecastForm = document.getElementById('forecastForm');
@@ -134,7 +133,7 @@ const getFrequencyBadge = (count) => {
 
 const createBirdCard = (species, count, details) => {
     const imageSrc = birdImages[species] || '/images/logo.png'; // Fallback to logo if no specific image
-    
+
     return `
         <div class="bird-card">
             <img src="${imageSrc}" alt="${species}" class="bird-image" onerror="this.src='/images/logo.png'">
@@ -148,7 +147,7 @@ const createBirdCard = (species, count, details) => {
 const displayResults = (data, formData) => {
     const { birds, counts, details } = data;
     const locationDisplay = hotspotCodeToName[formData.location] || formData.location;
-    
+
     if (birds.length === 0) {
         birdResults.innerHTML = `
             <div class="no-results">
@@ -157,7 +156,7 @@ const displayResults = (data, formData) => {
             </div>
         `;
     } else {
-        const resultsHTML = birds.map(species => 
+        const resultsHTML = birds.map(species =>
             createBirdCard(species, counts[species], details[species])
         ).join('');
 
@@ -176,7 +175,7 @@ const displayResults = (data, formData) => {
 // Form submission handler
 const handleFormSubmit = async (event) => {
     event.preventDefault();
-    
+
     const formData = new FormData(forecastForm);
     const date = formData.get('date');
     const time = formData.get('time');
@@ -207,10 +206,10 @@ const initializeForm = () => {
     // Set default date to today
     const today = new Date().toISOString().split('T')[0];
     document.getElementById('date').value = today;
-    
+
     // Add form submit listener
     forecastForm.addEventListener('submit', handleFormSubmit);
-    
+
     console.log('Forecast form initialized');
 };
 

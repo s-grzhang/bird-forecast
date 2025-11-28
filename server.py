@@ -6,6 +6,8 @@ import os
 import calendar
 from bird_ai import BirdModel
 from dotenv import load_dotenv
+import firebase_admin
+from firebase_admin import credentials, firestore
 
 # Load environment variables from .env file
 load_dotenv()
@@ -13,10 +15,22 @@ load_dotenv()
 app = Flask(__name__, static_folder='static', template_folder='templates')
 CORS(app)
 
+# Initialize Firebase (if credentials exist)
+firestore_db = None
+try:
+    # Check if Firebase is already initialized
+    if not firebase_admin._apps:
+        # Try to initialize with credentials
+        # You can use service account JSON file or default credentials
+        firebase_admin.initialize_app()
+    firestore_db = firestore.client()
+    print("Firebase initialized successfully.")
+except Exception as e:
+    print(f"Firebase initialization skipped or failed: {e}")
+    print("AI will not activate until Firebase is configured.")
+
 # Initialize AI Model
 ai_model = BirdModel()
-# Try to load model, if it fails (not trained yet), it will be handled gracefully or we can trigger training?
-# For now, just try to load.
 try:
     if ai_model.load():
         print("AI Model loaded successfully.")
@@ -24,6 +38,22 @@ try:
         print("AI Model not found. Please run train_model.py.")
 except Exception as e:
     print(f"Error loading AI model: {e}")
+
+def get_firestore_document_count():
+    """Count total documents in bird sightings collection"""
+    if not firestore_db:
+        return 0
+    
+    try:
+        # Assuming collection name is 'sightings' or similar
+        # Adjust collection name based on your Firestore structure
+        collection_ref = firestore_db.collection('birdSightings')
+        docs = collection_ref.stream()
+        count = sum(1 for _ in docs)
+        return count
+    except Exception as e:
+        print(f"Error counting Firestore documents: {e}")
+        return 0
 
 # Add explicit static file serving for subdirectories
 @app.route('/images/<path:filename>')
@@ -239,12 +269,13 @@ def bird_forecast():
         # Check if date is in the future (compare date components only)
         is_future = selected_date.date() > now.date()
         
-        # Use AI if available and (future date OR explicitly requested)
-        # For now, let's prioritize AI for future dates if model is loaded
-        use_ai = is_future and ai_model.model is not None
+        # Check if we should use AI based on Firestore document count
+        document_count = get_firestore_document_count()
+        ai_threshold = 1000
+        use_ai = document_count >= ai_threshold and ai_model.model is not None
         
         if use_ai:
-            print(f"Using AI model for forecast: {date} in {region_code}")
+            print(f"Using AI model for forecast (Firestore docs: {document_count}): {date} in {region_code}")
             try:
                 predictions = ai_model.predict(selected_date, region_code)
                 
@@ -262,19 +293,16 @@ def bird_forecast():
             except Exception as e:
                 print(f"AI Prediction failed: {e}. Falling back to API.")
                 # Fallback to API logic below
+        else:
+            if firestore_db:
+                print(f"Using eBird API (Firestore docs: {document_count}/{ai_threshold})")
+            else:
+                print(f"Using eBird API (Firebase not configured)")
         
         # Fallback / Standard API Logic
         if is_future:
             # For future dates, use historical data from the previous year
             # Go back 1 year
-            # past_date = selected_date.replace(year=selected_date.year - 1)
-            
-            # Handle leap years if necessary (e.g. Feb 29 -> Feb 28)
-            # datetime.replace handles this by raising ValueError if invalid, 
-            # but since we are subtracting a year, we might hit a non-leap year.
-            # However, simple replace might fail if today is Feb 29 and last year wasn't leap.
-            # Let's use a safer approach for year subtraction if needed, but for now try/except is good or explicit check.
-            # Actually, simpler:
             try:
                 past_date = selected_date.replace(year=selected_date.year - 1)
             except ValueError:
@@ -284,30 +312,33 @@ def bird_forecast():
             # Use historic API
             # Format: /data/obs/{regionCode}/historic/{y}/{m}/{d}
             url = f'{EBIRD_BASE_URL}/data/obs/{region_code}/historic/{past_date.year}/{past_date.month}/{past_date.day}'
-            
-            # Historic API returns data for that specific day
-            # We don't need the date filtering loop for the 7-day window 
-            # because historic API is specific to the date.
+            print(f"Future date detected. Fetching historic data from: {past_date} using URL: {url}")
             
         else:
             # Present or Past: Use recent API with 7-day window
             start_date = selected_date - timedelta(days=7)
             end_date = selected_date + timedelta(days=7)
             url = f'{EBIRD_BASE_URL}/data/obs/{region_code}/recent'
+            print(f"Recent/past date detected. Using URL: {url}")
 
         headers = {'X-eBirdApiToken': EBIRD_API_KEY}
         response = requests.get(url, headers=headers)
         
+        print(f"eBird API Response Status: {response.status_code}")
+        
         if response.status_code != 200:
+            print(f"eBird API Error Response: {response.text}")
             return jsonify({'error': f'eBird API error: {response.status_code}'}), response.status_code
             
         ebird_data = response.json()
+        print(f"eBird API returned {len(ebird_data)} observations")
         filtered_data = []
         
         if is_future:
             # Historic data is already for the specific date (or close to it? Historic API usually returns list of obs)
             # We can just use all returned data as it is for the requested "historic" date
             filtered_data = ebird_data
+            print(f"Using all {len(filtered_data)} historic observations")
         else:
             # Filter recent data for the 7-day window
             for obs in ebird_data:
@@ -352,6 +383,23 @@ def bird_forecast():
 @app.route('/api/health')
 def health():
     return jsonify({'status': 'ok'})
+
+@app.route('/api/ai-status')
+def ai_status():
+    """Endpoint to check AI activation status and document count"""
+    document_count = get_firestore_document_count()
+    ai_threshold = 1000
+    ai_ready = ai_model.model is not None
+    ai_active = document_count >= ai_threshold and ai_ready
+    
+    return jsonify({
+        'ai_ready': ai_ready,
+        'ai_active': ai_active,
+        'document_count': document_count,
+        'threshold': ai_threshold,
+        'documents_needed': max(0, ai_threshold - document_count),
+        'firebase_connected': firestore_db is not None
+    })
 
 if __name__ == '__main__':
     print("Starting Bird Forecast Server...")
