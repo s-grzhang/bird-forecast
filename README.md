@@ -19,7 +19,7 @@ This application requires a modern web browser with support for:
 
 ## Roadmap
 
-* Improve formatting in the Learn and Forecast pages.
+* Successfully deploy on Render.
 * Credit photographers.
 
 ## Contributing
