@@ -209,7 +209,8 @@ def index():
     # Get common birds for current month
     common_birds = get_common_birds_this_month()
     current_month = datetime.now().strftime('%B %Y')
-    return render_template('index.html', common_birds=common_birds, current_month=current_month)
+    firebase_config = get_firebase_config()
+    return render_template('index.html', common_birds=common_birds, current_month=current_month, firebase_config=firebase_config)
 
 @app.route('/api/common-birds')
 def api_common_birds():

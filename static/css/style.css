@@ -1,23 +1,28 @@
 /* Hide scrollbar across the entire website */
 /* For Firefox */
-html, body {
+html,
+body {
   scrollbar-width: none;
 }
 
 /* For Internet Explorer and Edge */
-html, body {
+html,
+body {
   -ms-overflow-style: none;
 }
 
 /* Additional style for WebKit browsers */
-html::-webkit-scrollbar, body::-webkit-scrollbar {
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
   display: none;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden;
+  /* Prevent horizontal scrolling */
   width: 100%;
   max-width: 100%;
 }
@@ -34,481 +39,501 @@ html, body {
   background-position: top;
 }
 
+#robin-background {
+  background: url('../images/Robin.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-position: top;
+}
+
 /* Style the header with a grey background and some padding */
 .header {
-    display: flex;
-    overflow: visible;
-    background-color: #43c1de;
-    padding: 20px 10px;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    z-index: 100;
-  }
-
-  .quicksand-header {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .roboto-slab-banner {
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-  .montserrat-banner {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  /* Style the header links */
-  .header a {
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    font-family: "Quicksand"
-  }
-  
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  /* Change the background color on mouse-over */
-  .header a:hover {
-    background-color: #f0802c;
-    color: white;
-  }
-
-  /* Ensure dropdown parent doesn't get hover effect when hovering dropdown items */
-  .dropdown:hover > a:hover {
-    background-color: #f0802c;
-    color: white;
-  }
-  
-  /* Float the link section to the right */
-  .header-right {
-    float: right;
-  }
-  
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  }
-
-  .banner {
-    text-align: center;
-    color: white;
-    background-image: url('../images/Steller\'s\ Jay.png');
-    padding: 120px;
-    font-size: 30px;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    margin: 0px;
-    font-family: "Montserrat";
-  }
-
-  button {
-    border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    cursor: pointer;
-    font-family: "Poppins";
-    background-color: #20568d;
-    transition: background-color 0.3s; /* Smooth transition */
-  }
-
-  button:hover {
-    background-color: #0a2a47; /* Change background color on hover */
-  }
-
-
-    /* Logo styling */
-    .logo {
-      display: flex;
-      align-items: center;
-    }
-
-    .logo img {
-      height: 100px;
-      margin-right: 15px; /* Space between logo and name */
-    }
-
-    .menu ul {
-      display: flex;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      position: relative;
-      align-items: center;
-    }
-    
-    .menu ul li {
-      margin-left: 20px;
-      position: static;
-    }
-
-    .menu ul li.dropdown {
-      position: relative;
-      display: inline-block;
-    }
-    
-    .menu ul li a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    /* Dropdown styles */
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-
-    .dropdown > a {
-      position: relative;
-      display: inline-block;
-      padding: 12px;
-    }
-
-    .dropdown-content {
-      visibility: hidden !important;
-      opacity: 0 !important;
-      position: absolute;
-      background-color: #43c1de;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 9999;
-      top: calc(100% + 16px);
-      left: 0;
-      border-radius: 4px;
-      padding: 8px 0;
-      margin: 0;
-      list-style: none;
-      overflow: visible;
-      width: max-content;
-      transition: opacity 0.2s ease-in-out;
-      pointer-events: none;
-      height: 0;
-    }
-
-    .dropdown-content li {
-      margin: 0;
-      width: 100%;
-    }
-
-    .dropdown-content li a {
-      color: #fff;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      transition: background-color 0.3s;
-      font-size: 16px;
-      white-space: nowrap;
-      line-height: 1.4;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-
-    .dropdown-content li:last-child a {
-      border-bottom: none;
-    }
-
-    .dropdown-content li a:hover {
-      background-color: #f0802c !important;
-    }
-
-    .dropdown:hover .dropdown-content {
-      visibility: visible !important;
-      opacity: 1 !important;
-      pointer-events: auto;
-      height: auto;
-    }
-
-    .dropdown:hover > a {
-      background-color: #f0802c;
-      color: white;
-    }
-
-    .website-name {
-      font-size: 40px;
-      font-family: "Quicksand";
-      color: white;
-    }
-
-    .poppins-extralight {
-      font-family: "Poppins", sans-serif;
-      font-weight: 200;
-      font-style: normal;
-    }
-
-    .poppins-light {
-      font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-style: normal;
-    }
-
-        /* Container styling */
-        .features {
-          display: flex;
-          justify-content: space-around;
-          text-align: center;
-          padding: 20px;
-      }
-      
-      /* Card styling */
-      .card {
-          width: 30%;
-          padding: 20px;
-          font-family: "Quicksand"
-      }
-      
-      /* Image icon styling */
-      .card img {
-          width: 120px;
-          height: 120px;
-      }
-
-      /* Title styling */
-      .card h3 {
-          color: #43c1de; /* Blue color */
-          font-size: 20px;
-          margin-bottom: 10px;
-          font-family: "Montserrat";
-      }
-
-      /* Description text styling */
-      .card p {
-          color: #555;
-          font-size: 16px;
-          line-height: 1.6;
-      }
-      .contribute {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        /*padding: 40px;*/
-        background-color: #43c1de; /* Dark blue background */
-        color: white;
-        padding-left: 20px;
-    }
-    
-    /* Text section styling */
-    .text-section {
-        flex: 1;
-        padding: 20px;
-    }
-    
-    /* Heading styling */
-    .text-section h2 {
-        font-size: 32px;
-        margin-bottom: 20px;
-        font-family: "Montserrat";
-    }
-    
-    /* Paragraph styling */
-    .text-section p {
-        font-size: 18px;
-        line-height: 1.6;
-        margin-bottom: 20px;
-        font-family: "Quicksand";
-    }
-
-    /* Button styling */
-    .learn-more-button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #20568d; /* Slightly lighter blue */
-        color: white;
-        text-decoration: none;
-        font-size: 16px;
-        transition: background-color 0.3s;
-        font-family: "Poppins";
-    }
-
-    .learn-more-button:hover {
-      background-color: #0a2a47;
-  }
-    
-    /* Image section styling */
-    .image-section {
-        flex: 1;
-        text-align: right;
-    }
-    
-    /* Image styling */
-    .image-section img {
-        max-width: 100%;
-        height: 100%;
-    }
-    
-    .common-birds {
-      display: flex;
-      width: 100%;
-      max-width: 100%;
-      margin-top: 20px;
-      align-items: center;
-      flex-wrap: nowrap;
-      overflow: hidden;
-    }
-    
-    .birds {
-      display: flex;
-      gap: 20px;
-      flex: 1;
-      justify-content: flex-start;
-      overflow-x: auto;
-      min-width: 0;
-    }
-    
-    /* Custom scrollbar styling for Common Birds section */
-    .birds::-webkit-scrollbar {
-      height: 8px;
-    }
-    
-    .birds::-webkit-scrollbar-track {
-      background: #f1f1f1;
-      border-radius: 4px;
-    }
-    
-    .birds::-webkit-scrollbar-thumb {
-      background: #eca855;
-      border-radius: 4px;
-    }
-    
-    .birds::-webkit-scrollbar-thumb:hover {
-      background: #e9ae60;
-    }
-    
-    .bird {
-      text-align: center;
-      width: 160px;
-      margin: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .bird img {
-      width: 160px;
-      height: 160px;
-      object-fit: cover;
-      object-position: center;
-      margin-bottom: 8px;
-    }
-    
-    .bird p {
-      margin-top: 10px;
-      font-family: "Poppins";
-    }
-    
-    .text-section-birds {
-      flex: 0 0 auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: right;
-      font-family: "Quicksand";
-      padding-right: 30px;
-      min-width: 200px;
-      max-width: 250px;
-    }
-    
-    .text-section-birds h1 {
-      margin-bottom: 10px;
-      font-size: 24px;
-      font-weight: 600;
-    }
-    
-    .text-section-birds #month-display {
-      font-size: 16px;
-      color: #666;
-      font-style: italic;
-      margin: 0;
-    }
-
-    .maps {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      /*padding: 40px;*/
-      background-color: #43c1de; /* Dark blue background */
-      color: white;
-      padding-left: 20px;
-  }
-  
-  /* Text section styling */
-  .text-section-maps {
-      flex: 1;
-      padding: 20px;
-  }
-  
-  /* Heading styling */
-  .text-section-maps h2 {
-      font-size: 32px;
-      margin-bottom: 20px;
-      font-family: "Montserrat";
-  }
-  
-  /* Paragraph styling */
-  .text-section-maps p {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-bottom: 20px;
-      font-family: "Quicksand";
-  }
-
-  /* Button styling */
-  .learn-more-button-maps {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #20568d; /* Slightly lighter blue */
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-      transition: background-color 0.3s;
-      font-family: "Poppins";
-  }
-
-  .learn-more-button-maps:hover {
-    background-color: #0a2a47;
+  display: flex;
+  overflow: visible;
+  background-color: #43c1de;
+  padding: 20px 10px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 100;
 }
-  
-  /* Image section styling */
-  .image-section-maps {
-      flex: 1;
-      text-align: right;
+
+.quicksand-header {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.roboto-slab-banner {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-banner {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Style the header links */
+.header a {
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Quicksand"
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #f0802c;
+  color: white;
+}
+
+/* Ensure dropdown parent doesn't get hover effect when hovering dropdown items */
+.dropdown:hover>a:hover {
+  background-color: #f0802c;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
   }
-  
-  /* Image styling */
-  .image-section-maps img {
-      max-width: 100%;
-      height: 100%;
+
+  .header-right {
+    float: none;
   }
+}
+
+.banner {
+  text-align: center;
+  color: white;
+  background-image: url('../images/Steller\'s\ Jay.png');
+  padding: 120px;
+  font-size: 30px;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  margin: 0px;
+  font-family: "Montserrat";
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: "Poppins";
+  background-color: #20568d;
+  transition: background-color 0.3s;
+  /* Smooth transition */
+}
+
+button:hover {
+  background-color: #0a2a47;
+  /* Change background color on hover */
+}
+
+
+/* Logo styling */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px;
+  margin-right: 15px;
+  /* Space between logo and name */
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+}
+
+.menu ul li {
+  margin-left: 20px;
+  position: static;
+}
+
+.menu ul li.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown>a {
+  position: relative;
+  display: inline-block;
+  padding: 12px;
+}
+
+.dropdown-content {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  position: absolute;
+  background-color: #43c1de;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  top: calc(100% + 16px);
+  left: 0;
+  border-radius: 4px;
+  padding: 8px 0;
+  margin: 0;
+  list-style: none;
+  overflow: visible;
+  width: max-content;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+  height: 0;
+}
+
+.dropdown-content li {
+  margin: 0;
+  width: 100%;
+}
+
+.dropdown-content li a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  white-space: nowrap;
+  line-height: 1.4;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-content li:last-child a {
+  border-bottom: none;
+}
+
+.dropdown-content li a:hover {
+  background-color: #f0802c !important;
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto;
+  height: auto;
+}
+
+.dropdown:hover>a {
+  background-color: #f0802c;
+  color: white;
+}
+
+.website-name {
+  font-size: 40px;
+  font-family: "Quicksand";
+  color: white;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Container styling */
+.features {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Card styling */
+.card {
+  width: 30%;
+  padding: 20px;
+  font-family: "Quicksand"
+}
+
+/* Image icon styling */
+.card img {
+  width: 120px;
+  height: 120px;
+}
+
+/* Title styling */
+.card h3 {
+  color: #43c1de;
+  /* Blue color */
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+}
+
+/* Description text styling */
+.card p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contribute {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*padding: 40px;*/
+  background-color: #43c1de;
+  /* Dark blue background */
+  color: white;
+  padding-left: 20px;
+}
+
+/* Text section styling */
+.text-section {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Heading styling */
+.text-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+}
+
+/* Paragraph styling */
+.text-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: "Quicksand";
+}
+
+/* Button styling */
+.learn-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #20568d;
+  /* Slightly lighter blue */
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-family: "Poppins";
+}
+
+.learn-more-button:hover {
+  background-color: #0a2a47;
+}
+
+/* Image section styling */
+.image-section {
+  flex: 1;
+  text-align: right;
+}
+
+/* Image styling */
+.image-section img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.common-birds {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.birds {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  justify-content: flex-start;
+  overflow-x: auto;
+  min-width: 0;
+}
+
+/* Custom scrollbar styling for Common Birds section */
+.birds::-webkit-scrollbar {
+  height: 8px;
+}
+
+.birds::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.birds::-webkit-scrollbar-thumb {
+  background: #eca855;
+  border-radius: 4px;
+}
+
+.birds::-webkit-scrollbar-thumb:hover {
+  background: #e9ae60;
+}
+
+.bird {
+  text-align: center;
+  width: 160px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bird img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 8px;
+}
+
+.bird p {
+  margin-top: 10px;
+  font-family: "Poppins";
+}
+
+.text-section-birds {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  font-family: "Quicksand";
+  padding-right: 30px;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.text-section-birds h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text-section-birds #month-display {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  margin: 0;
+}
+
+.maps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*padding: 40px;*/
+  background-color: #43c1de;
+  /* Dark blue background */
+  color: white;
+  padding-left: 20px;
+}
+
+/* Text section styling */
+.text-section-maps {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Heading styling */
+.text-section-maps h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+}
+
+/* Paragraph styling */
+.text-section-maps p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: "Quicksand";
+}
+
+/* Button styling */
+.learn-more-button-maps {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #20568d;
+  /* Slightly lighter blue */
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-family: "Poppins";
+}
+
+.learn-more-button-maps:hover {
+  background-color: #0a2a47;
+}
+
+/* Image section styling */
+.image-section-maps {
+  flex: 1;
+  text-align: right;
+}
+
+/* Image styling */
+.image-section-maps img {
+  max-width: 100%;
+  height: 100%;
+}
 
 /* Center the header text */
 .text-section-birding {
   text-align: center;
-  margin-bottom: 20px; /* Adds space between the header and cards */
+  margin-bottom: 20px;
+  /* Adds space between the header and cards */
   font-family: Quicksand;
 }
 
@@ -532,53 +557,54 @@ html, body {
 }
 
 
-      /* Style the image on top */
-      .card-blog img {
-          width: 100%;
-          height: 300px;
-          object-fit: cover;
-      }
+/* Style the image on top */
+.card-blog img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 
-      /* Style for the title */
-      .card-blog h3 {
-          font-size: 1.5em;
-          margin: 15px 0 10px;
-          color: #333;
-          font-family: "Montserrat";
-      }
+/* Style for the title */
+.card-blog h3 {
+  font-size: 1.5em;
+  margin: 15px 0 10px;
+  color: #333;
+  font-family: "Montserrat";
+}
 
-      /* Style for the blurb */
-      .card-blog p {
-          padding: 0 15px;
-          color: #666;
-          font-size: 1em;
-          font-family: "Poppins";
-      }
+/* Style for the blurb */
+.card-blog p {
+  padding: 0 15px;
+  color: #666;
+  font-size: 1em;
+  font-family: "Poppins";
+}
 
-      /* Style for the Read More link */
-      .card-blog a {
-          display: inline-block;
-          margin: 15px 0;
-          padding: 10px 15px;
-          color: #20568d;
-          text-decoration: none;
-          border: 1px solid #20568d;
-          transition: background-color 0.3s, color 0.3s;
-          font-family: "Poppins";
-      }
+/* Style for the Read More link */
+.card-blog a {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 10px 15px;
+  color: #20568d;
+  text-decoration: none;
+  border: 1px solid #20568d;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: "Poppins";
+}
 
-      /* Hover effect for Read More link */
-      .card-blog a:hover {
-          background-color: #20568d;
-          color: white;
-      }
+/* Hover effect for Read More link */
+.card-blog a:hover {
+  background-color: #20568d;
+  color: white;
+}
 
-  .bg {
-    background-image: url("../images/Bluebird.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-      /* Container styling for the form */
+.bg {
+  background-image: url("../images/Bluebird.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Container styling for the form */
 .submit {
   background-color: #f4f4f9;
   border-radius: 10px;
@@ -671,26 +697,26 @@ html, body {
 /* Responsive adjustments */
 @media screen and (max-width: 500px) {
   .submit {
-      padding: 15px;
+    padding: 15px;
   }
 }
 
-  footer {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #43c1de;
-    color: white;
-    font-family: "Quicksand";
-    text-align: center;
-  }
+footer {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #43c1de;
+  color: white;
+  font-family: "Quicksand";
+  text-align: center;
+}
 
-  #calendar {
-    background-image: url('../images/waxwing.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+#calendar {
+  background-image: url('../images/waxwing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  /* Calendar Section Styling */
+/* Calendar Section Styling */
 .calendar-container {
   max-width: 800px;
   margin: 153.7px auto;
@@ -773,29 +799,37 @@ html, body {
 /* Responsive Design for Smaller Screens */
 @media screen and (max-width: 600px) {
   .calendar-container {
-      padding: 10px;
+    padding: 10px;
   }
+
   .calendar-month {
-      font-size: 20px;
+    font-size: 20px;
   }
+
   .calendar-button {
-      padding: 5px 10px;
-      font-size: 16px;
+    padding: 5px 10px;
+    font-size: 16px;
   }
-  .calendar-weekdays, .calendar-dates {
-      font-size: 14px;
+
+  .calendar-weekdays,
+  .calendar-dates {
+    font-size: 14px;
   }
 }
 
 .success-message {
-  background-color: #d4edda; /* Light green (success) */
-  border: 1px solid #c3e6cb; /* Border matching the background */
-  color: #155724; /* Dark green text for success */
+  background-color: #d4edda;
+  /* Light green (success) */
+  border: 1px solid #c3e6cb;
+  /* Border matching the background */
+  color: #155724;
+  /* Dark green text for success */
   font-family: 'Poppins', sans-serif;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  display: none; /* Hide by default */
+  display: none;
+  /* Hide by default */
 }
 
 
@@ -810,7 +844,8 @@ html, body {
 
 /* Style for the "Add Another Bird Species" button */
 #addFieldButton {
-  font-size: 14px; /* Smaller font size */
+  font-size: 14px;
+  /* Smaller font size */
   padding: 8px 12px;
   background-color: #20568d;
   cursor: pointer;
@@ -824,7 +859,8 @@ html, body {
 
 /* Style for the "Submit" button */
 button[type="submit"] {
-  font-size: 16px; /* Larger font size */
+  font-size: 16px;
+  /* Larger font size */
   padding: 10px 16px;
   background-color: #43c1de;
   color: white;
@@ -1026,7 +1062,7 @@ button[type="submit"]:hover {
     width: 100vw;
     right: -100vw;
   }
-  
+
   .sidebar.active {
     right: 0;
   }
@@ -1036,15 +1072,15 @@ button[type="submit"]:hover {
   .sidebar-header {
     padding: 15px;
   }
-  
+
   .sidebar-content {
     padding: 15px;
   }
-  
+
   .sidebar-title {
     font-size: 1.3em;
   }
-  
+
   .sighting-item {
     padding: 12px;
   }
@@ -1136,15 +1172,15 @@ button[type="submit"]:hover {
   .hotspots-container {
     padding: 15px;
   }
-  
+
   .hotspots-header h1 {
     font-size: 2rem;
   }
-  
+
   .hotspots-header p {
     font-size: 1rem;
   }
-  
+
   #hotspotMap {
     height: 400px;
   }
@@ -1154,7 +1190,7 @@ button[type="submit"]:hover {
   .hotspots-header h1 {
     font-size: 1.75rem;
   }
-  
+
   #hotspotMap {
     height: 350px;
   }

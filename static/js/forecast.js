@@ -161,7 +161,7 @@ const displayResults = (data, formData) => {
         ).join('');
 
         birdResults.innerHTML = `
-            <div style="margin-bottom: 20px;">
+            <div style="margin-bottom: 20px; font-family: 'Montserrat', sans-serif;">
                 <p><strong>Forecast for ${formatDate(formData.date)} at ${formData.time}</strong></p>
                 <p>Based on recent sightings in ${locationDisplay}</p>
             </div>

@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bird Forecast - King County Bird Forecast</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Montserrat:ital,wght@0,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <style>
         .forecast-container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Quicksand', sans-serif;
         }
 
         .forecast-form {
@@ -32,18 +44,22 @@
             margin-bottom: 8px;
             font-weight: 600;
             color: #333;
+            font-family: 'Quicksand', sans-serif;
         }
 
-        .form-group input, .form-group select {
+        .form-group input,
+        .form-group select {
             width: 100%;
             padding: 12px;
             border: 2px solid #e1e5e9;
             border-radius: 8px;
             font-size: 16px;
             transition: border-color 0.3s ease;
+            font-family: 'Quicksand', sans-serif;
         }
 
-        .form-group input:focus, .form-group select:focus {
+        .form-group input:focus,
+        .form-group select:focus {
             outline: none;
             border-color: #4a90e2;
         }
@@ -65,6 +81,7 @@
             cursor: pointer;
             transition: transform 0.2s ease;
             width: 100%;
+            font-family: 'Poppins', sans-serif;
         }
 
         .submit-btn:hover {
@@ -98,8 +115,13 @@
         }
 
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
 
         .results-container {
@@ -108,6 +130,7 @@
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            font-family: 'Quicksand', sans-serif;
         }
 
         .results-container.show {
@@ -189,15 +212,18 @@
         .forecast-header h1 {
             color: #333;
             margin-bottom: 10px;
+            font-family: 'Quicksand', sans-serif;
         }
 
         .forecast-header p {
-            color: #666;
+            color: #555;
             font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
         }
     </style>
 </head>
-<body id="white-background">
+
+<body id="robin-background">
     <header class="header">
         <div class="logo">
             <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Website Logo" class="logo">
@@ -221,12 +247,12 @@
     </header>
 
     <div class="forecast-container">
-        <div class="forecast-header">
-            <h1>Bird Forecast</h1>
-            <p>Find out which birds you're most likely to see based on time, location, and date</p>
-        </div>
 
         <div class="forecast-form">
+            <div class="forecast-header">
+                <h1>Bird Forecast</h1>
+                <p>Find out which birds you're most likely to see based on time, location, and date</p>
+            </div>
             <form id="forecastForm">
                 <div class="form-row">
                     <div class="form-group">
@@ -280,9 +306,12 @@
     </div>
 
     <footer>
-        <p>&copy; <script>document.write(new Date().getFullYear());</script> Grace Zhang</p>
+        <p>&copy;
+            <script>document.write(new Date().getFullYear());</script> Grace Zhang
+        </p>
     </footer>
 
     <script src="{{ url_for('static', filename='js/forecast.js') }}"></script>
 </body>
-</html> 
+
+</html>

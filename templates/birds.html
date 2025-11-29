@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Montserrat:ital,wght@0,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bird Learning Center - King County Bird Forecast</title>
@@ -13,6 +16,15 @@
       max-width: 1200px;
       margin: 0 auto;
       padding: 20px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Quicksand', sans-serif;
     }
 
     .mode-selector {
@@ -42,11 +54,13 @@
       background: #2196F3;
     }
 
-    .learning-section, .quiz-section {
+    .learning-section,
+    .quiz-section {
       display: none;
     }
 
-    .learning-section.active, .quiz-section.active {
+    .learning-section.active,
+    .quiz-section.active {
       display: block;
     }
 
@@ -100,7 +114,7 @@
     .species-card {
       background: white;
       border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       transition: transform 0.3s ease;
     }
@@ -116,6 +130,7 @@
       padding: 15px;
       text-align: center;
       font-size: 18px;
+      font-family: 'Poppins', sans-serif;
     }
 
     .image-carousel {
@@ -148,7 +163,7 @@
       width: 10px;
       height: 10px;
       border-radius: 50%;
-      background: rgba(255,255,255,0.5);
+      background: rgba(255, 255, 255, 0.5);
       cursor: pointer;
       transition: background 0.3s ease;
     }
@@ -168,7 +183,7 @@
     .song-card {
       background: white;
       border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       transition: transform 0.3s ease;
     }
@@ -184,6 +199,7 @@
       padding: 15px;
       text-align: center;
       font-size: 18px;
+      font-family: 'Poppins', sans-serif;
     }
 
     .song-embed-container {
@@ -229,6 +245,7 @@
       text-align: left;
       padding: 8px 0;
       border-bottom: 2px solid #f0f0f0;
+      font-family: 'Poppins', sans-serif;
     }
 
     .audio-placeholder {
@@ -274,7 +291,7 @@
     .quiz-container {
       background: white;
       border-radius: 12px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       padding: 30px;
       max-width: 600px;
       margin: 0 auto;
@@ -295,16 +312,19 @@
       font-weight: 500;
       color: #4CAF50;
       margin-bottom: 10px;
+      font-family: 'Quicksand', sans-serif;
     }
 
     .question-counter {
       color: #666;
       font-size: 14px;
+      font-family: 'Quicksand', sans-serif;
     }
 
     .quiz-question {
       text-align: center;
       margin-bottom: 30px;
+      font-family: 'Quicksand', sans-serif;
     }
 
     .quiz-image {
@@ -424,6 +444,7 @@
       border-radius: 8px;
       margin-bottom: 20px;
       font-weight: 500;
+      font-family: 'Quicksand', sans-serif;
     }
 
     .feedback.correct {
@@ -442,7 +463,8 @@
       text-align: center;
     }
 
-    .next-button, .restart-button {
+    .next-button,
+    .restart-button {
       background: #2196F3;
       color: white;
       border: none;
@@ -453,7 +475,8 @@
       margin: 0 10px;
     }
 
-    .next-button:hover, .restart-button:hover {
+    .next-button:hover,
+    .restart-button:hover {
       background: #1976D2;
     }
 
@@ -485,6 +508,7 @@
     }
   </style>
 </head>
+
 <body>
   <header class="header">
     <div class="logo">
@@ -510,7 +534,8 @@
 
   <div class="learning-container">
     <h1 style="text-align: center; margin-bottom: 20px; color: #333;">Bird Learning Center</h1>
-    <p style="text-align: center; margin-bottom: 40px; color: #666; font-size: 18px;">
+    <p
+      style="text-align: center; margin-bottom: 40px; color: #666; font-size: 18px; font-family: 'Montserrat', sans-serif;">
       Learn to identify 12 common King County bird species through images and songs
     </p>
 
@@ -523,24 +548,24 @@
     <!-- Learning Section -->
     <div class="learning-section active" id="learningSection">
       <h2 style="text-align: center; margin-bottom: 30px; color: #333;">Study the Birds</h2>
-      
+
       <!-- Learning Mode Tabs -->
       <div class="learning-tabs">
         <button class="tab-button active" id="imageLearnTab">Learn Images</button>
         <button class="tab-button" id="songLearnTab">Learn Songs</button>
       </div>
-      
+
       <!-- Image Learning -->
       <div class="tab-content active" id="imageLearnContent">
-        <p style="text-align: center; margin-bottom: 40px; color: #666;">
+        <p style="text-align: center; margin-bottom: 40px; color: #666; font-family: 'Montserrat', sans-serif;">
           Browse through images of each species to familiarize yourself with their appearance before taking the quiz.
         </p>
         <div class="species-grid" id="speciesGrid"></div>
       </div>
-      
+
       <!-- Song Learning -->
       <div class="tab-content" id="songLearnContent">
-        <p style="text-align: center; margin-bottom: 40px; color: #666;">
+        <p style="text-align: center; margin-bottom: 40px; color: #666; font-family: 'Montserrat', sans-serif;">
           Listen to songs and calls of each species to familiarize yourself with their sounds before taking the quiz.
         </p>
         <div class="song-grid" id="songGrid"></div>
@@ -558,7 +583,8 @@
       <div class="quiz-container" id="quizContainer">
         <div class="quiz-header">
           <div class="score">Score: <span id="currentScore">0</span>/<span id="totalQuestions">10</span></div>
-          <div class="question-counter">Question <span id="currentQuestion">1</span> of <span id="totalQuestionsDisplay">10</span></div>
+          <div class="question-counter">Question <span id="currentQuestion">1</span> of <span
+              id="totalQuestionsDisplay">10</span></div>
         </div>
 
         <div class="quiz-question">
@@ -615,9 +641,12 @@
   </div>
 
   <footer>
-    <p>&copy; <script>document.write(new Date().getFullYear());</script> Grace Zhang</p>
+    <p>&copy;
+      <script>document.write(new Date().getFullYear());</script> Grace Zhang
+    </p>
   </footer>
 
   <script src="{{ url_for('static', filename='js/birds.js') }}"></script>
 </body>
-</html> 
+
+</html>
