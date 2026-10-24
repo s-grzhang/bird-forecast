@@ -6,4 +6,8 @@ README.md
 *.jpg
 *.jpeg
 *.gif
-.DS_Store 
+.DS_Store .env
+.env.*
+.vs
+.cursor
+__pycache__

@@ -1,4 +1,4 @@
-console.log('🔄 Script.js starting to load...');
+console.log('Script.js starting to load...');
 
 // Global variables
 let db = null;
@@ -37,31 +37,31 @@ const isSameDay = (date1, date2) => {
 
 const initializeFirebase = async () => {
     try {
-        console.log('📦 Importing Firebase modules...');
+        console.log('Importing Firebase modules...');
         const { initializeApp } = await import('https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js');
-        console.log('✅ Firebase app imported');
+        console.log('Firebase app imported');
         const { getFirestore, collection, query, where, orderBy, limit, getDocs, Timestamp } = await import('https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js');
-        console.log('✅ Firestore imported');
+        console.log('Firestore imported');
 
         // Firebase configuration
         // Firebase configuration
         const firebaseConfig = window.firebaseConfig;
 
-        console.log('🚀 Initializing Firebase...');
+        console.log('Initializing Firebase...');
         const app = initializeApp(firebaseConfig);
-        console.log('✅ Firebase app initialized');
+        console.log('Firebase app initialized');
         db = getFirestore(app);
-        console.log('✅ Firestore initialized');
+        console.log('Firestore initialized');
 
         // Store Firebase functions globally
         window.firebaseUtils = { collection, query, where, orderBy, limit, getDocs, Timestamp };
         firebaseLoaded = true;
 
-        console.log('🔥 Firebase is now ready!');
+        console.log('Firebase is now ready!');
         return true;
     } catch (error) {
-        console.error('❌ Firebase initialization failed:', error);
-        console.log('📋 Calendar will work without Firebase features');
+        console.error('Firebase initialization failed:', error);
+        console.log('Calendar will work without Firebase features');
         return false;
     }
 };
@@ -178,20 +178,20 @@ const fetchSightingsForDate = async (date) => {
     }
 };
 
-console.log('⏳ Waiting for DOM to be ready...');
+console.log('Waiting for DOM to be ready...');
 
 
 // Main calendar functionality - this runs immediately when DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
-    console.log('🎯 DOM is ready! Setting up calendar...');
+    console.log('DOM is ready! Setting up calendar...');
 
     // Start Firebase initialization in background (non-blocking)
 
     initializeFirebase().then(success => {
         if (success) {
-            console.log('🔥 Firebase ready for sightings!');
+            console.log('Firebase ready for sightings!');
         } else {
-            console.log('⚠️ Calendar will work with demo data');
+            console.log('Calendar will work with demo data');
         }
     });
 
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentDate = new Date();
     let selectedDate = null;
 
-    console.log('📅 Current date for calendar:', currentDate.toLocaleDateString("en-US", { month: "long", year: "numeric" }));
+    console.log('Current date for calendar:', currentDate.toLocaleDateString("en-US", { month: "long", year: "numeric" }));
 
     // DOM elements - these should exist now
     const monthElement = document.querySelector(".calendar-month");
@@ -213,7 +213,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const sightingsListElement = document.getElementById("sightingsList");
     const loadingMessage = document.getElementById("loadingMessage");
 
-    console.log('📋 DOM elements found:', {
+    console.log('DOM elements found:', {
         monthElement: !!monthElement,
         datesElement: !!datesElement,
         sidebar: !!sidebar,
@@ -225,21 +225,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Check if essential elements exist
     if (!sidebar || !sidebarOverlay || !datesElement) {
-        console.error('❌ Critical elements not found! Cannot initialize calendar.');
+        console.error('Critical elements not found! Cannot initialize calendar.');
         return;
     }
 
     // Sidebar functions - these work without Firebase
     const openSidebar = () => {
-        console.log('🚪 openSidebar function called');
+        console.log('openSidebar function called');
 
         if (sidebar && sidebarOverlay) {
             sidebar.classList.add('active');
             sidebarOverlay.classList.add('active');
             document.body.style.overflow = 'hidden';
-            console.log('✅ Sidebar opened successfully');
+            console.log('Sidebar opened successfully');
         } else {
-            console.error('❌ Sidebar elements not found!');
+            console.error('Sidebar elements not found!');
         }
     };
 
@@ -335,7 +335,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const firstDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
         const lastDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
 
-        console.log('📅 Rendering calendar for:', currentDate.toLocaleDateString("en-US", { month: "long", year: "numeric" }));
+        console.log('Rendering calendar for:', currentDate.toLocaleDateString("en-US", { month: "long", year: "numeric" }));
 
         // Update the month display
         if (monthElement) {
@@ -347,7 +347,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Clear previous dates
         datesElement.innerHTML = "";
-        console.log('🧹 Cleared previous calendar dates');
+        console.log('Cleared previous calendar dates');
 
         // Add blank days for the first week offset
         for (let i = 0; i < firstDayOfMonth.getDay(); i++) {
@@ -378,7 +378,7 @@ document.addEventListener("DOMContentLoaded", () => {
             datesElement.appendChild(dayElement);
         }
 
-        console.log(`✅ Added click listeners to ${clickListenersAdded} calendar days`);
+        console.log(`Added click listeners to ${clickListenersAdded} calendar days`);
 
         // Add blank days for the last week offset
         const lastDayOffset = (7 - ((firstDayOfMonth.getDay() + lastDayOfMonth.getDate()) % 7)) % 7;

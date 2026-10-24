@@ -500,8 +500,8 @@ const createSongCard = (species, index) => {
   // Special handling for Steller's Jay - use Call for both sections instead of Song and Call
   const isStellersJay = species.name === "Steller's Jay";
   const isStellersJayAmericanCrow = species.name === "Steller's Jay" || species.name === "American Crow";
-  const firstLabel = isNorthernFlicker ? "📢 Call" : (isStellersJayAmericanCrow ? "📢 Call" : "🎵 Song");
-  const secondLabel = isNorthernFlicker ? "🥁 Drum" : (isStellersJayAmericanCrow ? "📢 Call" : "📢 Call");
+  const firstLabel = isNorthernFlicker ? "Call" : (isStellersJayAmericanCrow ? "Call" : "Song");
+  const secondLabel = isNorthernFlicker ? "Drum" : "Call";
   
   if (hasSong || hasCall) {
     embedContent = '<div class="song-embed-container">';
@@ -561,7 +561,6 @@ const createSongCard = (species, index) => {
     embedContent = `
       <div class="song-embed-container">
         <div class="song-placeholder">
-          <div class="icon">🎵</div>
           <p><strong>Audio coming soon!</strong></p>
           <p>Add Macaulay Library embed URLs for ${species.name} ${audioTypes}.</p>
         </div>
@@ -750,10 +749,10 @@ const loadQuestion = () => {
     
     if (audioType === 'song') {
       embedUrl = species.macaulayEmbed;
-      audioLabel = '🎵 Song';
+      audioLabel = 'Song';
     } else {
       embedUrl = species.macaulayCallEmbed;
-      audioLabel = '📢 Call';
+      audioLabel = 'Call';
     }
     
     if (species && embedUrl && !embedUrl.includes('placeholder')) {
@@ -781,22 +780,22 @@ const loadQuestion = () => {
     quizAudio.load();
     soundFileName.textContent = 'Bird Sound'; // Generic name to avoid giving away the answer
     quizAudio.currentTime = 0;
-    playSoundButton.textContent = '▶';
+    playSoundButton.textContent = 'Play';
     playSoundButton.disabled = false;
     
     // Set up play button functionality
     playSoundButton.onclick = () => {
       if (quizAudio.paused) {
         quizAudio.play();
-        playSoundButton.textContent = '⏸';
+        playSoundButton.textContent = 'Pause';
       } else {
         quizAudio.pause();
-        playSoundButton.textContent = '▶';
+        playSoundButton.textContent = 'Play';
       }
     };
     
     quizAudio.onended = () => {
-      playSoundButton.textContent = '▶';
+      playSoundButton.textContent = 'Play';
     };
   }
   
@@ -849,10 +848,10 @@ const selectAnswer = (answer, buttonElement) => {
   feedback.classList.remove('hidden');
   if (isCorrect) {
     feedback.className = 'feedback correct';
-    feedback.textContent = '✓ Correct! Well done!';
+    feedback.textContent = 'Correct! Well done!';
   } else {
     feedback.className = 'feedback incorrect';
-    feedback.textContent = `✗ Incorrect. The correct answer is ${question.correctAnswer}.`;
+    feedback.textContent = `Incorrect. The correct answer is ${question.correctAnswer}.`;
   }
   
   // Show next button
@@ -881,13 +880,13 @@ const showResults = () => {
   // Performance message
   let message = '';
   if (percentage >= 90) {
-    message = '🏆 Excellent! You\'re a bird identification expert!';
+    message = 'Excellent! You\'re a bird identification expert!';
   } else if (percentage >= 70) {
-    message = '👍 Great job! You know your birds well!';
+    message = 'Great job! You know your birds well!';
   } else if (percentage >= 50) {
-    message = '👌 Good effort! Try studying the birds more and take the quiz again.';
+    message = 'Good effort! Try studying the birds more and take the quiz again.';
   } else {
-    message = '📚 Keep studying! Practice makes perfect in bird identification.';
+    message = 'Keep studying! Practice makes perfect in bird identification.';
   }
   
   performanceMessage.textContent = message;
