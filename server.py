@@ -3,6 +3,7 @@ from flask_cors import CORS
 import requests
 from datetime import datetime, timedelta
 import os
+import re
 import calendar
 from bird_ai import BirdModel
 from dotenv import load_dotenv
@@ -13,7 +14,25 @@ from firebase_admin import credentials, firestore
 load_dotenv()
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
-CORS(app)
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024
+app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY') or os.urandom(32)
+
+# Only allow cross-origin requests from explicitly listed origins (comma-separated).
+ALLOWED_ORIGINS = [o.strip() for o in os.getenv('CORS_ALLOWED_ORIGINS', '').split(',') if o.strip()]
+CORS(app, resources={r'/api/*': {'origins': ALLOWED_ORIGINS}})
+
+REQUEST_TIMEOUT = 15
+REGION_CODE_PATTERN = re.compile(r'^[A-Za-z0-9-]{2,20}$')
+
+@app.after_request
+def add_security_headers(response):
+    response.headers['X-Content-Type-Options'] = 'nosniff'
+    response.headers['X-Frame-Options'] = 'DENY'
+    response.headers['Referrer-Policy'] = 'strict-origin-when-cross-origin'
+    response.headers['Permissions-Policy'] = 'geolocation=(), camera=(), microphone=()'
+    if request.is_secure:
+        response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'
+    return response
 
 # Initialize Firebase (if credentials exist)
 firestore_db = None
@@ -135,7 +154,7 @@ def get_common_birds_this_month():
         # Fetch data from eBird API for King County
         url = f'{EBIRD_BASE_URL}/data/obs/{KING_COUNTY_REGION}/recent'
         headers = {'X-eBirdApiToken': EBIRD_API_KEY}
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
         
         if response.status_code != 200:
             print(f"eBird API error: {response.status_code}")
@@ -223,7 +242,8 @@ def api_common_birds():
             'month': current_month
         })
     except Exception as e:
-        return jsonify({'error': str(e)}), 500
+        print(f"Error in common birds endpoint: {e}")
+        return jsonify({'error': 'Internal server error'}), 500
 
 @app.route('/birds')
 def birds():
@@ -235,16 +255,7 @@ def forecast():
 
 @app.route('/submit')
 def submit():
-    firebase_config = {
-        'apiKey': os.getenv('FIREBASE_API_KEY'),
-        'authDomain': os.getenv('FIREBASE_AUTH_DOMAIN'),
-        'projectId': os.getenv('FIREBASE_PROJECT_ID'),
-        'storageBucket': os.getenv('FIREBASE_STORAGE_BUCKET'),
-        'messagingSenderId': os.getenv('FIREBASE_MESSAGING_SENDER_ID'),
-        'appId': os.getenv('FIREBASE_APP_ID'),
-        'measurementId': os.getenv('FIREBASE_MEASUREMENT_ID')
-    }
-    return render_template('submit.html', firebase_config=firebase_config)
+    return render_template('submit.html', firebase_config=get_firebase_config())
 
 @app.route('/calendar')
 def calendar():
@@ -258,13 +269,20 @@ def hotspots():
 @app.route('/api/bird-forecast', methods=['POST'])
 def bird_forecast():
     try:
-        data = request.json
+        data = request.get_json(silent=True) or {}
         region_code = data.get('region_code')
         date = data.get('date')
         if not region_code or not date:
             return jsonify({'error': 'Missing required parameters'}), 400
-            
-        selected_date = datetime.strptime(date, '%Y-%m-%d')
+        if not isinstance(region_code, str) or not REGION_CODE_PATTERN.match(region_code):
+            return jsonify({'error': 'Invalid region code'}), 400
+        if not isinstance(date, str):
+            return jsonify({'error': 'Invalid date'}), 400
+
+        try:
+            selected_date = datetime.strptime(date, '%Y-%m-%d')
+        except ValueError:
+            return jsonify({'error': 'Invalid date format, expected YYYY-MM-DD'}), 400
         now = datetime.now()
         
         # Check if date is in the future (compare date components only)
@@ -323,13 +341,12 @@ def bird_forecast():
             print(f"Recent/past date detected. Using URL: {url}")
 
         headers = {'X-eBirdApiToken': EBIRD_API_KEY}
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
         
         print(f"eBird API Response Status: {response.status_code}")
         
         if response.status_code != 200:
-            print(f"eBird API Error Response: {response.text}")
-            return jsonify({'error': f'eBird API error: {response.status_code}'}), response.status_code
+            return jsonify({'error': 'Upstream eBird API error'}), 502
             
         ebird_data = response.json()
         print(f"eBird API returned {len(ebird_data)} observations")
@@ -404,4 +421,6 @@ def ai_status():
 
 if __name__ == '__main__':
     print("Starting Bird Forecast Server...")
-    app.run(debug=True) 
+    # Debug mode exposes an interactive debugger; enable only explicitly for local development.
+    debug = os.getenv('FLASK_DEBUG', '').lower() in ('1', 'true')
+    app.run(host='127.0.0.1', debug=debug) 
